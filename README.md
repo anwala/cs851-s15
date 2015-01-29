@@ -1,4 +1,4 @@
 cs851-s15
 =========
 
-Shared repository for ODU CS 751 / 851 Spring 2015
+Alex's repository for ODU CS 751 / 851 Spring 2015
