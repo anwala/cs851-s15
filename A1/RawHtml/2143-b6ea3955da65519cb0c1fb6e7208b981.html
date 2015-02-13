@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="javascript" />
+<title>迷子犬・迷子猫をお探しの方へ - 奈良市</title>
+<link type="text/css" rel="stylesheet" href="/www/css_nara/default.css" />
+<link type="text/css" rel="stylesheet" href="/www/css_nara/default_contents.css" />
+<link type="text/css" rel="stylesheet" id="styleFontsize" href="/www/css_nara/fontsize_standard.css" />
+<link type="text/css" rel="stylesheet" id="styleColor" href="/www/css_nara/bgcolor_white.css" />
+<meta name="copyright" content="Copyright (C) Nara city" />
+<script type="text/javascript" src="/www/js_nara/jquery.js">/* */</script>
+<script type="text/javascript" src="/www/js_nara/jquery.cookie.js">/* */</script>
+<script type="text/javascript" src="/www/js_nara/stylechanger.js">/* */</script>
+<script type="text/javascript" src="/www/js_nara/blockskip.js">/* */</script><!--[if IE 6]>
+<script type="text/javascript" src="/www/js_nara/DD_belatedPNG_0.0.8a-min.js">/* */</script>
+<script>
+	DD_belatedPNG.fix('.png_bg');
+</script><![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29012788-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body id="top">
+<noscript>
+<p>このサイトの閲覧では、Javascriptを有効にしてください。 </p>
+</noscript>
+<div id="container">
+<div id="tmp_header">
+<div id="line_header">
+<hr class="hyde" />
+</div>
+<div id="logo">
+<a title="奈良市" href="/www/toppage/0000000000000/APM03000.html">
+<img class="png_bg" height="85" width="339" alt="奈良市" src="/www/img_nara/common/logo.png" />
+</a>
+</div>
+<div id="header_inner">
+<div id="search">
+<div id="inner-search">
+<form action="/search/ftsservlet" method="GET">
+<input maxlength="100" size="21" title="サイト内検索" value="" id="keysearch" name="keyword" type="text" />
+<input title="検索" alt="検索" src="/www/img_nara/common/btn_search.gif" type="image" />
+<input type="hidden" name="logical" value="1" />
+<input type="hidden" name="pagesize" value="50" />
+<input type="hidden" name="orderby" value="0" />
+<input type="hidden" name="sort" value="1" />
+<input type="hidden" name="kind" value="0" />
+<input type="hidden" name="item" value="0" />
+<input type="hidden" name="siteId" value="-1" />
+<input type="hidden" name="dateDiff" value="" />
+</form>
+</div>
+</div>
+<div id="helpbutton">
+<ul>
+<li>
+<a title="検索の仕方" href="http://www.city.nara.lg.jp/www/contents/1329314045026/index.html">
+<img height="28" width="97" alt="検索の仕方" src="/www/img_nara/common/btn_howtosearch.gif" />
+</a>
+</li>
+<li>
+<a title="音声読み上げ" href="/webud/">
+<img height="28" width="111" alt="音声読み上げ" src="/www/img_nara/common/btn_reading.gif" />
+</a>
+</li>
+</ul>
+</div>
+<div id="selectlang">
+<ul>
+<li id="lang01">
+<a title="英語" href="http://www15.j-server.com/LUCNARAC/ns/tl_ex.cgi?SURL=http://www15.j-server.com/LUCNARAC/ns/warning_mess4.cgi%3furl=http%3a//www.city.nara.lg.jp/www/contents/1259296528761/index.html%26target=_top&amp;SLANG=ja&amp;TLANG=en&amp;XMODE=0">英語</a>
+</li>
+<li id="lang02">
+<a title="韓国語" href="http://www15.j-server.com/LUCNARAC/ns/tl_ex.cgi?SURL=http://www15.j-server.com/LUCNARAC/ns/warning_mess4.cgi%3furl=http%3a//www.city.nara.lg.jp/www/contents/1259296528761/index.html%26target=_top&amp;SLANG=ja&amp;TLANG=ko&amp;XMODE=0">韓国語</a>
+</li>
+<li id="lang03">
+<a title="中国語（繁体）" href="http://www15.j-server.com/LUCNARAC/ns/tl_ex.cgi?SURL=http://www15.j-server.com/LUCNARAC/ns/warning_mess4.cgi%3furl=http%3a//www.city.nara.lg.jp/www/contents/1259296528761/index.html%26target=_top&amp;SLANG=ja&amp;TLANG=zhb&amp;XMODE=0">中国語（繁体）</a>
+</li>
+<li id="lang04">
+<a title="中国語（簡体）" href="http://www15.j-server.com/LUCNARAC/ns/tl_ex.cgi?SURL=http://www15.j-server.com/LUCNARAC/ns/warning_mess4.cgi%3furl=http%3a//www.city.nara.lg.jp/www/contents/1259296528761/index.html%26target=_top&amp;SLANG=ja&amp;TLANG=zh&amp;XMODE=0">中国語（簡体）</a>
+</li>
+</ul>
+</div>
+<div id="txtsize">
+<p>
+<img class="png_bg" alt="文字サイズ" height="22" width="75" src="/www/img_nara/common/ttl_txtsize.png" />
+</p>
+<ul>
+<li id="txt_l">
+<a title="文字サイズ大" href="javascript:switchFontsize('fontsize_large');">文字サイズ大</a>
+</li>
+<li id="txt_m">
+<a title="文字サイズ中" href="javascript:switchFontsize('fontsize_standard');">文字サイズ中</a>
+</li>
+<li id="txt_s">
+<a title="文字サイズ小" href="javascript:switchFontsize('fontsize_small');">文字サイズ小</a>
+</li>
+</ul>
+</div>
+<div id="bgcolor">
+<p>
+<img class="png_bg" alt="背景色" height="22" width="75" src="/www/img_nara/common/ttl_bgcolor.png" />
+</p>
+<ul>
+<li id="white">
+<a title="背景色を白に" href="javascript:switchColor('bgcolor_white');">背景色を白に</a>
+</li>
+<li id="black">
+<a title="背景色を黒に" href="javascript:switchColor('bgcolor_black');">背景色を黒に</a>
+</li>
+<li id="blue">
+<a title="背景色を青に" href="javascript:switchColor('bgcolor_blue');">背景色を青に</a>
+</li>
+<li id="yellow">
+<a title="背景色を黄色に" href="javascript:switchColor('bgcolor_yellow');">背景色を黄色に</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="mainnv">
+<ul>
+<li id="main01">
+<a title="くらし" href="/www/genre/0000000000000/1200000000001/index.html">くらし</a>
+</li>
+<li id="main02">
+<a title="観光" href="/www/genre/0000000000000/1000000000292/index.html">観光</a>
+</li>
+<li id="main03">
+<a title="事業者向け" href="/www/genre/0000000000000/1200000000054/index.html">事業者向け</a>
+</li>
+<li id="main04">
+<a title="市政" href="/www/genre/0000000000000/1200000000135/index.html">市政</a>
+</li>
+<li id="main05">
+<a title="各課のページ" href="/www/genre/0000000000000/1000000000365/index.html">各課のページ</a>
+</li>
+<li id="main06">
+<a title="イベント情報" href="/www/genre/0000000000000/1000000000336/index.html">イベント情報</a>
+</li>
+</ul>
+</div>
+<div id="font_bg_changeable">
+<div id="tmp_contents" class="clearfix">
+<div id="topicpath">
+<ol>
+<li>
+<a href="/www/toppage/0000000000000/APM03000.html">奈良市トップページ</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000001/index.html">くらし</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000009/index.html">健康・医療・保健</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1147829531516/index.html">動物管理</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1213839565843/index.html">犬・ねこについて</a>&nbsp;&gt;</li>
+<li>迷子犬・迷子猫をお探しの方へ</li>
+</ol>
+<ol>
+<li>
+<a href="/www/toppage/0000000000000/APM03000.html">奈良市トップページ</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000218/index.html">市役所ご案内</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1000000000365/index.html">各課のページ</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1145588531873/index.html">保健所</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1000000001038/index.html">生活衛生課</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1000000001039/index.html">お知らせ</a>&nbsp;&gt;</li>
+<li>迷子犬・迷子猫をお探しの方へ</li>
+</ol>
+<ol>
+<li>
+<a href="/www/toppage/0000000000000/APM03000.html">奈良市トップページ</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000001/index.html">くらし</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000009/index.html">健康・医療・保健</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1147829531516/index.html">動物管理</a>&nbsp;&gt;</li>
+<li>
+<a href="/www/genre/0000000000000/1268788289579/index.html">お知らせ</a>&nbsp;&gt;</li>
+<li>迷子犬・迷子猫をお探しの方へ</li>
+</ol>
+</div>
+<div id="tmp_mid">
+<h1 class="ttl01">迷子犬・迷子猫をお探しの方へ</h1>
+<div style="text-align:right;">
+<div style="display:inline">
+<script type="text/javascript">
+  var url = encodeURIComponent(location.href);
+  document.write('<iframe src="http://www.facebook.com/plugins/like.php?href=' + url + '&width=100&layout=button_count&show_faces=false&action=like&colorscheme=light&height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden;width:130px;height:20px;" allowTransparency="true"></iframe>');
+</script>
+</div>
+<div style="display:inline">
+<a href="https://twitter.com/share" data-lang="ja" class="twitter-share-button">ツイート</a>
+<script>
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</div>
+</div>
+<div class="txtarea">
+<div class="html clearfix"><p><img alt="成猫古市町黒トラ" width="1" height="1" src="/www/contents/1259296528761/simple/141016134207_0.jpg" />奈良市保健所生活衛生課では下記の迷子犬・迷子猫を保護しております。飼い主の方は、下段の問い合わせ先まで、お電話ください。</p>
+  <p>
+  <table border="1" cellspacing="1" cellpadding="1" width="100%">
+   <tbody>
+    <tr>
+     <td>収容番号</td>
+     <td>
+     <p>い55</p>
+     </td>
+     <td rowspan="10"><img alt="" src="/www/contents/1259296528761/simple/150122165212_0.jpg" />&nbsp;</td>
+    </tr>
+    <tr>
+     <td>公示番号</td>
+     <td>
+     <p>92</p>
+     </td>
+    </tr>
+    <tr>
+     <td>収容年月日</td>
+     <td>平成27年1月22日&nbsp;</td>
+    </tr>
+    <tr>
+     <td>収容場所</td>
+     <td>針ヶ別所（天理警察署）</td>
+    </tr>
+    <tr>
+     <td>種類</td>
+     <td>チワワ</td>
+    </tr>
+    <tr>
+     <td>被毛</td>
+     <td>黒・白</td>
+    </tr>
+    <tr>
+     <td>体格</td>
+     <td>小</td>
+    </tr>
+    <tr>
+     <td>性別</td>
+     <td>メス&nbsp;</td>
+    </tr>
+    <tr>
+     <td>推定年齢</td>
+     <td>10才&nbsp;</td>
+    </tr>
+    <tr>
+     <td>首輪等</td>
+     <td>首輪なし&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+  </p>
+  <p>
+  <table border="1" cellspacing="1" cellpadding="1" width="100%">
+   <tbody>
+    <tr>
+     <td>収容番号</td>
+     <td>
+     <p>ね60</p>
+     </td>
+     <td rowspan="10"><img alt="" src="/www/contents/1259296528761/simple/150126141203_2.jpg" />&nbsp;</td>
+    </tr>
+    <tr>
+     <td>公示番号</td>
+     <td>
+     <p>93</p>
+     </td>
+    </tr>
+    <tr>
+     <td>収容年月日</td>
+     <td>平成27年1月26日&nbsp;</td>
+    </tr>
+    <tr>
+     <td>収容場所</td>
+     <td>恋の窪三丁目</td>
+    </tr>
+    <tr>
+     <td>種類</td>
+     <td>雑種猫</td>
+    </tr>
+    <tr>
+     <td>被毛</td>
+     <td>キジトラ</td>
+    </tr>
+    <tr>
+     <td>体格</td>
+     <td>中</td>
+    </tr>
+    <tr>
+     <td>性別</td>
+     <td>オス&nbsp;</td>
+    </tr>
+    <tr>
+     <td>推定年齢</td>
+     <td>3才&nbsp;</td>
+    </tr>
+    <tr>
+     <td>首輪等</td>
+     <td>首輪なし&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+  </p>
+  <p>飼い主が判明した場合、返還させていただきます。<br />
+  次のことにご注意ください。</p>
+  <ul>
+   <li><strong>返還手続きについて</strong>
+   <ul>
+    <li>返還申請書に住所、氏名、連絡先、迷子になった理由等を記載していただきます。<br />
+    &nbsp;</li>
+    <li>返還には費用がかかります。
+    <ul>
+     <li>返還手数料：2,500円</li>
+     <li>登録手数料：3,000円（未登録犬のみ）<br />
+     <a href="http://www.city.nara.lg.jp/www/contents/1147409916844/index.html">犬の登録についてはこちら</a><br />
+     &nbsp;</li>
+    </ul>
+    </li>
+    <li>リード、首輪、ケージ、キャリングバッグ等をお持ちください。</li>
+   </ul>
+   <p>&nbsp;</p>
+   </li>
+   <li><strong>迷子にしないために</strong>
+   <ul>
+    <li>迷子にしないためにも鑑札、狂犬病予防注射済票の装着、マイクロチップの埋込みをお願いします。（<a target="_blank" href="http://www.mhlw.go.jp/bunya/kenkou/kekkaku-kansenshou10/10.html">鑑札、狂犬病予防注射済票の装着は狂犬病予防法により義務づけられております</a>）</li>
+    <li>動物はつないで、もしくは室内で飼いましょう。</li>
+    <li>玄関の門扉や部屋の扉の開閉に気をつけましょう。</li>
+    <li>雷や花火の日は特に注意が必要です。音を怖がり、外へ飛び出して迷子になることがあります。</li>
+   </ul>
+   </li>
+  </ul>
+  <p>&nbsp;※ここに掲載している情報は、迷い犬・迷い猫等を探している飼い主のための情報提供です。そのため、「飼いたい、預かりたい」等の譲渡希望等にはお応えできません。譲渡を希望される場合は、「<a href="http://www.city.nara.lg.jp/www/contents/1268008615475/index.html">犬または猫の譲渡のお知らせ</a>」および「<a href="http://www.city.nara.lg.jp/www/contents/1267701563879/index.html">譲渡候補動物</a>」をご覧ください。</p>
+  <p>※更新の都合により現在収容されていない動物が掲載されている場合や現在収容されている動物の情報が掲載されていない場合があります。</p>
+  <p>※当所のほか、警察などの関係機関や個人の方のもとで保護されていて情報のみが寄せられている場合があります。掲載の有無にかかわらず飼い犬や飼い猫が迷子になった時はお問い合わせください。</p></div>
+<h2 class="ttl03">地図情報</h2>
+<ul class="list05">
+<li>
+<a target="map" href="/icity/browser?ActionCode=map&amp;MapID=1310014302470&amp;ContentID=1259296528761">奈良市保健所・教育総合センター（はぐくみセンター）</a>
+</li>
+</ul>
+<div id="inquiry">
+<div id="inquiry-title">
+<h3 class="inq_ttl">このページのお問い合わせ先</h3>
+</div>
+<div id="inquiry-body">
+<p>保健所&nbsp;生活衛生課
+<br />
+						電話番号：0742-93-8395<br />
+						Fax番号：0742-34-2485<br />
+						メールアドレス：<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#111;&#107;&#101;&#110;&#45;&#115;&#101;&#105;&#107;&#97;&#116;&#117;&#64;&#99;&#105;&#116;&#121;&#46;&#110;&#97;&#114;&#97;&#46;&#108;&#103;&#46;&#106;&#112;">&#104;&#111;&#107;&#101;&#110;&#45;&#115;&#101;&#105;&#107;&#97;&#116;&#117;&#64;&#99;&#105;&#116;&#121;&#46;&#110;&#97;&#114;&#97;&#46;&#108;&#103;&#46;&#106;&#112;</a></p>
+<p id="inquirybtn">
+<form method="post" action="https://www.city.nara.lg.jp/inquiry/mailform">
+<input type="hidden" name="ContentsID" value="1259296528761" />
+<input value="お問い合わせフォーム" type="submit" />
+</form>
+</p>
+</div>
+</div>
+<div id="feedback">
+<div id="feedback-title">
+<h3 class="inq_ttl">このページに関するアンケート</h3>
+</div>
+<div id="feedback-body" class="clearfix">
+<form method="post" action="/evaluation/evaluationservlet">
+<input type="hidden" name="EVA_CONTENTS_CODE" value="1259296528761" />
+<div class="feed_question"> このページは見つけやすかったですか？ </div>
+<ul>
+<li>
+<input value="1" type="radio" title="見つけやすかった" name="EVA_RESULT1" id="res11" />
+<label for="res11">見つけやすかった</label>
+</li>
+<li>
+<input value="0" type="radio" title="どちらとも言えない" name="EVA_RESULT1" id="res12" />
+<label for="res12">どちらとも言えない</label>
+</li>
+<li>
+<input value="-1" type="radio" title="見つけにくかった" name="EVA_RESULT1" id="res13" />
+<label for="res13">見つけにくかった</label>
+</li>
+</ul>
+<div class="feed_question"> このページの内容はわかりやすかったですか？ </div>
+<ul>
+<li>
+<input value="1" type="radio" title="わかりやすかった" name="EVA_RESULT2" id="res21" />
+<label for="res21">わかりやすかった</label>
+</li>
+<li>
+<input value="0" type="radio" title="どちらとも言えない" name="EVA_RESULT2" id="res22" />
+<label for="res22">どちらとも言えない</label>
+</li>
+<li>
+<input value="-1" type="radio" title="わかりにくかった" name="EVA_RESULT2" id="res23" />
+<label for="res23">わかりにくかった</label>
+</li>
+</ul>
+<div class="feed_question"> このページの内容は参考になりましたか？ </div>
+<ul>
+<li>
+<input value="1" type="radio" title="参考になった" name="EVA_RESULT3" id="res31" />
+<label for="res31">参考になった</label>
+</li>
+<li>
+<input value="0" type="radio" title="どちらとも言えない" name="EVA_RESULT3" id="res32" />
+<label for="res32">どちらとも言えない</label>
+</li>
+<li>
+<input value="-1" type="radio" title="参考にならなかった" name="EVA_RESULT3" id="res33" />
+<label for="res33">参考にならなかった</label>
+</li>
+</ul>
+<input value="送信する" type="submit" class="input_btn" />
+</form>
+</div>
+</div>
+</div><div class="clear"></div>
+<p class="page_top clear">
+<a href="#top">このページの先頭へ</a>
+</p>
+</div>
+<div id="left_box">
+<div id="konnnatoki">
+<h2 class="mgn0">こんなときは</h2>
+<ul>
+<li>
+<a href="/www/genre/0000000000000/1200000000169/index.html">手続き・証明書</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1202198665208/index.html">ごみ・リサイクル</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000191/index.html">助成・手当</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000192/index.html">引越し・住まい</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1000000000003/index.html">妊娠・出産</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000193/index.html">子育て・入園・入学</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000194/index.html">就職・退職</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1000000000021/index.html">結婚・離婚</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1000000000193/index.html">健康・医療</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1200000000332/index.html">障がい・福祉</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1000000000043/index.html">高齢・介護</a>
+</li>
+<li>
+<a href="/www/genre/0000000000000/1000000000050/index.html">おくやみ</a>
+</li>
+</ul>
+</div>
+<p class="left_btn">
+<a href="/www/genre/0000000000000/1000000000255/index.html">市の施設</a>
+</p>
+</div>
+</div>
+<div id="tmp_footer">
+<div id="footer_list" class="clearfix">
+<ul>
+<li>
+<a href="http://www.city.nara.lg.jp/www/contents/1328962728607/index.html">ホームページの使い方</a>
+</li>
+<li>
+<a href="http://www.city.nara.lg.jp/www/contents/1328962761417/index.html">リンク・免責事項</a>
+</li>
+<li>
+<a href="http://www.city.nara.lg.jp/www/contents/1148449929945/index.html">奈良市へのアクセス</a>
+</li>
+<li>
+<a href="http://www.city.nara.lg.jp/www/sitemap/0000000000000/AGL01000.html">サイトマップ</a>
+</li>
+<li>
+<a href="http://www.city.nara.lg.jp/www/contents/1330906158839/index.html">お問い合わせ</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="adress" class="clearfix">
+<div id="adress_inner">
+<dl>
+<dt>奈良市役所</dt>
+<dd>〒630-8580 奈良市二条大路南一丁目1-1</dd>
+<dt>業務時間 ：</dt>
+<dd>8時30分～17時15分</dd>
+<dt>電話 ： </dt>
+<dd>0742-34-1111（代）</dd>
+<dt>市役所コールセンター</dt>
+<dd>電話 ： 0742-36-4894 Fax ： 0742-36-3552</dd>
+<dt>（平日 ：</dt>
+<dd>8時～19時　土・日・祝 ：9時～17時）</dd>
+</dl>
+<p class="marg_4">Copyright &copy; 2012 Nara city. ALL Rights Reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

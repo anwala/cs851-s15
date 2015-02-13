@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="ja" data-page-class="entry" data-is-v3-entry-page="true" data-entry-eid="240662035" data-already-bookmarked="false" data-entry-has-video="false" data-entry-url="http://www.koikikukan.com/archives/2015/02/02-015555.php">
+<head>
+<meta charset="UTF-8">
+<title>はてなブックマーク - Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間</title>
+<meta name="keywords" content="encode,UTF-8,STR,Perl,print,フラグ,文字列" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@HatenaBookmark">
+<meta name="twitter:title" content="『Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間』へのコメント">
+<meta name="twitter:description" content="kits “2015年2月の記事。UTF-8フラグという言葉はPerlの内部的な動作の話なので使わない方がよいと思う。 cf. http://monmon.hateblo.jp/entry/20111024/1319473613”">
+<meta name="twitter:image:src" content="http://cdn-ak.b.st-hatena.com/entryimage/240662035-1422812112.jpg">
+<meta name="twitter:domain" content="コメント一覧ページ">
+
+<script>
+var hatenadfp = hatenadfp || {};
+hatenadfp.debug = false;
+hatenadfp.adUnits = hatenadfp.adUnits || [];
+hatenadfp.adUnits.push(
+    { unitName: 'bookmark_entry', size: [300,250], divId: 'entry-rectangle-top-right' },
+    { unitName: 'bookmark_entry2', size: [300,250], divId: 'entry-rectangle-bottom-right' },
+    { unitName: 'bookmark_entry_left', size: [300,250], divId: 'entry-double-rectangle-left' },
+    { unitName: 'bookmark_entry_right', size: [300,250], divId: 'entry-double-rectangle-right' }
+);
+hatenadfp.isNGContent = false;
+hatenadfp.centerAds = true;
+
+</script>
+<script type="text/javascript" src="http://cdn-ak.b.st-hatena.com/js/hatena_dfp2.js?52ebfc012617ce80fdd6daab1fcb7f464919850d"></script>
+<link type="text/css" rel="stylesheet" href="http://cdn-ak.b.st-hatena.com/css/v3/base.css?877d6b1fbff8318c8d9485ce1b6583872f8340b3" />
+<link type="text/css" rel="stylesheet" href="http://cdn-ak.b.st-hatena.com/css/v3/contents.css?683cb5085a65e2e967010c1b81c845730240f802" />
+<link type="text/css" rel="stylesheet" href="http://cdn.www.st-hatena.com/css/hatena/header.css" />
+<script type="text/javascript" charset="utf-8" src="//s.hatena.ne.jp/js/HatenaStar.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/lib/underscore-min.1.4.4.js?3757bd6bf3d27b23919bd69c87259db857c6a30f"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/lib/micro-location.0.1.1.js?303f552c22e921272d44c4ebe7a31eb447a381d4"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/Hatena/Bookmark.js?82a7fff5aa8f5195b5066184e82295aba98ea3ba"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn.www.st-hatena.com/js/header.ja.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/v3/startup.js?0a9ec3a0d6025d5bad6bc8dd21d4056ed685c12c"></script>
+<link rel="canonical" href="http://b.hatena.ne.jp/entry/www.koikikukan.com/archives/2015/02/02-015555.php" />
+<link rel="shortcut icon" type="image/x-icon" href="//b.hatena.ne.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" title="はてなブックマーク検索" href="/opensearch.xml" />
+
+<meta property="og:title" content="はてなブックマーク - Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://b.hatena.ne.jp/entry/www.koikikukan.com/archives/2015/02/02-015555.php" />
+<meta property="og:image" content="http://cdn-ak.b.st-hatena.com/entryimage/240662035-origin-1422812112.png" />
+
+<meta property="og:description" content="kits “2015年2月の記事。UTF-8フラグという言葉はPerlの内部的な動作の話なので使わない方がよいと思う。 cf. http://monmon.hateblo.jp/entry/20111024/1319473613”" />
+
+
+<link rel="apple-touch-icon-precomposed" href="http://cdn-ak.b.st-hatena.com/images/v3/apple-touch-icon-precomposed.png?f6339ae21408299eb539c3dcec43ffd818dca1c0" />
+
+
+<meta name="msapplication-navbutton-color" content="#2C6EBD" />
+<meta name="msapplication-task" content="name=はてなブックマーク; action-uri=/; icon-uri=/images/icons/bookmark.ico" />
+<meta name="msapplication-task" content="name=マイブックマーク; action-uri=/my; icon-uri=/images/icons/my-bookmark.ico" />
+<meta name="msapplication-task" content="name=お気に入りのブックマーク; action-uri=/my/favorite; icon-uri=/images/icons/favorite-bookmark.ico" />
+<meta name="msapplication-task" content="name=人気エントリー; action-uri=/hotentry; icon-uri=/images/icons/hotentry.ico" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/entry/rss/http://www.koikikukan.com/archives/2015/02/02-015555.php" />
+<link rel="alternate" type="text/html" media="handheld" href="http://b.hatena.ne.jp/entrymobile/240662035" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="/entry.touch/www.koikikukan.com/archives/2015/02/02-015555.php" /><script type="text/javascript">
+(function () { "use strict";
+
+  Hatena.Bookmark.Browsing.start(1423092561);
+
+  var readLaterButtonLoader = Hatena.Bookmark.LazyReadLaterButtonLoader.getInstance();
+  var browsingDoc = Hatena.Bookmark.Browsing.document;
+  var pageloadListenerToLoadReadLaterButtons = function (evt) {
+      readLaterButtonLoader.init();
+      browsingDoc.addEventListener("pageload", pageloadListenerToLoadReadLaterButtons);
+  };
+  browsingDoc.addEventListener("pageload", pageloadListenerToLoadReadLaterButtons);
+
+
+
+
+  Hatena.Bookmark.Browsing.document.addEventListener('pageload', function() {
+      var login_link = document.getElementById('login_link');
+      if (login_link) {
+          var redirect_link = location.href;
+          if (Hatena.Bookmark.entry.eid) {
+            redirect_link = 'http://b.hatena.ne.jp/entry?eid=' + Hatena.Bookmark.entry.eid;
+          } else {
+            redirect_link = redirect_link + '?&login_date=' + ((new Date).getTime());
+          }
+          login_link.href = 'https://www.hatena.ne.jp/login?location=' + encodeURIComponent(redirect_link);
+          //var guestMessageButton = document.getElementById('guest-message-button');
+          //if (guestMessageButton)
+          //  guestMessageButton.href = login_link.href;
+      }
+
+      Hatena.Bookmark.ViewHelper.handleKeyActivation();
+      Hatena.Bookmark.JumpList.setup();
+
+
+      if (location.hash.length > 2) {
+          var ref = location.hash.substring(1);
+          var hashTarget = document.getElementById(ref) || document.getElementsByName(ref)[0];
+          if (hashTarget) {
+              if (Ten.DOM.loaded)
+                  hashTarget.scrollIntoView();
+          }
+      }
+  });
+
+
+  if (location.pathname.indexOf('/campaign') != 0) {
+      Ten.DOM.addEventListener('DOMContentLoaded', function () {
+          Hatena.Bookmark.RegistReminder.count();
+      });
+  }
+}).call(this);
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(
+    ['_setCustomVar', 1, 'usertype', 'guest'],
+    ['_setAccount', 'UA-20092244-1'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-7855606-1'],
+    ['b._setDomainName', '.hatena.ne.jp'],
+    ['b._setSampleRate', '10'],
+    ['b._trackPageview'],
+    ['c._setAccount', 'UA-441387-3'],
+    ['c._trackPageview']
+  );
+  _gaq.push(['d._setAccount', 'UA-20092244-13']);
+  _gaq.push(['d._trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body class="entry it">
+<script type="text/javascript">Hatena.Bookmark.ViewHelper.addOSClassName();</script><!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5TDHQX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5TDHQX');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+  window.google_analytics_uacct = 'UA-7855606-1';
+  google_analytics_domain_name = '.hatena.ne.jp';
+</script>
+<div id="global-header">
+    <div id="header">
+        <div id="gh-branding">
+            <h1><a href="/"><img src="http://cdn-ak.b.st-hatena.com/images/v3/gh-logo.png?56a96f0ffada16ab081ae176af02083032bb1ef9" width="34" height="34"  alt="Hatena::Bookmark" /></a></h1>
+            <form id="searchbox" method="get" action="/search/text">
+                <input value="" name="q" type="text" class="inputtext" id="searchtext" placeholder="キーワード・URLを検索" size="40" onfocus="Ten.DOM.addClassName(document.getElementById('searchbox'), 'focus')"  onblur="Ten.DOM.removeClassName(document.getElementById('searchbox'), 'focus')" />
+                <input value="" type="submit" class="search-button" />
+            </form>
+        </div>
+        <a href="#" id="gototop" class="notactive"><span class="arw-top"></span>ページトップへ戻る</a>
+        <ul class="service-menu" id="header-navigation"><li class="guest"><a href="/guide">はてなブックマークって？</a></li>
+                <li class="guest"><a href="/guide/tools">アプリ・拡張の紹介</a></li>
+                <li class="guest"><a href="https://www.hatena.ne.jp/register?location=http%3A%2F%2Fb.hatena.ne.jp%2F">ユーザー登録</a></li>
+                <li class="guest"><a id="login_link" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a></li><li class="global-logo"><a href="http://www.hatena.ne.jp/"><img src="http://cdn.www.st-hatena.com/images/header/global-logo-wh.png" alt="Hatena" width="76" height="12" /></a></li>
+        </ul>
+    </div>
+</div>
+<div id="info-header"><div id="info-header-message"></div><span></span></div>
+
+<div id="container">
+
+
+<div id="entry-iphone-navigation-anchor" style="display:none"></div>
+
+<div id="header-space">
+
+<ul class="breadcrumb"><li><a href="/" title="はてなブックマーク">はてなブックマーク</a></li>
+<li><a href="/hotentry/it" title="テクノロジー">テクノロジー</a></li>
+<li><span class="current ">Perlで「Wide character in print」というエラーに...</span></li>
+</ul>
+
+
+<ul class="changetogirls">
+    <li><a href="http://bkuma.hatena.ne.jp/"><img src="/images/girls/bkuma_entry_navi.png" width="213" height="35" alt="女性にうれしいブックマーク、できました"></a></li>
+</ul>
+
+</div>
+
+<div id="main">
+
+    <div class="box-wrap mix box2 top">
+        <div class="box3_2">
+          <script id="highlighted_bookmark_template" type="text/x-underscore-template">
+            <div id="highlighted-wrapper">
+              <div id="highlighted-bookmark">
+                <a class="profile-icon" href="/<%- bookmark.user.name %>/"><img src="<%- bookmark.user.profile_icon_uri %>" alt="<%- bookmark.user.name %>" title="<%- bookmark.user.name %>" class="profile-image"></a>
+                <div class="header">
+                  <a class="username" href="<%- bookmark.permalink %>"><%- bookmark.user.name %></a>
+                  <% if (bookmark.user.can_plus_icon) { %>
+                    <a href="/guide/plus" class="plus_icon"><img src="http://cdn-ak.b.st-hatena.com/images/plus.gif" title="はてなブックマークプラス" alt="" width="25" height="11" /></a>
+                  <% } %>
+                  <span class="tags<%- bookmark.tags.length <= 0 ? ' empty' : '' %>">
+                    <% _.each(bookmark.tags, function (tag) { %>
+                      <a class="user-tag" href="<%- tag.uri %>" rel="tag"><%- tag.name %></a>
+                    <% }); %>
+                  </span>
+                </div>
+                <div class="comment-container">
+                  <span class="comment"><%- bookmark.comment %></span>
+                  <ul>
+                    <li><span class="timestamp"><%- bookmark.timestamp %></span></li>
+                    <li><span class="starContainer"></span></li>
+                    <li><span class="linkinfo"><%- bookmark.user.name %>さんが以下のページをブックマークしました</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </script>
+
+            <ul class="entry-page-unit">
+                <li class="entry-unit category-it" >
+                    <ul class="users js-hb-users">
+                            <li><em><a href="/entry/www.koikikukan.com/archives/2015/02/02-015555.php"><span>3</span> users</a></em></li>
+                    </ul>
+
+                    <div class="entry-contents">
+                        <!-- google_ad_section_start(name=title) -->
+                        <h3 id="title-edit"><a id="head-entry-link" href="http://www.koikikukan.com/archives/2015/02/02-015555.php" class="entry-link">Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間</a></h3>
+                        <!-- google_ad_section_end(name=title) -->
+
+                        <ul class="entry-data">
+                            <li class="category"><a href="/hotentry/it" class="category group2">テクノロジー</a>
+                            </li>
+                            <li class="date">2015/02/02 02:34</li>
+                            <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.koikikukan.com%2F" title="『小粋空間』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.koikikukan.com%2F" class="favicon" alt="" />小粋空間</a></li>
+                            <li class="star"><span id="entry_star_count"></span></li>
+                            <li class="clicks"><span id="click-counter" title="このエントリーのTwitter連携機能からの合計クリック数"></span></li>
+
+                            <!-- google_ad_section_start(name=tag) -->
+<li class="tag">
+      <a href="/search/tag?q=perl" rel="tag" class="tag">perl</a>
+</li>
+                            <!-- google_ad_section_end(name=tag) -->
+                        </ul>
+
+                        
+
+                        <div id="entry-content" style="margin-bottom: 14px;">
+                            
+                            <p class="description"><a href="http://d.hatena.ne.jp/keyword/Perl" class="keyword">Perl</a>で「Wide character in <a href="http://d.hatena.ne.jp/keyword/print" class="keyword">print</a>」という<a href="http://d.hatena.ne.jp/keyword/%A5%A8%A5%E9%A1%BC" class="keyword">エラー</a>になる場合の対処方法について紹介します。 １．<a href="http://d.hatena.ne.jp/keyword/%CC%E4%C2%EA%C5%C0" class="keyword">問題点</a> 次のような<a href="http://d.hatena.ne.jp/keyword/%CA%B8%BB%FA%A5%B3%A1%BC%A5%C9" class="keyword">文字コード</a>が<a href="http://d.hatena.ne.jp/keyword/UTF-8" class="keyword">UTF-8</a>で書かれた<a href="http://d.hatena.ne.jp/keyword/Perl" class="keyword">Perl</a><a href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%AF%A5%EA%A5%D7%A5%C8" class="keyword">スクリプト</a>（<a href="http://d.hatena.ne.jp/keyword/test" class="keyword">test</a>.<span id="content-ellipsis">…<span style="cursor: pointer; color: #0086de;" onclick="document.getElementById('folded-content').style.display=''; document.getElementById('content-ellipsis').style.display = 'none';">続きを表示</span></span><span id="folded-content" style="display: none;">pl）があります。 #!/usr/bin/<a href="http://d.hatena.ne.jp/keyword/perl" class="keyword">perl</a> use <a href="http://d.hatena.ne.jp/keyword/Encode" class="keyword">Encode</a>; my $<a href="http://d.hatena.ne.jp/keyword/str" class="keyword">str</a> = "てすと"; <a href="http://d.hatena.ne.jp/keyword/print" class="keyword">print</a> decode( '<a href="http://d.hatena.ne.jp/keyword/utf-8" class="keyword">utf-8</a>', $<a href="http://d.hatena.ne.jp/keyword/str" class="keyword">str</a> ); この<a href="http://d.hatena.ne.jp/keyword/%A5%B9%A5%AF%A5%EA%A5%D7%A5%C8" class="keyword">スクリプト</a>を、<a href="http://d.hatena.ne.jp/keyword/Windows" class="keyword">Windows</a>（<a href="http://d.hatena.ne.jp/keyword/Shift_JIS" class="keyword">Shift_JIS</a>）上で C:\<a href="http://d.hatena.ne.jp/keyword/perl" class="keyword">perl</a> <a href="http://d.hatena.ne.jp/keyword/test" class="keyword">test</a>.pl と実行すると次の<a href="http://d.hatena.ne.jp/keyword/%A5%A8%A5%E9%A1%BC" class="keyword">エラー</a>が発生し、出力が<a href="http://d.hatena.ne.jp/keyword/%CA%B8%BB%FA%B2%BD%A4%B1" class="keyword">文字化け</a>し...</span></p>
+                        </div>
+                    </div>
+                    <div style="height: 125px; padding-left: 17px;">
+                        <script type="text/javascript"><!--
+                          google_ad_client = "ca-hatena_html";
+                          google_ad_channel = "b_entry";
+                          google_ad_type = "text";
+                          google_ad_width = 585;
+                          google_max_num_ads = 1;
+                          google_ad_height = 110;
+                          google_override_format = "true";
+                          google_color_link = "666666";
+                          google_color_url = "999999";
+                          //-->
+                          </script>
+                        <script type="text/javascript" src="http://ad.hatena.ne.jp/js/hatena_adsense_ydn-compiled.js"></script>
+                    </div></li>
+            </ul>
+
+            <div id="bookmarks">
+                
+    <div id="public-bookmarks" class="box">
+        
+        <h4 id="public-bookmarks-header" class="entry-page-main-subtitle">
+            <ul class="tab-navi"><li id="scored-bookmarks-tab" class="public-bookmarks-tab  disable">人気コメント</li><li id="new-bookmarks-tab" class="public-bookmarks-tab ">新着コメント</li>
+                <li id="all-bookmarks-tab" class="public-bookmarks-tab ">すべてのブックマーク</li>
+            </ul>
+        </h4>
+
+        <!-- google_ad_section_start(name=content) -->
+        <div id="scored-bookmarks" data-eid="240662035" data-has-contents="0">
+          <!--p class="no-bookmark-comment-message">人気のブックマークコメントはありません</p-->
+        </div>
+
+        <div id="new-bookmarks" data-eid="240662035" data-has-contents="1">
+            <ul class="bookmark-list">
+<li id="bookmark-user-kits"
+  data-user="kits"
+  data-hatena-uid="39362"
+  onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://www.koikikukan.com/archives/2015/02/02-015555.php', false);"
+  >
+    <a class="profile-icon" href="/kits/"><img src="http://cdn1.www.st-hatena.com/users/ki/kits/profile_l.gif" class="profile-image" alt="kits" title="kits" width="16" height="16" /></a>
+    <a class="username" href="/kits/20150204#bookmark-240662035">kits</a>
+    <span class="comment-container">
+        <span class="comment" data-hatena-bookmark-comment-raw="[perl]2015年2月の記事。UTF-8フラグという言葉はPerlの内部的な動作の話なので使わない方がよいと思う。 cf. http://monmon.hateblo.jp/entry/20111024/1319473613">2015年2月の記事。UTF-8フラグという言葉はPerlの内部的な動作の話なので使わない方がよいと思う。 cf. <a href="http://monmon.hateblo.jp/entry/20111024/1319473613" target="_blank" rel="nofollow">http://monmon.hateblo.jp/entry/20111024/1319473613</a></span>
+        
+        <span class="tags">
+            <a rel="tag" class="user-tag" href="/search/tag?q=perl">perl</a></span>
+        <div class="user-comment-meta"><a href="/entry/240662035/comment/kits" class="user-comment-link" title="パーマリンク">リンク</a><span class="timestamp"><a href="/kits/20150204#bookmark-240662035">2015/02/04</a></span><span class="comment-share">
+                <a href="https://twitter.com/share?url=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2F240662035%2Fcomment%2Fkits&text=kits%20-%20%E3%80%8EPerl%E3%81%A7%E3%80%8CWide%20character%20in%20print%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%AB%E3%81%AA%E2%80%A6%E3%80%8F%20%E3%81%B8%E3%81%AE%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88" class="twitter" target="_blank" title="Twitterでシェア"><span>シェア</span></a><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2F240662035%2Fcomment%2Fkits" class="facebook" target="_blank" title="Facebookでシェア"><span>シェア</span></a>
+            </span><span class="starContainer"></span></div>
+    </span>
+</li>
+
+            </ul>
+            <div id="remaining-new-bookmarks" data-eid="240662035" data-bookmark-count="3" data-bookmark-shown="1">
+            </div>
+        </div>
+
+        <div id="all-bookmarks" data-eid="240662035" data-has-contents="1" data-bookmark-shown="0">
+            <div id="public-bookmarks" class="box">
+                <ul class="bookmark-list">
+                    
+<li id="bookmark-user-kits"
+  data-user="kits"
+  data-hatena-uid="39362"
+  onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://www.koikikukan.com/archives/2015/02/02-015555.php', false);"
+  >
+    <a class="profile-icon" href="/kits/"><img src="http://cdn1.www.st-hatena.com/users/ki/kits/profile_l.gif" class="profile-image" alt="kits" title="kits" width="16" height="16" /></a>
+    <a class="username" href="/kits/20150204#bookmark-240662035">kits</a>
+    <span class="comment-container">
+        <span class="comment" data-hatena-bookmark-comment-raw="[perl]2015年2月の記事。UTF-8フラグという言葉はPerlの内部的な動作の話なので使わない方がよいと思う。 cf. http://monmon.hateblo.jp/entry/20111024/1319473613">2015年2月の記事。UTF-8フラグという言葉はPerlの内部的な動作の話なので使わない方がよいと思う。 cf. <a href="http://monmon.hateblo.jp/entry/20111024/1319473613" target="_blank" rel="nofollow">http://monmon.hateblo.jp/entry/20111024/1319473613</a></span>
+        
+        <span class="tags">
+            <a rel="tag" class="user-tag" href="/search/tag?q=perl">perl</a></span>
+        <div class="user-comment-meta"><a href="/entry/240662035/comment/kits" class="user-comment-link" title="パーマリンク">リンク</a><span class="timestamp"><a href="/kits/20150204#bookmark-240662035">2015/02/04</a></span><span class="comment-share">
+                <a href="https://twitter.com/share?url=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2F240662035%2Fcomment%2Fkits&text=kits%20-%20%E3%80%8EPerl%E3%81%A7%E3%80%8CWide%20character%20in%20print%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%AB%E3%81%AA%E2%80%A6%E3%80%8F%20%E3%81%B8%E3%81%AE%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88" class="twitter" target="_blank" title="Twitterでシェア"><span>シェア</span></a><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2F240662035%2Fcomment%2Fkits" class="facebook" target="_blank" title="Facebookでシェア"><span>シェア</span></a>
+            </span><span class="starContainer"></span></div>
+    </span>
+</li>
+
+<li id="bookmark-user-perlcodesample"
+  data-user="perlcodesample"
+  data-hatena-uid="2923875" class="nocomment"
+  onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://www.koikikukan.com/archives/2015/02/02-015555.php', false);"
+  >
+    <a class="profile-icon" href="/perlcodesample/"><img src="http://cdn1.www.st-hatena.com/users/pe/perlcodesample/profile_l.gif" class="profile-image" alt="perlcodesample" title="perlcodesample" width="16" height="16" /></a>
+    <a class="username" href="/perlcodesample/20150204#bookmark-240662035">perlcodesample</a>
+    <span class="comment-container">
+        <span class="comment" data-hatena-bookmark-comment-raw=""></span>
+        
+        <span class="tags empty"></span>
+<span class="twitter">
+<a href="http://twitter.com/yukikimoto2/status/562773112627159042" class="with-short-url"></a>
+</span>
+
+        <div class="user-comment-meta"><span class="timestamp"><a href="/perlcodesample/20150204#bookmark-240662035">2015/02/04</a></span><span class="starContainer"></span></div>
+    </span>
+</li>
+
+                    
+                </ul>
+                <div id="remaining-all-bookmarks" data-eid="240662035" data-bookmark-count="3" data-bookmark-shown="2"></div>
+            </div>
+        </div>
+ 
+        <div id="entry-tools">
+            <div id="entry-subcontent">
+                <span id="entry-blogparts-toggle-button">▼ ブログで紹介する</span>
+            </div>
+                      <div id="entry-blogparts" style="display:none;">
+            <table>
+                <tr class="first"><td>
+                  <span class="header">B!ボタン</span>
+                  <a target="_blank" href="/guide/bbutton?url=http%3A%2F%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php" title="はてなブックマークボタンを作成">はてなブックマークボタンを作成</a>
+                </td></tr>
+                <tr><td>
+                  <span class="header">リンク</span>
+                    <input type="text" class="blogparts-text blogparts-input-text" size="30" value="&lt;span class=&quot;hatena-bookmark-title&quot;&gt;&lt;a href=&quot;http://www.koikikukan.com/archives/2015/02/02-015555.php&quot;&gt;Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;hatena-bookmark-users&quot;&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/www.koikikukan.com/archives/2015/02/02-015555.php&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/http://www.koikikukan.com/archives/2015/02/02-015555.php&quot;&gt;&lt;/a&gt;&lt;/span&gt;" />
+                    <span id="preview-button" class="blogparts-preview-button">▼ プレビュー</span>
+                    <div id="blogparts-container" style="display:none;">
+                      <p class="blogparts-note">選択後に、上記の埋め込みコードをコピーして貼り付けてください。選択内容により、コードは変わります。</p>
+                      <div class="popup">
+                        <ul id="blogparts-link-checkbox-container" class="blogparts-link-checkbox">
+                          <li class="blogparts-link-list" ><label for="include-users"><input class="blogparts-link-checkbox" type="checkbox" id="include-users" checked="checked" />ブックマーク数を表示</label></li>
+                          <li class="blogparts-link-list" ><label for="b-mark"><input class="blogparts-link-checkbox" type="checkbox" id="b-mark" /><img alt="はてなブックマークで表示" title="はてなブックマークで表示" src="http://cdn-ak.b.st-hatena.com/images/b_entry.gif" />を表示</label></li>
+                          <li class="blogparts-link-list" ><label for="b-ex-mark"><input class="blogparts-link-checkbox" type="checkbox" id="b-ex-mark" /><img alt="このエントリーをはてなブックマークに追加" title="このエントリーをはてなブックマークに追加" src="http://cdn-ak.b.st-hatena.com/images/append.gif" />を表示</label></li>
+                        </ul>
+                        <div id="blogparts-preview"></div>
+                      </div>
+                    </div>
+                </td></tr>
+                <tr><td>
+                  <span class="header">詳細表示</span>
+                    <input type="text" class="blogparts-widget-text blogparts-input-text" size="30" value="&lt;iframe marginwidth=&quot;0&quot; marginheight=&quot;0&quot; src=&quot;http://b.hatena.ne.jp/entry.parts?url=http%3A%2F%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; height=&quot;230&quot; width=&quot;500&quot;&gt;&lt;div class=&quot;hatena-bookmark-detail-info&quot;&gt;&lt;a href=&quot;http://www.koikikukan.com/archives/2015/02/02-015555.php&quot;&gt;Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間&lt;/a&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/www.koikikukan.com/archives/2015/02/02-015555.php&quot;&gt;はてなブックマーク - Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間&lt;/a&gt;&lt;/div&gt;&lt;/iframe&gt;" />
+                    <span id="preview-widget-button" class="blogparts-preview-button">▼ プレビュー</span>
+                      <div id="blogparts-widget-container" style="display:none;">
+                        <p class="blogparts-note">上記の埋め込みコードをコピーして貼り付けてください。</p>
+                        <div class="popup">
+                          <div id="blogparts-widget-preview"></div>
+                        </div>
+                      </div>
+                </td></tr>
+                <tr><td>
+                  <span class="header">人気エントリー</span>
+                  <a href="/entrylist?sort=count&amp;url=http%3A%2F%2Fwww.koikikukan.com%2F" title="『小粋空間』">『小粋空間』の人気エントリー</a><br />
+                  <a target="_blank" href="/entrylist/widget?url=http%3A%2F%2Fwww.koikikukan.com%2F">『小粋空間』の人気エントリーのブログパーツを作成</a>
+                </td></tr>
+                
+            </table>
+        </div>
+
+            <div id="entry-paragraph-label" class="cmpact">
+                <span class="paragraph-label">最終更新: </span>2015/02/02 02:35
+            </div>
+        </div>
+
+        <!-- google_ad_section_end(name=content) -->
+    </div><!--//public-bookmarks-->
+    <script>
+        (function setupBookmarksTabChanger() {
+            var started_new = false;
+            var started_all = false;
+            var allBookmarksTab = {
+              id: 'all-bookmarks',
+              onSelect: function () {
+                if (started_all) { return; }
+                started_all = true;
+                var container = document.getElementById('remaining-all-bookmarks');
+                (new Hatena.Bookmark.Entry.CommentListLoader({
+                    container     : container,
+                    commentOnly   : 0
+                })).load();
+              }
+            };
+            var tabmenu = new Hatena.Bookmark.Entry.BookmarksTabMenuV3(document.getElementById('public-bookmarks'), [
+                  { id: 'scored-bookmarks' },
+                  {
+                    id: 'new-bookmarks',
+                    fallBack: allBookmarksTab,
+                    onSelect: function () {
+                      if (started_new) { return; }
+                      started_new = true;
+                      var container = document.getElementById('remaining-new-bookmarks');
+                      (new Hatena.Bookmark.Entry.CommentListLoader({
+                          container     : container,
+                          commentOnly   : 1
+                      })).load();
+                    }
+                  },
+                  allBookmarksTab
+            ], 'bookmarks_tab');
+            tabmenu.addEventListener("tabchanged", function () {
+                var EntryPage = Hatena.Bookmark.UI.Pages.EntryPage;
+                EntryPage.dispatchEvent("tabcontainerresized", {});
+            });
+        }).call(this);
+    </script>
+
+                <p id="visibility-info">
+                    <a href="/help/nocomment">このブックマーク一覧を非公開にするには?</a>
+                </p>
+            </div>
+            <div class="ads-entry bottom ads-double-rectangle">
+                <div id="entry-double-rectangle-left" class="ad-rectangle left"></div>                <div id="entry-double-rectangle-right" class="ad-rectangle"></div>
+            </div>
+                <div id="add-bookmark-container" class="add-bookmark-container box guest">
+                    <div class="add-bookmark-form">
+                        <p>ユーザーはみんなでブックマークを共有して、効率良く情報収集しています。あなたもはてなブックマークを始めてみませんか?
+                        </p>
+                        <div class="guest-signup-container">
+                            <a href="/guide">はてなブックマークってなに？</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="guest-message">
+                </div>
+    <h2>関連エントリー</h2>
+    <ul class="entry-list-entry-l notag">
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="188755598">
+    <h3 class="hb-entry-link-container"><a href="http://blog.livedoor.jp/xaicron/archives/54785204.html" class="entry-link"  title="にひりずむ::しんぷる - Web::Query 0.26 に prev() と next() を追加"  data-entryrank="1" data-track-click-target="direct">にひりずむ::しんぷる - Web::Query 0.26 に prev() と next() を追加</a></h3>
+    
+    
+<div class="readlater-button readlater-icon-button"
+   data-href="http://blog.livedoor.jp/xaicron/archives/54785204.html"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+
+    <ul class="entry-data">
+      <li class="description">
+      </li>
+      <li class="users"><a href="/entry/blog.livedoor.jp/xaicron/archives/54785204.html" data-track-click-target="entry" title="すべてのブックマークを見る"><span>2</span> users</a></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2014/04/01 02:16</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fblog.livedoor.jp%2Fxaicron%2F" title="『blog.livedoor.jp:xaicron』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fblog.livedoor.jp%2Fxaicron%2F" class="favicon" alt="" /><span>blog.livedoor.jp:xaicron</span></a></li>
+              <li class="tag">
+                    <a href="/search/tag?q=perl" rel="tag" class="tag">perl</a>
+              </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="187660978">
+    <h3 class="hb-entry-link-container"><a href="http://search.cpan.org/~pmqs/IO-Compress-2.027/lib/IO/Compress/Zip.pm" class="entry-link"  title="IO::Compress::Zip - search.cpan.org"  data-entryrank="2" data-track-click-target="direct">IO::Compress::Zip - search.cpan.org</a></h3>
+    
+    
+<div class="readlater-button readlater-icon-button"
+   data-href="http://search.cpan.org/~pmqs/IO-Compress-2.027/lib/IO/Compress/Zip.pm"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+
+    <ul class="entry-data">
+      <li class="description">
+      </li>
+      <li class="users"><a href="/entry/search.cpan.org/~pmqs/IO-Compress-2.027/lib/IO/Compress/Zip.pm" data-track-click-target="entry" title="すべてのブックマークを見る"><span>1</span> user</a></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2014/03/24 10:14</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fsearch.cpan.org%2F~pmqs%2F" title="『search.cpan.org:pmqs』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fsearch.cpan.org%2F~pmqs%2F" class="favicon" alt="" /><span>search.cpan.org:pmqs</span></a></li>
+              <li class="tag">
+                    <a href="/search/tag?q=Perl" rel="tag" class="tag">Perl</a>
+              </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="193616338">
+    <h3 class="hb-entry-link-container"><a href="http://www.dagolden.com/index.php/2374/the-next-testmore-might-break-fragile-test-modules/" class="entry-link"  title="The next Test::More might break fragile test modules | David Golden"  data-entryrank="3" data-track-click-target="direct">The next Test::More might break fragile test modules | David Golden</a></h3>
+    
+    
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.dagolden.com/index.php/2374/the-next-testmore-might-break-fragile-test-modules/"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+
+    <ul class="entry-data">
+      <li class="description">
+      </li>
+      <li class="users"><em><a href="/entry/www.dagolden.com/index.php/2374/the-next-testmore-might-break-fragile-test-modules/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>3</span> users</a></em></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2014/05/04 11:29</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.dagolden.com%2F" title="『www.dagolden.com』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.dagolden.com%2F" class="favicon" alt="" /><span>www.dagolden.com</span></a></li>
+              <li class="tag">
+                    <a href="/search/tag?q=perl" rel="tag" class="tag">perl</a>
+              </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+    </ul>
+<h2><span class="inner"><a href="/entrylist/it">新着エントリー - テクノロジー</a></span></h2>
+<ul class="entry-list-entry-l notag">
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="240943599">
+    <h3 class="hb-entry-link-container"><a href="http://botslyr.nakashima723.info/06/" class="entry-link"  title="【パクツイBOTスレイヤー】第６章 ほろぼそう！大物パクツイBOT - パクツイBOTスレイヤー"  data-entryrank="1" data-track-click-target="direct">【パクツイBOTスレイヤー】第６章 ほろぼそう！大物パクツイBOT - パクツイBOT...</a></h3>
+    
+    
+<div class="readlater-button readlater-icon-button"
+   data-href="http://botslyr.nakashima723.info/06/"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Foshiete.goo.ne.jp%2Fqa%2F5477556.html">ログイン</a>
+    </div>
+  </div>
+</div>
+
+
+    <ul class="entry-data">
+      <li class="description">
+      </li>
+      <li class="users"><em><a href="/entry/botslyr.nakashima723.info/06/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>3</span> users</a></em></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2015/02/05 06:35</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fbotslyr.nakashima723.info%2F" title="『botslyr.nakashima723.info』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fbotslyr.nakashima723.info%2F" class="favicon" alt="" /><span>botslyr.nakashima723.info</span></a></li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="240929334">
+    <h3 class="hb-entry-link-container"><a href="https://www.facebook.com/WatchMcFarlandUSA" class="entry-link"  title="Watch McFarland USA 2015 Online Free Full Movie 720P Streaming"  data-entryrank="2" data-track-click-target="direct">Watch McFarland USA 2015 Online Free Full Movie 720P Streaming</a></h3>
+    
+    
+<div class="readlater-button readlater-icon-button"
+   data-href="https://www.facebook.com/WatchMcFarlandUSA"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Foshiete.goo.ne.jp%2Fqa%2F5477556.html">ログイン</a>
+    </div>
+  </div>
+</div>
+
+
+    <ul class="entry-data">
+      <li class="description">
+      </li>
+      <li class="users"><em><a href="/entry/s/www.facebook.com/WatchMcFarlandUSA" data-track-click-target="entry" title="すべてのブックマークを見る"><span>7</span> users</a></em></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2015/02/05 01:02</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.facebook.com%2F" title="『www.facebook.com』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.facebook.com%2F" class="favicon" alt="" /><span>www.facebook.com</span></a></li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="240925923">
+    <h3 class="hb-entry-link-container"><a href="http://qiita.com/esehara@github/items/5a8ba15864daf0ff5ca3" class="entry-link"  title="小説家になろう - 第4話: ノーファンクション・ノーハイオーダー - Qiita"  data-entryrank="3" data-track-click-target="direct">小説家になろう - 第4話: ノーファンクション・ノーハイオーダー - Qiita</a></h3>
+    
+    
+<div class="readlater-button readlater-icon-button"
+   data-href="http://qiita.com/esehara@github/items/5a8ba15864daf0ff5ca3"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Foshiete.goo.ne.jp%2Fqa%2F5477556.html">ログイン</a>
+    </div>
+  </div>
+</div>
+
+
+    <ul class="entry-data">
+      <li class="description">
+      </li>
+      <li class="users"><strong><a href="/entry/qiita.com/esehara@github/items/5a8ba15864daf0ff5ca3" data-track-click-target="entry" title="すべてのブックマークを見る"><span>11</span> users</a></strong></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2015/02/05 00:37</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fqiita.com%2F" title="『qiita.com』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fqiita.com%2F" class="favicon" alt="" /><span>qiita.com</span></a></li>
+                <li class="tag">
+                      <a href="/search/tag?q=Ruby" rel="tag" class="tag">Ruby</a>
+                      <a href="/search/tag?q=Programing" rel="tag" class="tag">Programing</a>
+                </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+  <li class="more-entry"><a href="/entrylist/it">もっと読む</a></li>
+</ul>
+</div><div class="box3_1 notitle" id="sidebar">
+        <div id="sidebar-inner" style="width: 320px;">
+            
+            <ul class="entry-horizontal-s">
+                <li class="entry-list ad-unit">
+                    <div id="entry-rectangle-top-right" class="ad-rectangle"></div>
+                </li>
+            </ul>
+            
+<h2><span class="inner"><a href="/hotentry/it/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0">おすすめカテゴリ - プログラミング</a></span></h2>
+<ul class="entry-horizontal-s"><li class="entry-list category-it" data-eid="240865590" data-bookmark-count="256" data-entryrank="1">
+    <ul class="users">
+        <li>
+                <strong><a href="/entry/tkengo.github.io/blog/2014/12/20/opengl-es-2-2d-knowledge-0/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>256</span> users</a></strong>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://tkengo.github.io/blog/2014/12/20/opengl-es-2-2d-knowledge-0/"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fmatome.naver.jp%2Fodai%2F2133156027737352701">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://tkengo.github.io/blog/2014/12/20/opengl-es-2-2d-knowledge-0/" class="entry-link"  title="独学で 1 ヶ月間 OpenGL を学んで得た基礎知識のまとめ ~ 2D 編 ~ - けんごのお屋敷" data-entryrank="1" data-track-click-target="direct">独学で 1 ヶ月間 OpenGL を学んで得た基礎知識のまとめ ~ 2D 編 ~ - け...</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+            </li>
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2015/02/04 10:29</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Ftkengo.github.io%2F" title="『tkengo.github.io』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Ftkengo.github.io%2F" class="favicon" alt="" /><span>tkengo.github.io</span></a></li>
+    </ul>
+</li><li class="entry-list category-it" data-eid="240779369" data-bookmark-count="937" data-entryrank="2">
+    <ul class="users">
+        <li>
+                <strong><a href="/entry/postd.cc/how-to-not-hate-javascript-tips-from-the-frontline/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>937</span> users</a></strong>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://postd.cc/how-to-not-hate-javascript-tips-from-the-frontline/"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fmatome.naver.jp%2Fodai%2F2133156027737352701">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://postd.cc/how-to-not-hate-javascript-tips-from-the-frontline/" class="entry-link"  title="【翻訳】JavaScriptのデバッグ方法 – JSを嫌いにならないためのTips | POSTD" data-entryrank="2" data-track-click-target="direct">【翻訳】JavaScriptのデバッグ方法 – JSを嫌いにならないためのTips | ...</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+            </li>
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2015/02/03 12:11</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fpostd.cc%2F" title="『postd.cc』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fpostd.cc%2F" class="favicon" alt="" /><span>postd.cc</span></a></li>
+    </ul>
+</li><li class="entry-list category-it has-pr" data-eid="240689280" data-bookmark-count="33" data-entryrank="3">
+    <ul class="users">
+        <li>
+                <strong><a href="/entry/employment.en-japan.com/desc_713657/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>33</span> users</a></strong>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://employment.en-japan.com/desc_713657/"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fmatome.naver.jp%2Fodai%2F2133156027737352701">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" id="pr-title-240689280"><a href="http://employment.en-japan.com/desc_713657/" class="entry-link"  title="萌え系ゲームのデザイナー　★コミケ休暇、あります！（713657）｜株式会社スマイルメーカーの転職・求人情報｜エン転職" data-entryrank="3" data-track-click-target="direct">萌え系ゲームのデザイナー　★コミケ休暇、あります！（713657）｜株式...</a></h3>
+        
+<script>
+if (document.getElementById('pr-title-240689280')) {
+    (function (url) {
+        var js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.async = true;
+        js.src = url;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(js, s);
+    })('http://red.st-hatena.com/ad?cid=538&encode=utf8&element_id=pr-title-240689280');
+}
+</script>
+        <ul class="entry-data ">
+            <li class="description">
+            </li>
+<script>
+if (document.getElementById('pr-image-240689280')) {
+    (function (url) {
+        var js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.async = true;
+        js.src = url;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(js, s);
+    })('http://red.st-hatena.com/ad?cid=541&encode=utf8&element_id=pr-image-240689280');
+}
+</script><li class="pr">PR</li>
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2015/02/02 13:11</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Femployment.en-japan.com%2F" title="『employment.en-japan.com』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Femployment.en-japan.com%2F" class="favicon" alt="" /><span>employment.en-japan.com</span></a></li>
+    </ul>
+</li>
+</ul>
+<script>
+if (document.getElementById('pr-title-240689280')) {
+    (function (url) {
+        var js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.async = true;
+        js.src = url;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(js, s);
+    })('http://red.st-hatena.com/ad?cid=538&encode=utf8&element_id=pr-title-240689280');
+}
+</script>
+<script>
+if (document.getElementById('pr-title-240689286')) {
+    (function (url) {
+        var js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.async = true;
+        js.src = url;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(js, s);
+    })('http://red.st-hatena.com/ad?cid=539&encode=utf8&element_id=pr-title-240689286');
+}
+</script>
+<script>
+if (document.getElementById('pr-title-240689294')) {
+    (function (url) {
+        var js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.async = true;
+        js.src = url;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(js, s);
+    })('http://red.st-hatena.com/ad?cid=540&encode=utf8&element_id=pr-title-240689294');
+}
+</script>
+
+    <h2 class="entry-page-sidebar-title"><span class="inner"><a href="/entrylist?url=http%3A%2F%2Fwww.koikikukan.com%2F">同じサイトのほかのエントリー</a></span></h2>
+    <ul class="entry-horizontal-s">
+          <li class="entry-list category-it" data-eid="238477636" data-bookmark-count="5" data-entryrank="2">
+    <ul class="users">
+        <li>
+                <em><a href="/entry/www.koikikukan.com/archives/2015/01/08-015555.php" data-track-click-target="entry" title="すべてのブックマークを見る"><span>5</span> users</a></em>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.koikikukan.com/archives/2015/01/08-015555.php"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.koikikukan.com/archives/2015/01/08-015555.php" class="entry-link" rel="nofollow" title="Movable Typeで記事編集画面のオプションフィールドを整列する「FieldOptionResizerプラグイン」: 小粋空間" data-entryrank="2" data-track-click-target="direct">Movable Typeで記事編集画面のオプションフィールドを整列する「FieldOp...</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+            </li>
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2015/01/08 02:40</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.koikikukan.com%2F" title="『www.koikikukan.com』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.koikikukan.com%2F" class="favicon" alt="" /><span>www.koikikukan.com</span></a></li>
+    </ul>
+</li>
+          <li class="entry-list category-it" data-eid="238361199" data-bookmark-count="4" data-entryrank="3">
+    <ul class="users">
+        <li>
+                <em><a href="/entry/www.koikikukan.com/archives/2015/01/07-005555.php" data-track-click-target="entry" title="すべてのブックマークを見る"><span>4</span> users</a></em>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.koikikukan.com/archives/2015/01/07-005555.php"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.koikikukan.com/archives/2015/01/07-005555.php" class="entry-link" rel="nofollow" title="自分のIPアドレスを調べる方法: 小粋空間" data-entryrank="3" data-track-click-target="direct">自分のIPアドレスを調べる方法: 小粋空間</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+            </li>
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2015/01/07 01:37</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.koikikukan.com%2F" title="『www.koikikukan.com』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.koikikukan.com%2F" class="favicon" alt="" /><span>www.koikikukan.com</span></a></li>
+    </ul>
+</li>
+          <li class="entry-list category-it" data-eid="237635385" data-bookmark-count="3" data-entryrank="4">
+    <ul class="users">
+        <li>
+                <em><a href="/entry/www.koikikukan.com/archives/2014/12/30-025555.php" data-track-click-target="entry" title="すべてのブックマークを見る"><span>3</span> users</a></em>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.koikikukan.com/archives/2014/12/30-025555.php"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.koikikukan.com/archives/2014/12/30-025555.php" class="entry-link" rel="nofollow" title="2014年にリリースしたMovable Type（MT）プラグイン一覧: 小粋空間" data-entryrank="4" data-track-click-target="direct">2014年にリリースしたMovable Type（MT）プラグイン一覧: 小粋空間</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+            </li>
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2014/12/30 04:29</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.koikikukan.com%2F" title="『www.koikikukan.com』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.koikikukan.com%2F" class="favicon" alt="" /><span>www.koikikukan.com</span></a></li>
+    </ul>
+</li>
+          
+      <li class="more-entry"><a href="/entrylist?url=http%3A%2F%2Fwww.koikikukan.com%2F">もっと読む</a></li>
+    </ul>
+            <ul class="entry-horizontal-s">
+                <li class="entry-list ad-unit">
+                    <div id="entry-rectangle-bottom-right" class="ad-rectangle"></div>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="box-wrap box4">
+        <div class="box1_1">
+                  
+    <h2>関連商品</h2>
+    <ul class="entry-vertical-4"><li class="entry-unit category-it hb-entry-unit-with-favorites recommended has-image" data-eid="2932306" data-bookmark-count="54" data-entryrank="1">
+    <ul class="users">
+        <li>
+                <strong><a href="/entry/www.amazon.co.jp/gp/product/4797336803" data-track-click-target="entry" title="すべてのブックマークを見る"><span>54</span> users</a></strong>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.amazon.co.jp/gp/product/4797336803"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797336803/hatena-b-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： 新版Perl言語プログラミングレッスン入門編: 本: 結城浩" data-entryrank="1" data-track-click-target="direct">新版Perl言語プログラミングレッスン入門編</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+                <blockquote>商品の説明出版社 / 著者からの内容紹介 はじめてPerlを学ぶ人に最適！！ Perl入門書の大ロングセラ...</blockquote>
+                <span class="thumbnail" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797336803/hatena-b-22/ref=nosim" title="" data-entryrank="1" data-track-click-target="entry"><img src="http://ecx.images-amazon.com/images/I/51LwEY4XTiL._SS200_.jpg" alt="" /></a></span>
+            </li>
+            <li class="date">2006/10/05 19:57</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『www.amazon.co.jp』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+    </ul>
+        <div class="follow"></div>
+</li><li class="entry-unit category-it hb-entry-unit-with-favorites recommended has-image" data-eid="238572422" data-bookmark-count="28" data-entryrank="2">
+    <ul class="users">
+        <li>
+                <strong><a href="/entry/www.amazon.co.jp/gp/product/4798139815" data-track-click-target="entry" title="すべてのブックマークを見る"><span>28</span> users</a></strong>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.amazon.co.jp/gp/product/4798139815"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798139815/hatena-b-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： Effective Perl 第2版: Joseph N. Hall, Joshua A. McAdams, brian d foy, 吉川 邦夫: 本" data-entryrank="2" data-track-click-target="direct">Effective Perl 第2版</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+                <blockquote>Kindle化リクエスト このタイトルのKindle化をご希望の場合、こちらをクリックしてください。 Kindl...</blockquote>
+                <span class="thumbnail" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798139815/hatena-b-22/ref=nosim" title="" data-entryrank="2" data-track-click-target="entry"><img src="http://ecx.images-amazon.com/images/I/41gBK4zwTCL._SS200_.jpg" alt="" /></a></span>
+            </li>
+            <li class="date">2015/01/08 23:52</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『www.amazon.co.jp』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+    </ul>
+        <div class="follow"></div>
+</li><li class="entry-unit hb-entry-unit-with-favorites recommended has-image" data-eid="87093153" data-bookmark-count="12" data-entryrank="3">
+    <ul class="users">
+        <li>
+                <strong><a href="/entry/www.amazon.co.jp/gp/product/4774150258" data-track-click-target="entry" title="すべてのブックマークを見る"><span>12</span> users</a></strong>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.amazon.co.jp/gp/product/4774150258"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774150258/hatena-b-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： もっと自在にサーバを使い倒す 業務に役立つPerl (Software Design ｐlus): 木本 裕紀: 本" data-entryrank="3" data-track-click-target="direct">もっと自在にサーバを使い倒す 業務に役立つPerl (Software Design ｐlus)</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+                <blockquote></blockquote>
+                <span class="thumbnail" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774150258/hatena-b-22/ref=nosim" title="" data-entryrank="3" data-track-click-target="entry"><img src="http://images-jp.amazon.com/images/G/09/nav2/dp/no-image-no-ciu._SS200_.gif" alt="" /></a></span>
+            </li>
+            <li class="date">2012/03/27 18:36</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『www.amazon.co.jp』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+    </ul>
+        <div class="follow"></div>
+</li><li class="entry-unit hb-entry-unit-with-favorites recommended has-image" data-eid="103226474" data-bookmark-count="5" data-entryrank="4">
+    <ul class="users">
+        <li>
+                <em><a href="/entry/www.amazon.co.jp/gp/product/4873115671" data-track-click-target="entry" title="すべてのブックマークを見る"><span>5</span> users</a></em>
+        </li>
+        
+<div class="readlater-button readlater-icon-button"
+   data-href="http://www.amazon.co.jp/gp/product/4873115671"
+   
+   title="あとで読む"
+   alt="あとで読む">
+  <div class="feature-hint-popup-container popup-login" style="display:none;">
+    <div class="feature-hint-popup-close-button"></div>
+    <h3 class="feature-hint-popup-title">あとで読む機能</h3>
+    <div class="popup-section">
+      <p>あとで読むリストに追加しましょう。</p>
+      <a class="submit-button login" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Fwww.koikikukan.com%2Farchives%2F2015%2F02%2F02-015555.php">ログイン</a>
+    </div>
+  </div>
+</div>
+
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873115671/hatena-b-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： 初めてのPerl 第6版: Randal L. Schwartz, brian d foy, Tom Phoenix, 近藤 嘉雪: 本" data-entryrank="4" data-track-click-target="direct">初めてのPerl 第6版</a></h3>
+        
+        <ul class="entry-data ">
+            <li class="description">
+                <blockquote></blockquote>
+                <span class="thumbnail" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873115671/hatena-b-22/ref=nosim" title="" data-entryrank="4" data-track-click-target="entry"><img src="http://ecx.images-amazon.com/images/I/51U3zPV5+xL._SS200_.jpg" alt="" /></a></span>
+            </li>
+            <li class="date">2012/07/25 01:47</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『www.amazon.co.jp』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+    </ul>
+        <div class="follow"></div>
+</li>
+    </ul>
+    <script type="text/javascript">
+      // <![CDATA[
+        var loader = Hatena.Bookmark.LazyFavoriteLoader.getInstance()
+            loader.appendType('entry-related-amazon');
+            loader.init();
+      // ]]>
+    </script>
+        </div>
+    </div>
+</div>      </div>
+    </div>
+    </div>
+
+    
+    <div id="footer">
+    <div id="service-footer">
+      <div class="footer-section bookmark">
+        <div class="footer-title"><a href="/">はてなブックマーク</a></div>
+        <ul>
+          <li><a href="/headline" class="category headline">ヘッドライン</a></li>
+          <li><a href="/girls" class="category headline ">ガールズ</a></li>
+          <li><a href="/hotentry" class="category hotentry">総合</a></li>
+          <li><a href="/hotentry/general" class="category general">一般</a></li>
+          <li><a href="/hotentry/social" class="category group1">世の中</a></li>
+          <li><a href="/hotentry/economics" class="category group1">政治と経済</a></li>
+          <li><a href="/hotentry/life" class="category group2">暮らし</a></li>
+          <li><a href="/hotentry/knowledge" class="category group2">学び</a></li>
+        </ul>
+        <ul>
+          <li><a href="/hotentry/it" class="category group3">テクノロジー</a></li>
+          <li><a href="/hotentry/entertainment" class="category group4">エンタメ</a></li>
+          <li><a href="/hotentry/game" class="category group4">アニメとゲーム</a></li>
+          <li><a href="/hotentry/fun" class="category group4">おもしろ</a></li>
+          <li><a href="/hotentry/video" class="category group4">動画</a></li>
+          <li><a href="/hotentry/picture" class="category group4">画像</a></li>
+          <li><a href="/ranking/weekly" class="category ranking">ランキング</a></li>
+          <li><a href="/hotentry/life/%E8%B3%83%E8%B2%B8" class="category recommend">おすすめ</a></li>
+        </ul>
+        <ul class="linklist">
+          <li><a href="/guide/tools">アプリ・拡張機能</a></li>
+          <li><a href="/guide/plus">はてなブックマークプラス</a></li>
+          <li><a href="http://bookmark.hatenastaff.com/">開発ブログ</a></li>
+          <li><a href="/help">ヘルプ</a></li>
+          <li><a href="/touch" onclick="Hatena.Bookmark.cookie.set('noretouch', '0', { expires: '+10y', path: '/' });">スマートフォン版</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <div class="footer-title">はてなのサービス</div>
+        <ul class="linklist">
+          <li><a href="http://hatenablog.com/">はてなブログ</a></li>
+          <li><a href="http://space.hatena.ne.jp/">はてなスペース</a></li>
+          <li><a href="http://q.hatena.ne.jp/">人力検索はてな</a></li>
+          <li><a href="http://d.hatena.ne.jp/keyword/">はてなキーワード</a></li>
+          <li><a href="http://hatenanews.com/">はてなニュース</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="copyright">Copyright &copy; 2005&ndash;2015 <a href="http://www.hatena.ne.jp/">Hatena</a>. All Rights Reserved.</div>
+    </div>
+
+<script type="text/javascript">
+(function () {
+    var infoHeader = document.getElementById('info-header');
+    var info_data  = [];
+    if (info_data && infoHeader) {
+        new Hatena.Bookmark.Information(infoHeader, info_data);
+    }
+})();
+
+</script>
+
+<script type="text/javascript">Hatena.Bookmark.Browsing.document.checkPageLoad();</script>
+            <script>
+                var blogparts = new Hatena.Bookmark.Blogparts({
+                    "blogPartsContainer"    : "#entry-blogparts",
+                    "tagArea"               : "input.blogparts-text",
+                    "widgetTagArea"         : "input.blogparts-widget-text",
+                    "entryTitle"            : "Perlで「Wide character in print」というエラーになる場合の対処: 小粋空間",
+                    "formContainer"         : "#blogparts-container",
+                    "previewDiv"            : "#blogparts-preview",
+                    "widgetContainer"       : "#blogparts-widget-container",
+                    "widgetPreviewDiv"      : "#blogparts-widget-preview",
+                    "linkCheckboxUl"        : "#blogparts-link-checkbox-container"
+                });
+                blogparts.registerToggleBlogPartsContainer("#entry-blogparts-toggle-button");
+                blogparts.registerLinkCheckbox("input.blogparts-link-checkbox");
+                blogparts.registerTogglePreview("#preview-button");
+                blogparts.registerToggleWidgetPreview("#preview-widget-button");
+                blogparts.init();
+            </script><script type="text/javascript" src="http://cdn-ak.b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</body>
+</html>

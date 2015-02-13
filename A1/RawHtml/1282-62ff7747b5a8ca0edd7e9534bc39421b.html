@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="twitter腐女子１号♪" />
+<meta name="description" content="" />
+<title>アプリ速報♪　これやばいゲームだよ(●・ω・)ﾉ - 【twitterユーザー専用】超最新アプリ速報♪(●・ω・)ﾉ</title>
+<link rel="stylesheet" type="text/css" href="http://blog-imgs-58.fc2.com/t/w/i/twittere/css/178ca.css" media="all" />
+<link rel="alternate" type="application/rss+xml" href="http://twittere.blog.fc2.com/?xml" title="RSS" />
+<link rel="top" href="http://twittere.blog.fc2.com/" title="Top" />
+<link rel="index" href="http://twittere.blog.fc2.com/?all" title="インデックス" />
+<link rel="next" href="http://twittere.blog.fc2.com/blog-entry-8.html" title="【あのドラクエのアプリが無料で登場♪】" /><link rel="prev" href="http://twittere.blog.fc2.com/blog-entry-6.html" title="☆★☆最新アプリ速報♪(●・ω・)ﾉ☆★☆" /><script type="text/javascript" src="http://static.fc2.com/js/lib/jquery.js"></script>
+<script type="text/javascript">
+ 
+ jQuery.noConflict();
+ jQuery(function(){
+   
+   // デフォルトで表示するレイアウト  glid or list
+   var DEFAULT_LAYOUT    = "glid";
+   
+   // 左カラム(記事)のID
+   var LEFT_COLUMN_ID    = "#main_contents";
+   
+   // 右カラム(メニュー)のID
+   var RIGHT_COLUMN_ID   = "#sidemenu";
+   
+   // クッキーのキー名
+   var COOKIE_KEY_NAME   = "template_blog_fc2";
+   
+   // クッキーのオプション
+   // var COOKIE_OPTION  = { expire: 30, domain: "myblog.blog.fc2.com", path: "/" };
+   var COOKIE_OPTION     = { expire: 30 };
+   
+   /** フッタープラグイン配置 **/
+   jQuery( "#footer_plg .plg" ).equalbox();
+   
+   /** トップへ移動 **/
+   jQuery( "#toTop" ).hide();
+   jQuery( "#pagetop" ).click(function() {
+     jQuery("body, html").animate({scrollTop: 0}, 800);
+     return false;
+   });
+   
+   // レイアウト切り替えフラグ 連続でレイアウト切り替えを行わせないためのもの
+   var layoutFlag = true;
+   
+   /** 表示切替 **/
+   // list表示
+   function showListLayout() {
+   
+     if ( !layoutFlag ) return;
+     
+     jQuery( LEFT_COLUMN_ID ).css( "height", "" );
+     jQuery( RIGHT_COLUMN_ID ).css( "height", "" );
+     
+     var t = setTimeout(function(){
+     
+       layoutFlag = false;
+       
+       jQuery( LEFT_COLUMN_ID )
+         .css( "opacity", "0" )
+         .show()
+         .fadeTo( "slow", 1, function(){ layoutFlag = true; } );
+       
+       jQuery( ".switch .list a" ).addClass( "selected" );
+       jQuery( ".entry" ).addClass( "list_content" );
+       
+       jQuery( ".switch .grid a" ).removeClass( "selected" );
+       jQuery( ".entry" ).removeClass( "grid_content" );
+     
+       jQuery.cookie( COOKIE_KEY_NAME, "list", COOKIE_OPTION );
+       
+       equalizeBoxHeight();
+       
+       clearTimeout(t);
+     }, 100);
+     
+     return false;
+   };
+   
+   // glid表示
+   function showGridLayout() {
+     
+     if (!layoutFlag) return;
+     
+     jQuery( LEFT_COLUMN_ID ).css( "height", "" );
+     jQuery( RIGHT_COLUMN_ID ).css( "height", "" );
+     
+     var t = setTimeout(function(){
+     
+       layoutFlag = false;
+       
+       jQuery( LEFT_COLUMN_ID )
+         .css( "opacity", "0" )
+         .show()
+         .fadeTo( "slow", 1, function(){ layoutFlag = true; } );
+       
+       jQuery( ".switch .grid a" ).addClass( "selected" );
+       jQuery( ".entry" ).addClass( "grid_content" );
+       
+       jQuery( ".switch .list a" ).removeClass( "selected" );
+       jQuery( ".entry" ).removeClass( "list_content" );
+     
+       jQuery.cookie( COOKIE_KEY_NAME, "glid", COOKIE_OPTION );
+       
+       equalizeBoxHeight();
+       
+       clearTimeout(t);
+     }, 100);
+     
+     return false;
+   };
+   
+   jQuery( ".switch .list" ).click( showListLayout );
+   jQuery( ".switch .grid" ).click( showGridLayout );
+   
+   // 左カラムと右カラムの高さを合わせる
+   function equalizeBoxHeight() {
+     var leftHeight  = jQuery( LEFT_COLUMN_ID ).height();
+     var rightHeight = jQuery( RIGHT_COLUMN_ID ).height();
+     
+     var height = (leftHeight > rightHeight)? leftHeight: rightHeight;
+     
+     jQuery( LEFT_COLUMN_ID ).height(height + "px");
+     jQuery( RIGHT_COLUMN_ID ).height(height + "px");
+   };
+   
+   function initialize() {
+     var layout = jQuery.cookie( COOKIE_KEY_NAME );
+     if ( !checkCookieValue( layout ) ) {
+       layout = DEFAULT_LAYOUT;
+     }
+     
+     if ( "list" == layout ) {
+       showListLayout();
+     } else if ( "glid" == layout ) {
+       showGridLayout();
+     } else {
+       showGridLayout();
+     }
+   };
+   
+   var layoutList = ["glid", "list"];
+   function checkCookieValue(str) {
+     if ("string" == typeof str) {
+       for (var i in layoutList) {
+         if (layoutList[i] == str) return true;
+       }
+     };
+     return false;
+   };
+   
+   initialize();
+ });
+</script>
+<link href="http://static.fc2.com/css_cn/common/headbar/120710style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body><div id="sh_fc2blogheadbar">
+	<div class="sh_fc2blogheadbar_body">
+		<div id="sh_fc2blogheadbar_menu">
+			<a href="http://blog.fc2.com/" rel="nofollow">				<img src="http://static.fc2.com/image/headbar/sh_fc2blogheadbar_logo.png" alt="FC2ブログ" />
+			</a>		</div>
+		<div id="sh_fc2blogheadbar_search">
+			<form name="barForm" method="get" action="" target="blank">
+				<input class="sh_fc2blogheadbar_searchform" type="text" name="q" value="" maxlength="30" onclick="this.style.color='#000000';" onfocus="this.select();" onblur="this.style.color='#999999'" />
+				<input type="hidden" name="charset" value="utf-8" />
+				<input class="sh_fc2blogheadbar_searchbtn" type="submit" value="ブログ内検索" />
+			</form>
+		</div>
+		<div id="sh_fc2blogheadbar_link_box" class="sh_fc2blogheadbar_link" style="visibility: hidden;"></div>
+	</div>
+</div>
+
+<div id="container">
+	<div id="header">
+		<h1><a href="http://twittere.blog.fc2.com/" accesskey="0" title="【twitterユーザー専用】超最新アプリ速報♪(●・ω・)ﾉ">【twitterユーザー専用】超最新アプリ速報♪(●・ω・)ﾉ</a></h1>
+		<p></p>
+	</div><!-- /header -->
+	<div id="headermenu">
+		<p class="archives"><a href="http://twittere.blog.fc2.com/archives.html">記事一覧</a></p>
+											</div>
+	<div id="wrap">
+		<div id="main">
+			<div id="main_contents" style="display: none">
+												<div class="content entry grid_content p_area" id="e">
+					<h2 class="entry_header">スポンサーサイト</h2>
+					<ul class="entry_date">
+						<li>&#45;&#45;/&#45;&#45;/&#45;&#45;</li>
+						<li>&#45;&#45;:&#45;&#45;</li>
+					</ul>
+															<div class="entry_body">
+						<!-- passive:etc --><div style="text-align:center;margin-bottom:10px;"><script src='http://hypost.fc2.com/js/cdom.js'></script><div id='-adpix-1185'></div><script type='text/javascript'>adpixSet('-adpix-1185','1185',300,250);</script>
+<!-- FC2管理用 -->
+<img src="http://media.fc2.com/counter_img.php?id=1368" width="1" height="1">
+<!-- FC2管理用 --></div><div style="font-size:8px;">上記の広告は１ヶ月以上更新のないブログに表示されています。<br />新しい記事を書く事で広告が消せます。</div>											</div>
+					<div class="entry_footer">
+						<ul class="entry_state">
+														<li><a href="http://twittere.blog.fc2.com/?overture" title="このカテゴリ一覧を見る">カテゴリ:スポンサー広告</a></li>
+																																		</ul>
+					</div>
+									</div><div class="content entry grid_content p_area" id="e7">
+					<h2 class="entry_header">アプリ速報♪　これやばいゲームだよ(●・ω・)ﾉ</h2>
+					<ul class="entry_date">
+						<li>2014/08/30</li>
+						<li>17:57</li>
+					</ul>
+															<div class="entry_body">
+						最新アプリ速報♪(●・ω・)ﾉ<br /><br />最新のつむつむみたいなゲームやばいｗｗｗ<br /><br />Android　・　iPhone<br />⇒<a href="http://goo.gl/aVV7j1" target="_blank" title="http://goo.gl/aVV7j1">http://goo.gl/aVV7j1</a><br /><br />☆<div class="fc2_footer" style="text-align:left;vertical-align:middle;height:auto;">
+<div class="fc2button-clap" id="fc2button-clap-7" style="vertical-align:top;border:none;display:inline;margin-right:2px;">
+<script type="text/javascript">
+(function(d) {
+var img = new Image();
+d.getElementById("fc2button-clap-7").appendChild(img);
+img.src = 'http://admin.blog.fc2.com/image/w-white.gif';
+(function(s) { s.cursor = 'pointer'; s.border = 0; s.verticalAlign = 'top'; s.margin = '0'; s.padding = '0'; })(img.style);
+var clap = function() { window.open('ht'+'tp://' + 'blogvote.fc2.com/pickup/twittere/7/clap')};
+if (img.addEventListener) { img.addEventListener('click', clap, false); } else if (img.attachEvent) { img.attachEvent('onclick', clap); }
+})(document);
+</script>
+</div>
+
+
+</div>
+
+
+<div class="fc2_infeed1">
+<style type="text/css">
+<!--
+.fc2_infeed_title{
+   margin: 16px 0 8px;
+}
+.fc2_infeed1 .imobile_infeed{
+   display: block !important;
+   overflow: hidden;
+}
+.fc2_infeed1 .imobile_infeed_spot{
+	width:auto !important;
+	height:auto !important;
+}
+.fc2_infeed1 #imobspot_1_0_p{
+        margin: 0px 0px 0px 0px  !important;
+}
+
+.fc2_infeed1 .imobile_infeed_body{
+	width:auto !important;
+	height:auto !important;
+        margin: 0px 0px 0px 0px  !important;
+        text-align:left !important;
+}
+.fc2_infeed1 .imobile_infeed{
+	width:auto !important;
+	height:auto !important;
+}
+.fc2_infeed1 .imobile_infeed_img_container{
+	display:none;
+}
+.fc2_infeed1 .imobile_infeed_title{
+	display:none !important;
+}
+.fc2_infeed1 .imobile_infeed_description {
+        margin: 0px 0px 0px 0px  !important;
+}
+
+-->
+</style>
+<div class="fc2_infeed_title">スポンサーサイト</div>
+<!-- i-mobile for PC client script -->
+<script type="text/javascript">
+    imobile_pid = "421"; 
+    imobile_asid = "346327"; 
+    imobile_width = 300; 
+    imobile_height = 72;
+    imobile_option = {
+         type: "infeed_inline",
+    };
+    imobile_infeed = {
+        num: "2",
+    };
+</script>
+<script type="text/javascript" src="http://spdeliverp.i-mobile.co.jp/script/ads_premium.js?20111025"></script>
+</div>
+<!-- FC2管理用 --><script language="JavaScript" type="text/javascript" src="http://media.fc2.com/counter_empjs.php?id=3493"></script><!-- FC2管理用 -->
+
+											</div>
+					<div class="entry_footer">
+						<ul class="entry_state">
+														<li><a href="blog-category-0.html" title="このカテゴリ一覧を見る">カテゴリ:未分類</a></li>
+														<li><a href="http://twittere.blog.fc2.com/blog-entry-7.html#cm" title="コメントの投稿">CM:0</a></li>
+																												<li><a href="http://twittere.blog.fc2.com/blog-entry-7.html#tb" title="トラックバック">TB:0</a></li>
+																				</ul>
+					</div>
+									</div>								
+				
+				
+								<div class="page_navi">
+					<a href="http://twittere.blog.fc2.com/blog-entry-8.html" title="【あのドラクエのアプリが無料で登場♪】" class="prev preventry">【あのドラクエのアプリが無料で登場♪】</a>					<a href="http://twittere.blog.fc2.com/" title="ホーム" class="home">ホーム</a>
+					<a href="http://twittere.blog.fc2.com/blog-entry-6.html" title="☆★☆最新アプリ速報♪(●・ω・)ﾉ☆★☆" class="next nextentry">☆★☆最新アプリ速報♪(●・ω・)ﾉ☆★☆</a>				</div><!--/page_navi-->
+				
+				  
+				<div id="cm" class="content">
+					<h3 class="sub_header">コメント</h3>
+										<div class="form">
+						<h4 class="sub_title">コメントの投稿</h4>
+						<form action="http://twittere.blog.fc2.com/blog-entry-7.html" method="post" name="comment_form" id="comment_form">
+							<dl>
+								<dt>
+									<input type="hidden" name="mode" value="regist" />
+									<input type="hidden" name="comment[no]" value="7" />
+									<label for="name">名前</label>
+								</dt>
+								<dd><input id="name" type="text" name="comment[name]" size="30" value="" /></dd>
+								<dt><label for="subject">タイトル</label></dt>
+								<dd><input id="subject" name="comment[title]" type="text" size="30" value="No title" onblur="if(this.value == '') this.value='No title';" onfocus="if(this.value == 'No title') this.value='';" /></dd>
+								<dt><label for="mail">メールアドレス</label></dt>
+								<dd><input id="mail" type="text" name="comment[mail]" size="30" value="" /></dd>
+								<dt><label for="url">URL</label></dt>
+								<dd><input id="url" type="text" name="comment[url]" size="30" value="" /></dd>
+								<dt><label for="comment">本文</label></dt>
+								<dd><script type="text/javascript" src="http://static.fc2.com/js/blog/view/comment/comment_toolbar_ja.min.js?2014051302"></script></dd>
+								<dd><textarea id="comment" cols="50" rows="5" name="comment[body]"></textarea></dd>
+								<dt><label for="pass">パスワード</label></dt>
+								<dd><input id="pass" type="password" name="comment[pass]" size="20" /></dd>
+								<dt>非公開コメント</dt>
+								<dd><input id="himitu" type="checkbox" name="comment[himitu]" /><label for="himitu">管理者にだけ表示を許可する</label></dd>
+							</dl>
+							<p class="form_btn"><input type="submit" value="送信" /></p>
+						</form>
+					</div><!--/form-->
+				</div><!--/cm-->
+				
+				
+								<div class="content" id="tb" >
+					<h3 class="sub_header">トラックバック</h3>
+					<div class="trackback">
+						<input onfocus="this.select()" value="http://twittere.blog.fc2.com/tb.php/7-bee0112e" readonly="readOnly" /><br />
+						<a href="javascript:window.location.replace('http://blog.fc2.com/?url='+window.location.href);" title="この記事にトラックバックする(FC2ブログユーザー)">この記事にトラックバックする(FC2ブログユーザー)</a>
+					</div>
+									</div><!--/tb-->
+				
+				
+								
+							</div><!--/main_contents-->
+		</div><!--/main-->
+
+		<div id="sidemenu">
+						
+			<div class="sidemenu_content plg">
+				<h3 class="plg_header" style="text-align:left">プロフィール</h3>
+								<div class="plg_body" style="text-align:left"><p style="text-align:left">
+Author:twitter腐女子１号♪<br>
+ＦＣ２ブログへようこそ！</p></div>
+							</div>
+			
+			<div class="sidemenu_content plg">
+				<h3 class="plg_header" style="text-align:left">最新記事</h3>
+								<div class="plg_body" style="text-align:left"><ul>
+<li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-entry-11.html" title="超本格派不良マンガが無料で読めたε(*´･∀･｀)зﾞ">超本格派不良マンガが無料で読めたε(*´･∀･｀)зﾞ (09/01)</a>
+</li><li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-entry-10.html" title="【超美麗】3Dグラフィック">【超美麗】3Dグラフィック (09/01)</a>
+</li><li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-entry-9.html" title="【戦略バトルゲーム】 いざ、『ブーム・ビーチ』の世界へ！">【戦略バトルゲーム】 いざ、『ブーム・ビーチ』の世界へ！ (08/31)</a>
+</li><li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-entry-8.html" title="【あのドラクエのアプリが無料で登場♪】">【あのドラクエのアプリが無料で登場♪】 (08/31)</a>
+</li><li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-entry-7.html" title="アプリ速報♪　これやばいゲームだよ(●・ω・)ﾉ">アプリ速報♪　これやばいゲームだよ(●・ω・)ﾉ (08/30)</a>
+</li></ul></div>
+							</div>
+			
+			<div class="sidemenu_content plg">
+				<h3 class="plg_header" style="text-align:left">最新コメント</h3>
+								<div class="plg_body" style="text-align:left"><ul>
+</ul></div>
+							</div>
+			
+			<div class="sidemenu_content plg">
+				<h3 class="plg_header" style="text-align:left">最新トラックバック</h3>
+								<div class="plg_body" style="text-align:left"><ul>
+</ul></div>
+							</div>
+			
+			<div class="sidemenu_content plg">
+				<h3 class="plg_header" style="text-align:left">月別アーカイブ</h3>
+								<div class="plg_body" style="text-align:left"><ul>
+<li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-date-201409.html" title="2014/09">2014/09 (2)</a>
+</li><li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-date-201408.html" title="2014/08">2014/08 (7)</a>
+</li><li style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-date-201401.html" title="2014/01">2014/01 (2)</a>
+</li></ul></div>
+							</div>
+			
+			<div class="sidemenu_content plg">
+				<h3 class="plg_header" style="text-align:left">カテゴリ</h3>
+								<div class="plg_body" style="text-align:left"><div>
+<div style="text-align:left">
+<a href="http://twittere.blog.fc2.com/blog-category-0.html" title="未分類">未分類 (11)</a>
+</div></div></div>
+							</div>
+			
+					</div><!--/sidemenu-->
+
+		<div id="pagetop"><a href="#container" title="このページのトップへ">このページのトップへ</a></div>
+	</div><!--/wrap-->
+	<div id="footer">
+				<div id="footer_plg">
+			
+			<div class="footer_content plg">
+				<h3 class="plg_header" style="text-align:left">検索フォーム</h3>
+								<div class="plg_body" style="text-align:left"><form action="http://twittere.blog.fc2.com/blog-entry-7.html" method="get">
+<p class="plugin-search" style="text-align:left">
+<input type="text" size="20" name="q" value="" maxlength="200"><br>
+<input type="submit" value=" 検索 ">
+</p>
+</form></div>
+							</div>
+			
+			<div class="footer_content plg">
+				<h3 class="plg_header" style="text-align:left">RSSリンクの表示</h3>
+								<div class="plg_body" style="text-align:left"><ul>
+<li style="text-align:left"><a href="http://twittere.blog.fc2.com/?xml">最近記事のRSS</a></li>
+<li style="text-align:left"><a href="http://twittere.blog.fc2.com/?xml&comment">最新コメントのRSS</a></li>
+<li style="text-align:left"><a href="http://twittere.blog.fc2.com/?xml&trackback">最新トラックバックのRSS</a></li>
+</ul></div>
+							</div>
+			
+			<div class="footer_content plg">
+				<h3 class="plg_header" style="text-align:left">リンク</h3>
+								<div class="plg_body" style="text-align:left"><ul>
+<li><a href="./?admin">管理画面</a></li>
+</ul></div>
+				<div class="plg_footer" style="text-align:left"><a href="javascript:window.location.replace('http://blog.fc2.com/?linkid=twittere');">このブログをリンクに追加する</a></div>			</div>
+			
+			<div class="footer_content plg">
+				<h3 class="plg_header" style="text-align:left">ブロとも申請フォーム</h3>
+								<div class="plg_body" style="text-align:left"><p class="plugin-friends" style="text-align:left"><a href="http://twittere.blog.fc2.com/?mode=friends">この人とブロともになる</a></p></div>
+							</div>
+			
+			<div class="footer_content plg">
+				<h3 class="plg_header" style="text-align:left">ＱＲコード</h3>
+								<div class="plg_body" style="text-align:left"><div class="plugin-qrcode" style="text-align:left"><img src="http://blog-imgs-58.fc2.com/t/w/i/twittere/ca9d48dd2.jpg" alt="QR"></div></div>
+							</div>
+			
+		</div>
+				<div id="footer_inner">
+			<p class="powered">Powered by FC2ブログ</p>
+			<!--Don't delete--><p class="ad"><script type="text/javascript" charset="utf-8" language="JavaScript" src="http://static.fc2.com/comment.js"></script> 	<script type="text/javascript" src="http://static.fc2.com/js/blog/blog_res.js"></script></p>
+			<p class="copyright">Copyright &copy; 【twitterユーザー専用】超最新アプリ速報♪(●・ω・)ﾉ All Rights Reserved.</p>
+		</div><!-- /footer_inner -->
+	</div><!--/footer-->
+</div><!--/container-->
+<script type="text/javascript" src="http://static.fc2.com/share/blog_template/equalbox.js"></script>
+<script type="text/javascript" src="http://static.fc2.com/share/blog_template/jquery.cookie.js"></script>
+
+<!-- passive:ad:171 -->
+<div id="fc2_bottom_bnr" style="position:fixed;z-index:10000;left:0;bottom:0;width:100%;display:block;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#70000000,EndColorStr=#70000000);background:rgba(0,0,0,0.7);"><div id="fc2_bottom_bnr_img" style="display:block;width:728px;height:94px;margin:0px auto;padding:10px 0px 14px;"><!--/* adfunnel.microad.jp Javascript Tag v */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://adf.send.microad.jp/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=13274");
+   document.write ('&amp;snr=1&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + encodeURIComponent(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + encodeURIComponent(document.referrer));
+   if (document.context) document.write ("&context=" + encodeURIComponent(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + encodeURIComponent(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://adf.send.microad.jp/ck.php?n=a6688829&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://adf.send.microad.jp/avw.php?zoneid=13274&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a6688829&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=1' border='0' alt='' /></a></noscript>
+<!-- FC2管理用 --><img src="http://media.fc2.com/counter_img.php?id=1505" width="1" height="1"><!-- FC2管理用 --><div style="color:#C0C0C0;text-align:center;font-size:9px;margin:0px;padding:2px 0px 0px;">上記広告は1ヶ月以上更新のないブログに表示されています。新しい記事を書くことで広告を消せます。</div></div><span id="fc2_bottom_bnr_close" style="cursor:pointer;display:block;position:absolute;padding:5px;top:0;right:0;width:20px;height:20px;opacity:0.8;max-width:100%;max-height:100%;"><img src="http://blog-imgs-61.fc2.com/t/e/s/test0006/fc2_bottom_bnr_close.png" width="20" height="20" style="border:none;width:20px;height:20px;max-width: 100%;" /></span></div>
+<script type="text/javascript">(function(w, d) {var area = d.getElementById('fc2_bottom_bnr'),areaStyle = area.style;var getScrollMax = function() { return d.documentElement.getBoundingClientRect().height - w.innerHeight; };var getScrollCurrent = function() { return d.documentElement.scrollTop || d.body.scrollTop; };var overlayPosition = function() {if (getScrollMax() > getScrollCurrent()) {areaStyle.bottom = 0;areaStyle.top = 'auto';} else {areaStyle.bottom = 'auto';areaStyle.top = 0;}};var closeBtn = d.getElementById('fc2_bottom_bnr_close'),close = function() { area.style.display = 'none'; };if (w.addEventListener) {w.addEventListener('resize', overlayPosition, false);w.addEventListener('scroll', overlayPosition, false);closeBtn.addEventListener('click', close, false);} else {w.attachEvent('onresize', overlayPosition);w.attachEvent('onscroll', overlayPosition);closeBtn.attachEvent('onclick', close);}})(window, document);</script>
+</body>
+<script type="text/javascript" src="http://static.fc2.com/js/blog/headbar_ad_load.js?genre=22&20141111" charset="utf-8"></script>
+<script type="text/javascript" src="http://static.fc2.com/js/blog/ad_ref.js?20121115"></script>
+</html>

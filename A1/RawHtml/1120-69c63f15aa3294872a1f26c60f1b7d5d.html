@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script  type="text/javascript">
+	function popup(){
+		window.open('tell_a_friend.php', 'tellafriend_script','scrollbars=1,statusbar=1,resizable=1,width=400,height=510');
+	}
+</script>
+<script  type="text/javascript">
+	function popup(){
+		window.open('contact.php','scrollbars=1,statusbar=1,resizable=1,width=400,height=510');
+	}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to TestTogether.org - Show Your Love! Show Your Commitment!  Get Tested Together!</title>
+<script type="text/javascript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+//-->
+</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<meta name="Keywords" content="AIDS, HIV, TEST TOGETHER, Senator Vincent Hughes, Sheryl Lee Ralph, Philadelphia, Love Park, Free HIV Testing, <meta name="description />
+<script language='JavaScript' type='text/javascript' src='JScript/formValidator.js'></script>
+<link href="testtogether.css" rel="stylesheet" type="text/css" />
+<script>
+function validateJoin(formNode){
+  var formValidatorInstance = new FormValidator(formNode);
+  formValidatorInstance.addRule('Name','Please enter your full name.','required');
+  formValidatorInstance.addRule('EmailAddress','Please enter your email address.','required');
+  formValidatorInstance.addRule('EmailAddress','Please enter a valid email address.','email');
+  formValidatorInstance.addRule('Address','Please enter your address.','required');
+  formValidatorInstance.addRule('City','Please enter your city.','required');
+  formValidatorInstance.addRule('State','Please enter your state.','required');
+  formValidatorInstance.addRule('ZipCode','Please enter your zip code.','required');
+  formValidatorInstance.addRule('ZipCode','Please enter a valid zip code.','zipcode');
+  return formValidatorInstance.validate(); 
+}
+</script>
+" />
+</head>
+
+<body onload="MM_preloadImages('images/Header/images/who_we_are_over.jpg','images/Header/images/news_over.jpg','images/Header/images/resources_over.jpg','images/Header/images/join_campaign_over.jpg','images/Header/images/contact_over.jpg','images/Our Story/images/Share_story.jpg','images/Our Story/images/learn_more.jpg','images/Our Story/images/rsvp.jpg','images/Our Story/images/Hughes_Story.jpg','images/Our Story/images/spread_word.jpg','images/Our Story/images/read-stories.jpg','images/Header/images/home_over.jpg','images/Header/images/center_over.jpg')">
+<table width="650" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="650"><table width="650" border="0" cellpadding="0" cellspacing="0" bgcolor="#E5E5E5">
+      <tr>
+        <td height="25" colspan="3" align="right" valign="middle" bgcolor="#E5E5E5"><img src="images/Header/images/banner.jpg" alt="" width="650" height="67" border="0" usemap="#menu" /></td>
+      </tr>
+      <tr>
+        <td width="209" rowspan="4" align="left" valign="top"><table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" id="left">
+          <tr>
+            <td width="209" align="left" valign="top"><p>
+                <map name="MapMapMap" id="MapMapMap">
+                  <area shape="rect" coords="20,96,200,117" href="campaign.htm" alt="Join the Campaign" />
+                  <area shape="rect" coords="23,126,197,151" href="share_story.htm" alt="Share Your Story" />
+                  <area shape="rect" coords="31,163,197,192" href="share_story.htm" alt="Upload your picture" />
+                  <area shape="rect" coords="11,202,205,227" href="campaign.htm" alt="RSVP" />
+                  <area shape="rect" coords="18,236,195,260" href="forwardtofriend.htm" alt="Forward to a Friend" />
+                </map>
+                <img src="images/space.gif" alt="" width="2" height="4" /></p></td>
+          </tr>
+          <tr>
+            <td height="8" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="bkg_campaign" id="form_outside">
+                    <tr>
+                      <td valign="top"><form action="joinourcampaign.php" method="post" name="Join" id="Join" onsubmit="return validateJoin(this)">
+                        <table width="99%" border="0" align="right" cellpadding="1" cellspacing="0" class="content" id="signup">
+                          <tr>
+                            <td height="30">&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="right">*Name:</td>
+                            <td><input name="Name" class="style1" id="Name" tabindex="1" /></td>
+                          </tr>
+                          <tr>
+                            <td align="right">*Email: </td>
+                            <td><input name="EmailAddress" class="style1" id="EmailAddress" tabindex="2" /></td>
+                          </tr>
+                          <tr>
+                            <td align="right">*Address:</td>
+                            <td><input name="Address" class="style1" id="Address"  tabindex="3"/></td>
+                          </tr>
+                          <tr>
+                            <td align="right">*City:</td>
+                            <td><input name="City" class="style1" id="City" tabindex="4" /></td>
+                          </tr>
+                          <tr>
+                            <td align="right">*State:</td>
+                            <td><input name="State" class="style1" id="State" tabindex="5" /></td>
+                          </tr>
+                          <tr>
+                            <td align="right">*Zip: </td>
+                            <td><input name="ZipCode" class="style1" id="ZipCode" maxlength="5" tabindex="6"/></td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td><input name="Sign Me Up" type="image"  tabindex="7"id="Sign Me Up" src="images/btn_sign_me_up.jpg" alt="Sign Me Up!" border="0" /></td>
+                          </tr>
+                        </table>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        </form></td>
+                    </tr>
+                  </table>
+                    </td>
+                </tr>
+                <tr>
+                  <td align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td><table width="100%" border="0" cellpadding="0" cellspacing="0" dwcopytype="CopyTableCell">
+                          <tr>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top"><table width="95%" border="0" align="right" cellpadding="0" cellspacing="3">
+                                    <tr>
+                                      <td valign="top"><img src="images/headers/latest_news.gif" alt="Latest News" width="206" height="25" vspace="5" /></td>
+                                    </tr>
+                                    
+                                  </table></td>
+                                  </tr>
+                            </table></td>
+                          </tr>
+                          <tr>
+                            <td valign="top" class="style20"><table width="100%" border="0" cellpadding="4" cellspacing="0" id="video">
+                              <tr>
+                                <td align="center"><p class="bodybold">Shining a Light on HIV/AIDS</p>                                  </td>
+                              </tr>
+                              
+                              <tr>
+                                <td align="center"><img src="images/video/WorldAidDay_Dec2010.jpg" alt="Shining a Light on HIV/AIDS" width="200" height="165" border="0" usemap="#Map3" /></td>
+                              </tr>
+                              <tr>
+                                <td align="center"><span class="bodybold">Actress Sheryl Lee Ralph works to break the silence and stigma of AIDS</span>.</td>
+                              </tr>
+                              
+                            </table>                              </td>
+                          </tr>
+                          
+                        </table>
+                          </td>
+                      </tr>
+                      
+                    </table>
+                    <p align="center"><img src="images/Our Story/images/Taylor_Story.jpg" alt="" name="WeTestedTogther" width="206" height="275" border="0" usemap="#stories" id="Image1" /><br />
+                      <img src="images/Our Story/images/menu.jpg" alt="menu" name="Menu" width="206" height="60" border="0" usemap="#stories_menu" id="Image2" />
+                      <map name="stories" id="stories">
+                        <area shape="rect" coords="40,229,101,271" href="story.htm" alt="Read Sheryl &amp; Vincent's Story" onmouseover="MM_swapImage('Image1','','images/Our Story/images/Hughes_Story.jpg',1)" onmouseout="MM_swapImgRestore()" />
+                        <area shape="rect" coords="107,230,174,273" href="story.htm" alt="Read Susan &amp; Khephra's Story" />
+                        <area shape="rect" coords="-30,405,169,427" href="media_center.htm" alt="Media Center" />
+                        <area shape="rect" coords="40,229,101,271" href="#" onmouseover="MM_swapImage('Image1','','images/Our Story/images/Hughes_Story.jpg',1)" onmouseout="MM_swapImgRestore()" />
+                      </map>
+                      <map name="stories_menu" id="stories_menu">
+                        <area shape="rect" coords="116,32,199,53" href="story.htm" alt="RSVP to Test Together on June 27th" onmouseover="MM_swapImage('Image2','','images/Our Story/images/read-stories.jpg',1)" onmouseout="MM_swapImgRestore()" />
+                        <area shape="rect" coords="10,35,115,53" alt="Spread the Word" onmousedown="MM_openBrWindow('tell_a_friend.php','','width=400,height=510')" onmouseover="MM_swapImage('Image2','','images/Our Story/images/spread_word.jpg',1)" onmouseout="MM_swapImgRestore()" />
+                        <area shape="rect" coords="7,9,111,27" href="share_story.htm" alt="Share Your Story" onmouseover="MM_swapImage('Image2','','images/Our Story/images/Share_story.jpg',1)" onmouseout="MM_swapImgRestore()" />
+                        <area shape="rect" coords="117,8,205,27" href="news.htm" alt="Learn More" onmouseover="MM_swapImage('Image2','','images/Our Story/images/learn_more.jpg',1)" onmouseout="MM_swapImgRestore()" />
+                      </map>
+                      <br />
+                      <br />
+                      </p></td>
+                </tr>
+                <tr>
+                  <td align="left" valign="top"><div align="center">
+                    <p><img src="images/Header/images/number.jpg" alt="Call CDC Toll-Free" width="209" height="63" /><br />
+                      </p>
+                    </div></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+          <br /></td>
+        <td width="307" align="left" valign="top"><img src="images/Header/images/hughes.jpg" alt="Senator Hughes and Sheryl Lee Ralph" width="305" height="169" /></td>
+        <td width="136" align="left" valign="top"><a href="index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','images/Header/images/home_over.jpg',1)"><img src="images/Header/images/home.jpg" alt="Home" name="Home" width="136" height="28" border="0" id="Home" /></a><a href="index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','images/Header/images/home_over.jpg',0)"><br />
+        </a><a href="about.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('who_we_are','','images/Header/images/who_we_are_over.jpg',1)"><img src="images/Header/images/who_we_are.jpg" alt="Who We Are" name="who_we_are" width="136" height="20" border="0" id="who_we_are" /></a><a href="news.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('News','','images/Header/images/news_over.jpg',1)"><img src="images/Header/images/news.jpg" alt="News &amp; Events" name="News" width="136" height="25" border="0" id="News" /><br />
+        </a><a href="resources.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Resources','','images/Header/images/resources_over.jpg',1)"><img src="images/Header/images/resources.jpg" alt="Resources" name="Resources" width="136" height="26" border="0" id="Resources" /></a><br />
+          <a href="campaign.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Join Our HIV Test Together Campaign','','images/Header/images/join_campaign_over.jpg',1)"><img src="images/Header/images/join_campaign.jpg" alt="Join Our HIV Test Together Campaign" name="Join Our HIV Test Together Campaign" width="136" height="24" border="0" id="Join Our HIV Test Together Campaign" /></a><a href="campaign.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Join','','images/Header/images/join_campaign_over.jpg',1)"><br />
+          </a><a href="media_center.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Media Center','','images/Header/images/center_over.jpg',1)"><img src="images/Header/images/center.jpg" alt="Media Center" name="Media Center" width="136" height="21" border="0" id="Media Center" /><br />
+          </a><a href="contact.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact Us','','images/Header/images/contact_over.jpg',1)"><img src="images/Header/images/contact.jpg" alt="Contact Us" name="Contact Us" width="136" height="25" border="0" id="Contact Us" /></a><a href="contact.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact','','images/Header/images/contact_over.jpg',1)"></a></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="left" valign="top"><img src="images/Header/images/name.jpg" width="441" height="30" /></td>
+        </tr>
+      <tr>
+        <td colspan="2" align="left" valign="top" class="bkg" style="background-no-repeat:"><table width="30%" height="36" border="0" align="right" cellpadding="0" cellspacing="2">
+            <tr>
+              <td colspan="2" valign="bottom"><img src="http://www.testtogether.org/images/space.gif" alt="" width="2" height="1" /></td>
+            </tr>
+            <tr valign="top">
+              <td height="29"><form action="http://www.hivtest.org/SAM/search/result.cfm" method="post" name="search" target="_blank" id="search">
+                  <input type="hidden" value="10" name="SearchRadius"/>
+                  <input name="Zip" type="text" class="button" id="Zip" onfocus="if(this.value=='enter ZIP code')this.value='';" value="enter ZIP code" size="13" maxlength="10"/>
+                  <input name="button" type="image" title="Find a test site" value="submit" src="/images/go_button.gif" alt="Find a test site" align="middle" />
+              </form></td>
+              <td>&nbsp;</td>
+            </tr>
+        </table></td>
+        </tr>
+      
+      <tr>
+        <td colspan="2" align="left" valign="top" bgcolor="#E5E5E5"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="left" valign="top"><p><img src="images/Header/images/message.jpg" alt="Our Message" width="441" height="432" /></p>
+                <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="2" colspan="3" align="left" valign="top" bgcolor="#9C0A0A"><img src="http://www.testtogether.org/images/space.gif" alt="" width="2" height="2" /></td>
+      </tr>
+      <tr>
+        <td height="35" colspan="3" align="center" valign="middle"><table width="100%" border="0" cellpadding="5" cellspacing="0" id="footer">
+          <tr>
+            <td><div align="center">
+                <p class="footer"><a href="index.htm">Home</a> | <a href="about.htm">Who we are</a> | <a href="resources.htm">Resources</a> | <a href="campaign.htm">Join the Campaign</a> | <a href="news.htm">News &amp; Events</a> | <a href="media_center.htm">Media Center</a> | <a href="contact.htm">Contact us</a> | <a href="mailto:support@testtogether.org">Webmaster</a></p>
+            </div></td>
+          </tr>
+        </table>        </td>
+      </tr>
+      <tr>
+        <td height="10" colspan="3" align="center" valign="middle" bgcolor="#070707">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<map name="Map" id="Map"></map>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="9,36,114,54" alt="Spread the Word" onmousedown="MM_openBrWindow('tell_a_friend.php','','width=400,height=510')" onmouseover="MM_swapImage('Image2','','images/Our Story/images/spread_word.jpg',1)" onmouseout="MM_swapImgRestore()" /><area shape="rect" coords="7,9,111,27" href="share_story.htm" alt="Share Your Story" onmouseover="MM_swapImage('Image2','','images/Our Story/images/Share_story.jpg',1)" onmouseout="MM_swapImgRestore()" />
+  <area shape="rect" coords="117,9,205,28" href="news.htm" alt="Learn More" onmouseover="MM_swapImage('Image2','','images/Our Story/images/learn_more.jpg',1)" onmouseout="MM_swapImgRestore()" />
+<area shape="rect" coords="116,32,199,53" href="#" alt="RSVP to Test Together on June 27th" onmousedown="MM_openBrWindow('media/events/June27_08/rsvp_june27.htm','','width=350,height=275')" onmouseover="MM_swapImage('Image2','','images/Our Story/images/rsvp.jpg',1)" onmouseout="MM_swapImgRestore()" />
+</map>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+sc_project=3788878; 
+sc_invisible=1; 
+sc_partition=40; 
+sc_security="d0165f5d"; 
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c41.statcounter.com/3788878/0/d0165f5d/1/" alt="free webpage hit counter" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+<map name="Map3" id="Map3"><area shape="rect" coords="11,8,186,155" href="http://abcnews.go.com/Health/video/shining-light-hivaids-12287951&amp;tab=9482931&amp;section=1206835&amp;playlist=3547557" target="_blank" alt="Click to Play" />
+</map></body>
+</html>

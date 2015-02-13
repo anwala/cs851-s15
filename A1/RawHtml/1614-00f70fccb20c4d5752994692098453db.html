@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+
+    
+    <title>FWTV - Linkis.com</title><meta property="og:image" content="http://linkis.com/images/logo-200x200.jpg" />
+<meta property="og:description" content="{{facebook.description}}" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_LA" />
+<meta property="og:site_name" content="FWTV" />
+<meta property="og:title" content="FWTV{{facebook.title}}" />
+<meta name="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="{{site.description}}" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="fragment" content="!" />
+<meta name="twitter:card" content="player" />
+<meta name="twitter:title" content="FWTV{{facebook.title}}" />
+<meta name="twitter:description" content="{{(facebook.description | clamp:190) || facebook.title}}" />
+<meta name="twitter:image:src" content="https://cdnapisec.kaltura.com/p/1164832/thumbnail/entry_id/{{facebook.link}}/width/640/height/360/type/3" />
+<meta name="twitter:player" content="{{facebook.embedUrl}}" />
+<meta name="twitter:player:width" content="320" />
+<meta name="twitter:player:height" content="180" />
+<meta name="twitter:site" content="@fwtv_online" /><link href="/favicon.ico" rel="icon" type="image/png" />
+<link href="http://d33utfl382x3hu.cloudfront.net/favicon.ico" rel="icon" type="" />
+<link href="/images/apple/apple-touch-icon-144x144.png" rel="apple-touch-icon" size="144x144" />
+<link href="/images/apple/apple-touch-icon-72x72.png" rel="apple-touch-icon" size="72x72" />
+<link href="/images/apple/apple-touch-icon-57x57.png" rel="apple-touch-icon" size="57x57" />    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+        }
+        html, body, #source_site {
+            width: 100%;
+            height: 100%;
+        }
+        #source_site{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+    function __log(val){}
+
+    function hihit(id) {
+        if (id) {
+            var url = "http://stat.notlurking.com/log.php?id=" + id + "&r=" + Math.round(100000 * Math.random());
+            var im = new Image();
+            im.src = url;
+        }
+    }
+
+
+function refreshPage()
+{
+    location.href = location.href.split('#')[0];
+    setTimeout(function(){
+        if (window.hihit) hihit(2580);
+    }, 10000);
+}
+function redirectPage(url)
+{
+    location.href = url;
+}
+function lnEvent(action, label, category)
+{
+    
+    var path = ['', 'index', 'ln-event'].join('/');
+    var e = function(str){ return str ? encodeURIComponent(str) : ''; };
+    var theme = window.LinkData ? LinkData.curTheme : 0;
+    var linkId = window.LinkData ? LinkData.id : 0;
+    (new Image()).src = path +
+        '?c=' + e(category) +
+        '&a=' + e(action) +
+        '&l=' + e(label) +
+        '&t=' + e(theme) +
+        '&li=' + e(linkId);
+}
+
+</script>
+
+<script type="text/javascript" src="/js/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    hihit(3344);
+    $.get(["\/","rnjkm","?","unzip=1"].join(""))
+        .done(function(response){
+            document.write(response);
+        })
+        .fail(function(){ hihit(3345); });
+});
+</script>
+
+    <noscript>
+        <iframe id="source_site" border="0" frameborder="0" hspace="0" vspace="0" src="http://www.fwtv.tv/candemolfese/Halloween-paso-y-esto-me-dejo"></iframe>
+    </noscript>
+
+</body>
+</html>

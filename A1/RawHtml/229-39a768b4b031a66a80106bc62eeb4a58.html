@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html ng-app="ReferenceME" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"bd0ff35e9a","applicationID":"2737402","transactionName":"eg0LQUVYXF1QFEoVUlY9FVRQUkMeXAgBA08=","queueTime":9,"applicationTime":7,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-515.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgIHWFVSGwEHV1ZWBwM="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:19,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:19,2:20,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:20,2:19,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:20,2:19,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:20,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.licenseKey&&t.applicationID&&u&&u.body){s(h,function(e,n){e in t||(t[e]=n)}),l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=l.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,u=c.document,f="addEventListener",d="attachEvent",p=(""+location).split("?")[0],h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-515.min.js"},l=e.exports={offset:i(),origin:p,features:{}};u[f]?(u[f]("DOMContentLoaded",o,!1),c[f]("load",n,!1)):(u[d]("onreadystatechange",r),c[d]("onload",n)),a("mark",["firstbyte",i()])},{1:18,handle:"D5DuLP"}],18:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],19:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],20:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:19,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>
+
+    <meta name="title" content="RefME | Free Reference Generator – Harvard, APA, MLA, Chicago…">
+<meta name="description" content="Create and manage your references in seconds with RefME’s FREE reference generator. Harvard, APA, MLA, Chicago &amp; more – we’ve got it covered!">
+<meta name="keywords" content="eferencing generator, bibliography generator, harvard, apa, mla, turabian, oscola">
+<meta name="author" content="RefME">
+<meta name="apple-itunes-app" content="app-id=553222694">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@GetRefME">
+<meta name="twitter:title" content="RefME">
+<meta name="twitter:description" content="Create and manage your references in seconds with RefME’s FREE reference generator. Harvard, APA, MLA, Chicago &amp; more – we’ve got it covered!">
+<meta name="twitter:creator" content="@GetRefME">
+<meta name="twitter:image:src" content="https://refme.co/assets/icons/logo_refme-cb939497de60a82cb04157ebf9c27f4f.png">
+<meta name="twitter:domain" content="RefME.com">
+<meta name="twitter:app:name:iphone" content="RefME">
+<meta name="twitter:app:name:ipad" content="RefME">
+<meta name="twitter:app:name:googleplay" content="RefME">
+<meta name="twitter:app:url:iphone" content="http://app.adjust.io/g7bndp">
+<meta name="twitter:app:url:ipad" content="http://app.adjust.io/g7bndp">
+<meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=appwolf.referenceme.activities">
+<meta name="twitter:app:id:iphone" content="553222694">
+<meta name="twitter:app:id:ipad" content="553222694">
+<meta name="twitter:app:id:googleplay" content="">
+
+<meta property="fb:app_id" content="288753964661538" />
+<meta property="og:title" content="RefME | Free Reference Generator – Harvard, APA, MLA, Chicago…"/>
+<meta property="og:site_name" content="RefME | Free Reference Generator – Harvard, APA, MLA, Chicago…"/>
+<meta property="og:image" content="https://www.refme.com/assets/facebook-share.png" />
+<meta property="og:description" content="Create and manage your references in seconds with RefME’s FREE reference generator. Harvard, APA, MLA, Chicago &amp; more – we’ve got it covered!" />
+<link rel="canonical" href="https://www.refme.com/" />
+<title>RefME | Free Reference Generator – Harvard, APA, MLA, Chicago…</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if IE 8 ]>
+    <script type="text/javascript" src="/vendor/html5shiv.min.js"></script>
+    <script type="text/javascript" src="/vendor/querySelector.polyfill.js"></script>
+    <![endif]-->
+
+    <script>window.twttr = (function (d, s, id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src= "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));</script>
+
+    <link href="/assets/application-16e1e4c814dcd477efad62f674e52a17.css" media="all" rel="stylesheet" />
+
+    <script src="/assets/vendor-71bb8172f032ff75cc1eb30072980c2b.js"></script>
+    <script src="/assets/templates-7eb5a0e505a88229429814054a79bfc1.js"></script>
+    <script src="/assets/application-352b5a72d489e5d451ce4577c9db1188.js"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="aN07txM0krsl7AorbiehO9ntdzPU7UAgqTYuO/gR2gQ=" name="csrf-token" />
+    <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("b2a74837d4af4b1099751827b016e6ce");</script><!-- end Mixpanel -->
+
+    <!--[if lte IE 9]>
+    <link href="/ie9fix.css" media="all" rel="stylesheet">
+    <![endif]-->
+    <!--[if IE 8 ]>
+    <link href="/ie8fix.css" media="all" rel="stylesheet">
+    <![endif]-->
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="//use.typekit.net/lbu0yno.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+
+  <body ng-class="{'share-to-win__body': windowLoc === '/share-to-win'}">
+    <div class="landing__header" show-on-scroll="100%"><header class="header--main ">
+  <div class="container grid">
+    <h1 class="header__logo text--left grid__item ">
+      <a href="/" class="site-logo ">
+        <img alt="RefME Logo" class="site-logo__img" src="/assets/icons/logo.svg" />
+
+        <!--[if lte IE 8]>
+          <img alt="RefME Logo" src="/assets/icons/logo.png" />
+        <![endif]-->
+        <span class="site-logo__text">RefME</span>
+      </a>
+    </h1><!--
+  --><nav class="grid__item  text--right">
+      <ul class="site-navigation">
+        <li class="site-navigation__item">
+          <a href="/blog">Blog</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="/libraries">For Libraries</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="/developer-docs">For Developers</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="https://refme.zendesk.com/hc/en-gb">Support</a>
+        </li>
+        <li class="site-navigation__item sign-up__button">
+          <a href="#/sign-up">Sign up</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+</div>
+<section class="landing">
+  <div class="container full-height text--center">
+    <div class="landing__titles-container">
+      <div class="landing__titles">
+        <h1 class="landing__logo">RefME</h1>
+        <h2 class="landing__title">Referencing, MadeEasy.</h2>
+        <h3 class="landing__subtitle">The free tool to generate citations, reference lists and bibliographies.</h3>
+      </div>
+    </div>
+    
+    <div class="landing__image" ng-controller="landingAnimationCtrl" ng-class="{animate: animate}">
+      <iframe class="landing__video" src="//player.vimeo.com/video/109723350?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scale-vimeo></iframe>
+<!--[if IE 8 ]>
+  <img src="/assets/landing-image.png" alt="Vimeo fallback image" />
+<![endif]-->
+    </div>
+    <ul ng-controller="signUpCtrl" class="landing__forms active" ng-class="{'animate' : animateForm}">
+      <li class="sign-up__button">
+        <button ui-sref="sign-up" class="submit__button">Sign Up Free</button>
+      </li>
+      <li><a href="#/sign-in">or sign in</a></li>
+    </ul>
+  </div>
+  <section ui-view="modalView"></section>
+
+  <section class="landing__section container">
+    <div class="landing__section-half">
+      <div class="grid__item one-half palm-one-whole text--left">
+        <h3 class="landing__section-title">One-click referencing</h3>
+        <p class="landing__section-para">RefME automates the whole referencing process for you. You can search by book/journal article title, DOI, ISBN, ISSN or simply copy and paste any website URL to create a reference in seconds.</p>
+      </div><!--
+    --><div class="grid__item one-half palm-one-whole text--center">
+        <img src="assets/home/one-click-1.png" alt="One Click Referencing" />
+      </div>
+    </div>
+    <div class="landing__section-half">
+      <div class="grid__item one-half palm-one-whole text--left">
+        <h3 class="landing__section-title">In any style</h3>
+        <p class="landing__section-para">Reference in over 6,500 styles including Harvard, APA and MLA, we've got them all! We are also constantly updating and adding more styles as we find them.</p>
+      </div><!--
+    --><div class="grid__item one-half palm-one-whole text--center">
+        <img src="assets/home/any-style-1.png" alt="In any style" />
+      </div>
+    </div>
+  </section>
+
+
+  <section class="landing__section container">
+    <div class="landing__section-half">
+      <div class="grid__item one-half palm-one-whole text--left">
+        <h3 class="landing__section-title">Scan book and journal Barcodes</h3>
+        <p class="landing__section-para">Our award winning app syncs with RefME.com and allows you to scan book or journal barcodes with PDF, OCR and much more coming soon!</p>
+        <p>
+          <a href="http://app.adjust.io/g7bndp"><img src="assets/icons/app-store-icon.png" alt="Available on the App Store" /></a>
+          <a href="http://app.adjust.io/pqrxk4"><img src="assets/icons/google-play.png" alt="Available on the Google Play Store" /></a>
+        </p>
+      </div><!--
+    --><div class="grid__item one-half palm-one-whole text--center">
+        <img src="assets/home/on-mobile-1.png" alt="On Mobile" />
+      </div>
+    </div>
+    <div class="landing__section-half">
+      <div class="grid__item one-half palm-one-whole text--left">
+        <h3 class="landing__section-title">Anytime, anywhere</h3>
+        <p class="landing__section-para">Access your work from anywhere. Your projects, citations and bibliographies are stored in the cloud and synced across all of your devices, ready for when you are.</p>
+      </div><!--
+    --><div class="grid__item one-half palm-one-whole text--center">
+        <img src="assets/home/anytime-cloud.png" alt="Anytime, anywhere" />
+      </div>
+    </div>
+  </section>
+
+
+  <section class="landing__section container">
+    <div class="landing__section-half">
+      <div class="grid__item one-half palm-one-whole text--left">
+        <h3 class="landing__section-title">Works great with other tools</h3>
+        <p class="landing__section-para">Import and export your work to Microsoft Word, Evernote, Mendeley and many more applications.</p>
+      </div><!--
+    --><div class="grid__item one-half palm-one-whole text--center">
+        <img src="assets/home/works-with-1.png" alt="Works cheerfully with" />
+      </div>
+    </div>
+    <div class="landing__section-half">
+      <div class="grid__item one-half palm-one-whole text--left">
+        <h3 class="landing__section-title">There's more to come!</h3>
+        <p class="landing__section-para">Recommended Research, PDF annotation, OCR and much more is on the way. We think it's going to remove the search from research. Watch this space.</p>
+      </div><!--
+    --><div class="grid__item one-half palm-one-whole text--center">
+        <img src="assets/home/revolution.png" alt="Anytime, anywhere" />
+      </div>
+    </div>
+  </section>
+
+  <div class="text--center ">
+    <ul ng-controller="signUpCtrl" class="landing__forms active" ng-class="{'animate' : animateForm}">
+      <li class="sign-up__button">
+        <button ui-sref="sign-up" class="submit__button">Sign Up Free</button>
+      </li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+  <p class="footer__logo grid__item">© ReferenceME, Ltd. (2014)</p><!--
+--><ul class="list--inline grid__item footer__list">
+    <li class="list__item">
+      <a href="/legal/terms">Terms</a>
+    </li>
+    <li class="list__item">
+      <a href="/legal/privacy">Privacy</a>
+    </li>
+  </ul>
+</footer>
+
+
+  <aside class="landing__aside container" hide-on-scroll="100%">
+    <ul class="site-navigation">
+      <li class="site-navigation__item">
+        <a href="/blog">Blog</a>
+      </li>
+      <li class="site-navigation__item">
+        <a href="/libraries">For Libraries</a>
+      </li>
+      <li class="site-navigation__item">
+        <a href="/developer-docs">For Developers</a>
+      </li>
+      <li class="site-navigation__item">
+        <a href="https://refme.zendesk.com/hc/en-gb">Support</a>
+      </li>
+    </ul>
+  </aside>
+  <div class="landing__scroll" click-to-scroll="100%">Scroll Down</div>
+</section>
+
+    <script>
+      var getCookie = function(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1);
+            if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+        }
+        return "";
+      };
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-42730441-4', 'auto');
+      ga('send', 'pageview', {'dimension1': getCookie('open_platform')});
+    </script>
+
+    <!-- Google Code for RefME Remarketing -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 971556449;
+var google_conversion_label = "GMgoCPr89lgQ4YyjzwM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971556449/?value=1.00&amp;currency_code=GBP&amp;label=GMgoCPr89lgQ4YyjzwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+_fbq.push(['addPixelId', '395321937309422']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=395321937309422&amp;ev=PixelInitialized" /></noscript>
+
+    <script>
+  var _rollbarConfig = {
+    accessToken: "556940bf000c4ae690058ede036feae0",
+    captureUncaught: true,
+    uncaughtErrorLevel: 'error',
+    logLevel: 'error',
+    // making this env + browser so that we can distinguish in rollbar and send separate reports
+    payload: {
+      environment: "production-browser",
+      client: {
+        javascript: {
+          source_map_enabled: true,
+          code_version: "1.0",
+          // Optionally have Rollbar guess which frames the error was thrown from
+          // when the browser does not provide line and column numbers.
+          guess_uncaught_frames: true
+        }
+      }
+    }
+  };
+  !function(a,b){function c(b){this.shimId=++h,this.notifier=null,this.parentShim=b,this.logger=function(){},a.console&&void 0===a.console.shimId&&(this.logger=a.console.log)}function d(b,c,d){!d[4]&&a._rollbarWrappedError&&(d[4]=a._rollbarWrappedError,a._rollbarWrappedError=null),b.uncaughtError.apply(b,d),c&&c.apply(a,d)}function e(b){var d=c;return g(function(){if(this.notifier)return this.notifier[b].apply(this.notifier,arguments);var c=this,e="scope"===b;e&&(c=new d(this));var f=Array.prototype.slice.call(arguments,0),g={shim:c,method:b,args:f,ts:new Date};return a._rollbarShimQueue.push(g),e?c:void 0})}function f(a,b){if(b.hasOwnProperty&&b.hasOwnProperty("addEventListener")){var c=b.addEventListener;b.addEventListener=function(b,d,e){c.call(this,b,a.wrap(d),e)};var d=b.removeEventListener;b.removeEventListener=function(a,b,c){d.call(this,a,b&&b._wrapped?b._wrapped:b,c)}}}function g(a,b){return b=b||this.logger,function(){try{return a.apply(this,arguments)}catch(c){b("Rollbar internal error:",c)}}}var h=0;c.init=function(a,b){var e=b.globalAlias||"Rollbar";if("object"==typeof a[e])return a[e];a._rollbarShimQueue=[],a._rollbarWrappedError=null,b=b||{};var h=new c;return g(function(){if(h.configure(b),b.captureUncaught){var c=a.onerror;a.onerror=function(){var a=Array.prototype.slice.call(arguments,0);d(h,c,a)};var g,i,j="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(g=0;g<j.length;++g)i=j[g],a[i]&&a[i].prototype&&f(h,a[i].prototype)}return a[e]=h,h},h.logger)()},c.prototype.loadFull=function(a,b,c,d){var e=g(function(){var a=b.createElement("script"),e=b.getElementsByTagName("script")[0];a.src=d.rollbarJsUrl,a.async=!c,a.onload=f,e.parentNode.insertBefore(a,e)},this.logger),f=g(function(){if(void 0===a._rollbarPayloadQueue)for(var b,c,d,e,f=new Error("rollbar.js did not load");b=a._rollbarShimQueue.shift();)for(d=b.args,e=0;e<d.length;++e)if(c=d[e],"function"==typeof c){c(f);break}},this.logger);g(function(){c?e():a.addEventListener?a.addEventListener("load",e,!1):a.attachEvent("onload",e)},this.logger)()},c.prototype.wrap=function(b){try{if("function"!=typeof b)return b;if(b._isWrap)return b;if(!b._wrapped){b._wrapped=function(){try{return b.apply(this,arguments)}catch(c){throw a._rollbarWrappedError=c,c}},b._wrapped._isWrap=!0;for(var c in b)b.hasOwnProperty(c)&&(b._wrapped[c]=b[c])}return b._wrapped}catch(d){return b}};for(var i="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError".split(","),j=0;j<i.length;++j)c.prototype[i[j]]=e(i[j]);var k="//d37gvrvc0wt4s1.cloudfront.net/js/v1.1/rollbar.min.js";_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||k;var l=c.init(a,_rollbarConfig);l.loadFull(a,b,!1,_rollbarConfig)}(window,document);
+</script>
+
+
+  </body>
+</html>

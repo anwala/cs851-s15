@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bad Link</title>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style type="text/css">
+    body {
+      font-family: 'open sans', Sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #49535a;
+    }
+
+    .errorpage-body {
+      max-width: 600px;
+      text-align: left;
+      margin: 0 auto 10% auto;
+      padding: 0 30px 0 30px;
+    }
+
+    h1 {
+      font-size: 210%;
+      line-height: 1.2;
+      margin-bottom: .5em;
+      font-weight: normal;
+    }
+
+    h3 {
+      margin: 1.5em 0 .5em 0;
+      font-size: 135%;
+      font-weight: normal;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-top: .5em;
+    }
+
+    .badlink {
+      word-wrap: break-word;
+      font-size: 80%;
+      line-height: 1.5em;
+      margin: 0 0 0 1.2em;
+      padding-left: 1.2em;
+      border-left: 4px solid #c44;
+    }
+
+    .logo {
+      width: 170px;
+      height: 76px;
+    }
+
+    .logo-area {
+      margin: 0 auto 50px auto;
+      width: 100%;
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      h1 {font-size: 170%;}
+      h3 {font-size: 125%;}
+      p {font-size: 14px;}
+      .logo { width: 120px; height: 54px; }
+      .logo-area { margin-bottom: 25px;}
+    }
+
+    .store-logos {
+      width: 100%;
+      text-align: center;
+      margin-left: -15px;
+      margin-bottom: 0;
+    }
+
+    .store-logos a{
+      display: inline-block;
+      margin-left: 15px;
+      margin-bottom: 20px;
+    }
+    .store-logos a img{
+      border: none;
+    }
+
+    .store-logos.amazon  {
+      margin-left: -35px;
+    }
+    .store-logos.amazon a {
+      margin-left: 35px;
+    }
+
+  </style>
+</head>
+<body>
+    <div class='errorpage-body'>
+        <div class='logo-area'>
+            <img src="http://www.georiot.com/img/georiot_logo_home.png" class="logo" />
+        </div>
+        <h1>Sorry! That isn't a valid GeoRiot link.</h1>
+        <p>
+            The link you followed appears to be incorrect or misspelled:
+        </p>
+
+
+        <p class="badlink">
+            <em id="badLink">
+                http://target.georiot.com:51001/Proxy.ashx?grid%3D682%26p%3D24373%26a%3D1704757%26url%3Dhttps%3A%2F%2Fitunes.apple.com%2Fit%2Fapp%2Ffifa-14-by-ea-sports%2Fid639816646%3Fmt%3D8%26uo%3D4%26partnerId%3D2003
+            </em>
+        </p>
+        <script type="text/javascript">
+
+            function getQueryParams(qs) {
+                qs = qs.split("+").join(" ");
+
+                var params = {}, tokens,
+                    re = /[?&]?([^=]+)=([^&]*)/g;
+
+                while (tokens = re.exec(qs)) {
+                    params[decodeURIComponent(tokens[1])]
+                        = decodeURIComponent(tokens[2]);
+                }
+
+                return params;
+            }
+            var query = getQueryParams(document.location.search);
+
+            var incomingLink = query.badlink;
+            document.getElementById("badLink").innerHTML = incomingLink;
+        </script>
+        <h3>Want to find your product manually?</h3>
+        <p>Go directly to one of these sites and search for the product:</p>
+        <!--iTunes, App Store, iBooks, Mac App Store on top and Amazon, Amazon MP3, Amazon Kindle, Amazon Android App Store on the bottom-->
+        <p class="store-logos itunes">
+            <a href="http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=https%3A%2F%2Fitunes.apple.com%2Fus%2Fstore"><img alt="itunes" src="/store-logos/badge_itunes-lrg.png" width="110" height="40" /></a>
+            <a href="http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=https%3A%2F%2Fitunes.apple.com%2Fus%2Fgenre%2Fios%2Fid36%3Fmt%3D8"><img alt="appstore" src="/store-logos/badge_appstore-lrg.png" width="135" height="40" /></a>
+            <a href="http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=https%3A%2F%2Fitunes.apple.com%2Fus%2Fgenre%2Fbooks%2Fid38%3Fmt%3D11"><img alt="bookstore" src="/store-logos/badge_ibooks-lrg.png" width="110" height="40" /></a>
+            <a href="http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=https%3A%2F%2Fitunes.apple.com%2Fus%2Fgenre%2Fmac%2Fid39%3Fmt%3D12"><img alt="macstore" src="/store-logos/badge_macappstore-lrg.png" width="165" height="40" /></a>
+        </p>
+        <p class="store-logos amazon">
+            <a href="http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=http%3A%2F%2Fwww.amazon.com%2F"><img alt="amazonmain" src="/store-logos/amazon.png" width="65" height="40" /></a>
+            <a href="http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fs%2Fref%3Dnb_sb_noss%3Furl%3Dsearch-alias%253Daps%26field-keywords%3Dmusic"><img alt="amazonmp3" src="/store-logos/amazonmp3.png" width="92" height="40" /></a>
+            <a href=" http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fs%2Fref%3Dnb_sb_noss%3Furl%3Dsearch-alias%253Daps%26field-keywords%3Dkindle"><img alt="amazonkindle" src="/store-logos/amazonkindle.png" width="112" height="40" /></a>
+            <a href="http://target.georiot.com/Proxy.ashx?tsid=3087&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fs%2Fref%3Dnb_sb_noss%3Furl%3Dsearch-alias%253Daps%26field-keywords%3Dapps"><img alt="amazonapps" src="/store-logos/amazonapp.png" width="126" height="40" /></a>
+        </p>
+
+        <h3>Are you the publisher?</h3>
+        <p>
+            Most links fail due to a misspelling in a parameter name or extra characters added to the end of the URL. If everything looks good to you and the link still is not working try clearing your cache or using a different browser or device.  Try testing the link one last time and if all else fails then <a href="mailto:contact@georiot.com">contact us </a>.
+        </p>
+    </div>
+</body>
+</html>
