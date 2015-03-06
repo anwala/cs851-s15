@@ -1,0 +1,1094 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 2,
+    "params": {
+      "indent": "true",
+      "q": "isis",
+      "_": "1425615009809",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 14,
+    "start": 0,
+    "docs": [
+      {
+        "source_file_s": "MAT-2.warc@19167413",
+        "url": "http://linkis.com/www.envenezuela1.com/zve1w",
+        "host": "linkis.com",
+        "domain": "linkis.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html; charset=utf-8",
+        "server": [
+          "nginx/1.1.19",
+          "PHP/5.5.21-1+deb.sury.org~precise+2"
+        ],
+        "content_length": 34704,
+        "id": "sha1:VQUZRNANWISTA5BG4QA4XGLODQWEDNZT/AjMSBRX/F55dDlmPwZB5GQ==",
+        "hash": [
+          "sha1:VQUZRNANWISTA5BG4QA4XGLODQWEDNZT"
+        ],
+        "crawl_date": "2015-03-05T04:03:52Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040352",
+        "content": [
+          "You Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi Arabia | Alastair... - Linkis.comClose panelhttp://www.huffingtonpost.com/alastair-crooke/isis-wahhabism-saudi-arabia_b_5717157.html?utm_hp_ref=tw4 views• tweetsYou Can't Understand #ISIS If You Don't Know the History of #Wahhabism in #SaudiArabia via @theworldpostlinkis.com/huffingtonpost.com/zve1w6 months agokalifani6Promote your business easily and effectively with LinkisCreate promokalifani6 thinks you might be interested inLikeRTTwitter API is not answering.Please wait 5 sec and try againTweetCancel0/120LinkisLoginClose panelSettingsLog in via social networksorComments are available for registered users only.Sign up and authorize our application.Your account data is broken. You can fix it right nowWe were unable to connect your Twitter accountPossible causes include:Your Twitter password changed.You have not granted Linkis.com approval to share to your Twitter account.Some other complicated issue we can't quite explain.To fix this, reconnect Linkis.com to Twitter… Log in via TwitterWe were unable to connect your Facebook accountPossible causes include:Your Facebook password changed.You have not granted Linkis.com approval to share to your Facebook account.Some other complicated issue we can't quite explain.To fix this, reconnect Linkis.com to Facebook… Log in via FacebookExperience instant customization!Tired of manually customizing all the links in your Twitter feed?Meet our super-duper feature which makes it even easier to share!Turn on Twitter automationWell done! Now you can keep tweeting the way you usually do. All the boring job will be done for you by our service.Note that you can switch Twitter automation OFF in your Settings menuWell done! Now you can keep tweeting the way you usually do. All the boring job will be done for you by our service.Note that you can switch Twitter automation OFF in your Settings menuCloseCreate promoAdd URL and few words about it.Everyone who visits this page will see it.Hint: set default promo in your settings.Fetch0/120SaveDelete promo block?This promo is not the same as you indicated in your settings. By deleting current promo you will leave the block blank. Are you sure?Yes, deleteorUse my default promo linkOpen your Twitter potential and see the profit!People are already having fun with Linkis.com, sharing links easily and customizing them in few simpleclicks.It's super cool automation feature does everything for you. Sit back and have fun while we make your tweetsbeneficial!Connect and turn on Twitter automation@kalifani6would highly appreciate your RT. You can retweet right here by simply clicking on the button belowRetweetYou can't retweet your own tweetMaybe some other timeWe had problem retweet on your behalf, but you canRetweet manuallyCloseClose"
+        ],
+        "content_text_length": 2900,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "You Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi Arabia | Alastair... - Linkis.com",
+        "keywords": "you, can't, understand, isis, if, you, don't, know, the, history, of, wahhabism, in, saudi, arabia, worldpost",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 48 54 4d 4c 3e 0a 3c 68 74 6d 6c 3e 0a 3c 68 65 61 64 3e 0a 0a 20",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "twitter.com",
+          "linkis.com",
+          "www.huffingtonpost.com"
+        ],
+        "links_domains": [
+          "twitter.com",
+          "linkis.com",
+          "huffingtonpost.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "ul",
+          "form",
+          "b",
+          "link",
+          "a",
+          "img",
+          "div",
+          "script",
+          "br",
+          "meta",
+          "li",
+          "input",
+          "title",
+          "iframe",
+          "textarea",
+          "p",
+          "html",
+          "h1",
+          "head",
+          "h3",
+          "h2",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=utf-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=utf-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_48": "qMj4qHnTwSM2nUXwjhS5qnRpFnqTLwi6NbL5S5BHj7Dkaq3ejqbTN6TYyhS1O6n8",
+        "ssdeep_hash_bs_96": "Dn0tARVzU4bG93DkaquSTNNyhyGRGd01",
+        "ssdeep_hash_ngram_bs_48": "qMj4qHnTwSM2nUXwjhS5qnRpFnqTLwi6NbL5S5BHj7Dkaq3ejqbTN6TYyhS1O6n8",
+        "ssdeep_hash_ngram_bs_96": "Dn0tARVzU4bG93DkaquSTNNyhyGRGd01",
+        "crawl_dates": [
+          "2015-03-05T04:03:52Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861343317033000
+      },
+      {
+        "source_file_s": "MAT-2.warc@944014",
+        "url": "http://twiey.com/article/33",
+        "host": "twiey.com",
+        "domain": "twiey.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx"
+        ],
+        "content_type_served": "text/html; charset=UTF-8",
+        "content_length": 14001,
+        "id": "sha1:TON2FM57ZBK2AK725B3TYQR2NAEGIT6P/suKVkYgUzc4jrAFGx6chjQ==",
+        "hash": [
+          "sha1:TON2FM57ZBK2AK725B3TYQR2NAEGIT6P"
+        ],
+        "crawl_date": "2015-03-05T04:03:36Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040336",
+        "content": [
+          "【大豊作】この一年で映画で乳首を晒した女優の一覧（画像大量）超速バズッター通信【大豊作】この一年で映画で乳首を晒した女優の一覧（画像大量）この一年で映画で乳首を晒した女優、多すぎ！こんなにも豊作だったんだなｗ新着記事【グロ注意】首切られた後でも人間って動くんだな・・・【閲覧注意】ISIS（イスラム国）がアップした21人一斉斬首動画がヤバすぎる後藤真希、巨乳お尻丸出しヌード！「これネット初流出だろ！」「乳首見えとる！」（画像大量）【ﾎﾞｯｷ注意】流出した吉沢明歩（AV女優）のノーモザイクおま●こを発見！【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいイスラム国で性奴隷として170ドルで売られてる少女が可愛すぎるｗｗｗｗ綾瀬はるか、「ブルマ」「透け乳首」恥ずかしい過去画像が続々流出…熱愛相手・松坂桃李ファンの犯行か…美女真空パック・・・やり過ぎておしっこ漏らして失神寸前・・・【エログロ】可愛い女の子に本気のエロ拷問した結果･･･人気記事【超閲覧注意】ISIS(イスラム国)が後藤健二さんの斬首映像を公開【驚愕】女の子をガチガチに固定したままマジでイカせるとこうなる【画像あり】ベッキーのパンツどころか●●●も写ってしまった件【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】レ●プで犯されて死んでる女の子の画像【感動】ディズニーランドで迷子の園内放送がない理由【衝撃画像】壇蜜が普通にま●こ晒しててエロ過ぎる件ｗｗｗｗ（画像7枚）【閲覧注意】彼女を布団圧縮袋に入れて空気を抜いた結果・・・(画像11枚)【超閲覧注意】ヤクザの組長の娘をレ〇プした男の末路に背筋が凍った・・・【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいpchttp://twiey.com/http://twiey.com/article/33"
+        ],
+        "content_text_length": 860,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "【大豊作】この一年で映画で乳首を晒した女優の一覧（画像大量）",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 68 74 6d 6c 3e 0a 3c 68 65 61 64 3e 0a 20 20",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "twiey.com"
+        ],
+        "links_domains": [
+          "twiey.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "form",
+          "link",
+          "a",
+          "div",
+          "img",
+          "script",
+          "meta",
+          "input",
+          "title",
+          "p",
+          "html",
+          "head",
+          "h1",
+          "h3",
+          "span",
+          "h2"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "ja",
+        "ssdeep_hash_bs_48": "aq+ap5kOYhj8RZfxNBQgHguNIJlZD1N0AGNdCjNmc2XBPcX93OGKkBfK1KofJ",
+        "ssdeep_hash_bs_96": "hTZf5HguNIV1N0AGXLXXZ+3OBkB4bB",
+        "ssdeep_hash_ngram_bs_48": "aq+ap5kOYhj8RZfxNBQgHguNIJlZD1N0AGNdCjNmc2XBPcX93OGKkBfK1KofJ",
+        "ssdeep_hash_ngram_bs_96": "hTZf5HguNIV1N0AGXLXXZ+3OBkB4bB",
+        "crawl_dates": [
+          "2015-03-05T04:03:36Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861325312983000
+      },
+      {
+        "source_file_s": "MAT-2.warc@3151723",
+        "url": "http://twiey.com/article/37",
+        "host": "twiey.com",
+        "domain": "twiey.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx"
+        ],
+        "content_type_served": "text/html; charset=UTF-8",
+        "content_length": 14103,
+        "id": "sha1:HWO5NNYMR5XYM3VGSDZQZ4I2MJNUF54Q/jnp9DmN7V/+c/EL/5iaa0g==",
+        "hash": [
+          "sha1:HWO5NNYMR5XYM3VGSDZQZ4I2MJNUF54Q"
+        ],
+        "crawl_date": "2015-03-05T04:03:40Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040340",
+        "content": [
+          "【ﾎﾞｯｷ注意】最近のコスプレイヤー大胆すぎやろｗｗｗ（画像大量）超速バズッター通信【ﾎﾞｯｷ注意】最近のコスプレイヤー大胆すぎやろｗｗｗ（画像大量）最近のコスプレイヤーは可愛い子も多くて衣装も過激ですｗクッソ抜けるコス画像はこちらから。新着記事【グロ注意】首切られた後でも人間って動くんだな・・・【閲覧注意】ISIS（イスラム国）がアップした21人一斉斬首動画がヤバすぎる後藤真希、巨乳お尻丸出しヌード！「これネット初流出だろ！」「乳首見えとる！」（画像大量）【ﾎﾞｯｷ注意】流出した吉沢明歩（AV女優）のノーモザイクおま●こを発見！【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいイスラム国で性奴隷として170ドルで売られてる少女が可愛すぎるｗｗｗｗ綾瀬はるか、「ブルマ」「透け乳首」恥ずかしい過去画像が続々流出…熱愛相手・松坂桃李ファンの犯行か…美女真空パック・・・やり過ぎておしっこ漏らして失神寸前・・・【エログロ】可愛い女の子に本気のエロ拷問した結果･･･人気記事【超閲覧注意】ISIS(イスラム国)が後藤健二さんの斬首映像を公開【驚愕】女の子をガチガチに固定したままマジでイカせるとこうなる【画像あり】ベッキーのパンツどころか●●●も写ってしまった件【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】レ●プで犯されて死んでる女の子の画像【感動】ディズニーランドで迷子の園内放送がない理由【衝撃画像】壇蜜が普通にま●こ晒しててエロ過ぎる件ｗｗｗｗ（画像7枚）【閲覧注意】彼女を布団圧縮袋に入れて空気を抜いた結果・・・(画像11枚)【超閲覧注意】ヤクザの組長の娘をレ〇プした男の末路に背筋が凍った・・・【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいpchttp://twiey.com/http://twiey.com/article/37"
+        ],
+        "content_text_length": 875,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "【ﾎﾞｯｷ注意】最近のコスプレイヤー大胆すぎやろｗｗｗ（画像大量）",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 68 74 6d 6c 3e 0a 3c 68 65 61 64 3e 0a 20 20",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "twiey.com"
+        ],
+        "links_domains": [
+          "twiey.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "form",
+          "link",
+          "a",
+          "div",
+          "img",
+          "script",
+          "meta",
+          "input",
+          "title",
+          "p",
+          "html",
+          "head",
+          "h1",
+          "h3",
+          "span",
+          "h2"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "ja",
+        "ssdeep_hash_bs_48": "BU+9HHaVPYO7EB84yZfm/2+3LA1F19bTcSkO4HG2i2JyeG8WaQgYLGrYEzWEKaCn",
+        "ssdeep_hash_bs_96": "BRHaVnAyZfm//LAN9bxyHGH20HYYLez0",
+        "ssdeep_hash_ngram_bs_48": "BU+9HHaVPYO7EB84yZfm/2+3LA1F19bTcSkO4HG2i2JyeG8WaQgYLGrYEzWEKaCn",
+        "ssdeep_hash_ngram_bs_96": "BRHaVnAyZfm//LAN9bxyHGH20HYYLez0",
+        "crawl_dates": [
+          "2015-03-05T04:03:40Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861327301083100
+      },
+      {
+        "source_file_s": "MAT-2.warc@57752586",
+        "url": "http://www.huffingtonpost.com/alastair-crooke/isis-wahhabism-saudi-arabia_b_5717157.html?utm_hp_ref=tw",
+        "content_type_ext": "html",
+        "host": "www.huffingtonpost.com",
+        "domain": "huffingtonpost.com",
+        "public_suffix": "com",
+        "server": [
+          "Apache"
+        ],
+        "content_type_served": "text/html; charset=utf-8",
+        "content_length": 195300,
+        "id": "sha1:AZYKR4KSGJB5KH77DWCOTMITQSLHWPNS/+XA50ecWc5nQBmUGh/zWNg==",
+        "hash": [
+          "sha1:AZYKR4KSGJB5KH77DWCOTMITQSLHWPNS"
+        ],
+        "crawl_date": "2015-03-05T04:04:16Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040416",
+        "content": [
+          "You Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi Arabia | Alastair CrookeView mobile siteMarch 4, 2015Huffpost WorldPostEdition: U.S.Show/HideBrasil BRCanada CADeutschland DEEspaña ESFrance FRΕλλάδα (Greece) GRIndia INItalia IT日本 (Japan) JP한국 (Korea) KRMaghreb MGUnited Kingdom UKUnited States USFollowNewslettersGet WorldPostNewslettersEmail addressEnter Email AddressHuffington Post SearchSearch The Huffington PostEnter Search TermsSubmit SearchiOS appAndroid appMoreDesktop AlertsLog inCreate Account$USERNAMEDesktop NotificationsProfileSettingsLogoutUS EDITIONIndiaBrasilU.K.MaghrebJapanDeutschlandCanadaKoreaFranceEspanaHuffPost LiveNextTop Stories For Thursday, March 5NextProtecting FBI WhistleblowersTomorrowComedian Adam Carolla LIVETomorrowEngaging Men For Gender EqualityTomorrowHockey Legend Slava Fetisov LIVEGo to Huffpost LiveAll SectionsNewsPoliticsWorldPostBusinessSmall BusinessMoneyMediaSportsEducationCrimeWeird NewsGood NewsEntertainmentEntertainmentCelebrityComedyArts & CultureBooksTVLife & StyleHealthy LivingGPS for the SoulStyleHomeTasteWeddingsTravelParentsDivorceHuff/Post 50Marlo ThomasOWNDr. PhilTech & ScienceTechScienceGreenCodeVoicesWomenBlack VoicesLatino VoicesVoces (en español)Gay VoicesReligionCollegeTeenImpactLocalChicagoDCDenverDetroitHawaiiLos AngelesMiamiNew YorkSan FranciscoOur Mobile Apps:iOSAndroidHuffPost Live (iOS)GPS For The Soul (iOS)GPS For The Soul (Android)WorldPostAsia PacificMiddle EastAmericasAfricaEuropeGlobal OrderScience & TechFutureEnvironmentGovernanceCultureFaith & PhilosophyAlastair CrookeBecome a fanFmr. MI-6 agent; Author, 'Resistance: The Essence of Islamic Revolution'EmailYou Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi ArabiaPosted:08/27/2014 11:56 am EDTUpdated:10/27/2014 5:59 am EDTShareTweetEmailCommenttumblrstumbleredditBEIRUT -- The dramatic arrival of Da'ish (ISIS) on the stage of Iraq has shocked many in the West. Many have been perplexed -- and horrified -- by its violence and its evident magnetism for Sunni youth. But more than this, they find Saudi Arabia's ambivalence in the face of this manifestation both troubling and inexplicable, wondering, \"Don't the Saudis understand that ISIS threatens them, too?\"It appears -- even now -- that Saudi Arabia's ruling elite is divided. Some applaud that ISIS is fighting Iranian Shiite \"fire\" with Sunni \"fire\"; that a new Sunni state is taking shape at the very heart of what they regard as a historical Sunni patrimony; and they are drawn by Da'ish's strict Salafist ideology.Other Saudis are more fearful, and recall the history of the revolt against Abd-al Aziz by the Wahhabist Ikhwan (Disclaimer: this Ikhwan has nothing to do with the Muslim Brotherhood Ikhwan -- please note, all further references hereafter are to the Wahhabist Ikhwan, and not to the Muslim Brotherhood Ikhwan), but which nearly imploded Wahhabism and the al-Saud in the late 1920s.Many Saudis are deeply disturbed by the radical doctrines of Da'ish (ISIS) -- and are beginning to question some aspects of Saudi Arabia's direction and discourse.THE SAUDI DUALITYSaudi Arabia's internal discord and tensions over ISIS can only be understood by grasping the inherent (and persisting) duality that lies at the core of the Kingdom's doctrinal makeup and its historical origins.One dominant strand to the Saudi identity pertains directly to Muhammad ibn ʿAbd al-Wahhab (the founder of Wahhabism), and the use to which his radical, exclusionist puritanism was put by Ibn Saud. (The latter was then no more than a minor leader -- amongst many -- of continually sparring and raiding Bedouin tribes in the baking and desperately poor deserts of the Nejd.)The second strand to this perplexing duality, relates precisely to King Abd-al Aziz's subsequent shift towards statehood in the 1920s: his curbing of Ikhwani violence (in order to have diplomatic standing as a nation-state with Britain and America); his institutionalization of the original Wahhabist impulse -- and the subsequent seizing of the opportunely surging petrodollar spigot in the 1970s, to channel the volatile Ikhwani current away from home towards export -- by diffusing a cultural revolution, rather than violent revolution throughout the Muslim world.But this \"cultural revolution\" was no docile reformism. It was a revolution based on Abd al-Wahhab's Jacobin-like hatred for the putrescence and deviationism that he perceived all about him -- hence his call to purge Islam of all its heresies and idolatries.MUSLIM IMPOSTORSThe American author and journalist, Steven Coll, has written how this austere and censorious disciple of the 14th century scholar Ibn Taymiyyah, Abd al-Wahhab, despised \"the decorous, arty, tobacco smoking, hashish imbibing, drum pounding Egyptian and Ottoman nobility who travelled across Arabia to pray at Mecca.\"In Abd al-Wahhab's view, these were not Muslims; they were imposters masquerading as Muslims. Nor, indeed, did he find the behavior of local Bedouin Arabs much better. They aggravated Abd al-Wahhab by their honoring of saints, by their erecting of tombstones, and their \"superstition\" (e.g. revering graves or places that were deemed particularly imbued with the divine).All this behavior, Abd al-Wahhab denounced as bida -- forbidden by God.Like Taymiyyah before him, Abd al-Wahhab believed that the period of the Prophet Muhammad's stay in Medina was the ideal of Muslim society (the \"best of times\"), to which all Muslims should aspire to emulate (this, essentially, is Salafism).Taymiyyah had declared war on Shi'ism, Sufism and Greek philosophy. He spoke out, too against visiting the grave of the prophet and the celebration of his birthday, declaring that all such behavior represented mere imitation of the Christian worship of Jesus as God (i.e. idolatry). Abd al-Wahhab assimilated all this earlier teaching, stating that \"any doubt or hesitation\" on the part of a believer in respect to his or her acknowledging this particular interpretation of Islam should \"deprive a man of immunity of his property and his life.\"One of the main tenets of Abd al-Wahhab's doctrine has become the key idea of takfir. Under the takfiri doctrine, Abd al-Wahhab and his followers could deem fellow Muslims infidels should they engage in activities that in any way could be said to encroach on the sovereignty of the absolute Authority (that is, the King). Abd al-Wahhab denounced all Muslims who honored the dead, saints, or angels. He held that such sentiments detracted from the complete subservience one must feel towards God, and only God. Wahhabi Islam thus bans any prayer to saints and dead loved ones, pilgrimages to tombs and special mosques, religious festivals celebrating saints, the honoring of the Muslim Prophet Muhammad's birthday, and even prohibits the use of gravestones when burying the dead.\"Those who would not conform to this view should be killed, their wives and daughters violated, and their possessions confiscated, he wrote. \"Abd al-Wahhab demanded conformity -- a conformity that was to be demonstrated in physical and tangible ways. He argued that all Muslims must individually pledge their allegiance to a single Muslim leader (a Caliph, if there were one). Those who would not conform to this view should be killed, their wives and daughters violated, and their possessions confiscated, he wrote. The list of apostates meriting death included the Shiite, Sufis and other Muslim denominations, whom Abd al-Wahhab did not consider to be Muslim at all.There is nothing here that separates Wahhabism from ISIS. The rift would emerge only later: from the subsequent institutionalization of Muhammad ibn ʿAbd al-Wahhab's doctrine of \"One Ruler, One Authority, One Mosque\" -- these three pillars being taken respectively to refer to the Saudi king, the absolute authority of official Wahhabism, and its control of \"the word\" (i.e. the mosque).It is this rift -- the ISIS denial of these three pillars on which the whole of Sunni authority presently rests -- makes ISIS, which in all other respects conforms to Wahhabism, a deep threat to Saudi Arabia.BRIEF HISTORY 1741- 1818Abd al-Wahhab's advocacy of these ultra radical views inevitably led to his expulsion from his own town -- and in 1741, after some wanderings, he found refuge under the protection of Ibn Saud and his tribe. What Ibn Saud perceived in Abd al-Wahhab's novel teaching was the means to overturn Arab tradition and convention. It was a path to seizing power.\"Their strategy -- like that of ISIS today -- was to bring the peoples whom they conquered into submission. They aimed to instill fear. \"Ibn Saud's clan, seizing on Abd al-Wahhab's doctrine, now could do what they always did, which was raiding neighboring villages and robbing them of their possessions. Only now they were doing it not within the ambit of Arab tradition, but rather under the banner of jihad. Ibn Saud and Abd al-Wahhab also reintroduced the idea of martyrdom in the name of jihad, as it granted those martyred immediate entry into paradise.In the beginning, they conquered a few local communities and imposed their rule over them. (The conquered inhabitants were given a limited choice: conversion to Wahhabism or death.) By 1790, the Alliance controlled most of the Arabian Peninsula and repeatedly raided Medina, Syria and Iraq.Their strategy -- like that of ISIS today -- was to bring the peoples whom they conquered into submission. They aimed to instill fear. In 1801, the Allies attacked the Holy City of Karbala in Iraq. They massacred thousands of Shiites, including women and children. Many Shiite shrines were destroyed, including the shrine of Imam Hussein, the murdered grandson of Prophet Muhammad.A British official, Lieutenant Francis Warden, observing the situation at the time, wrote: \"They pillaged the whole of it [Karbala], and plundered the Tomb of Hussein... slaying in the course of the day, with circumstances of peculiar cruelty, above five thousand of the inhabitants ...\"Osman Ibn Bishr Najdi, the historian of the first Saudi state, wrote that Ibn Saud committed a massacre in Karbala in 1801. He proudly documented that massacre saying, \"we took Karbala and slaughtered and took its people (as slaves), then praise be to Allah, Lord of the Worlds, and we do not apologize for that and say: 'And to the unbelievers: the same treatment.'\"In 1803, Abdul Aziz then entered the Holy City of Mecca, which surrendered under the impact of terror and panic (the same fate was to befall Medina, too). Abd al-Wahhab's followers demolished historical monuments and all the tombs and shrines in their midst. By the end, they had destroyed centuries of Islamic architecture near the Grand Mosque.But in November of 1803, a Shiite assassin killed King Abdul Aziz (taking revenge for the massacre at Karbala). His son, Saud bin Abd al Aziz, succeeded him and continued the conquest of Arabia. Ottoman rulers, however, could no longer just sit back and watch as their empire was devoured piece by piece. In 1812, the Ottoman army, composed of Egyptians, pushed the Alliance out from Medina, Jeddah and Mecca. In 1814, Saud bin Abd al Aziz died of fever. His unfortunate son Abdullah bin Saud, however, was taken by the Ottomans to Istanbul, where he was gruesomely executed (a visitor to Istanbul reported seeing him having been humiliated in the streets of Istanbul for three days, then hanged and beheaded, his severed head fired from a canon, and his heart cut out and impaled on his body).In 1815, Wahhabi forces were crushed by the Egyptians (acting on the Ottoman's behalf) in a decisive battle. In 1818, the Ottomans captured and destroyed the Wahhabi capital of Dariyah. The first Saudi state was no more. The few remaining Wahhabis withdrew into the desert to regroup, and there they remained, quiescent for most of the 19th century.HISTORY RETURNS WITH ISISIt is not hard to understand how the founding of the Islamic State by ISIS in contemporary Iraq might resonate amongst those who recall this history. Indeed, the ethos of 18th century Wahhabism did not just wither in Nejd, but it roared back into life when the Ottoman Empire collapsed amongst the chaos of World War I.The Al Saud -- in this 20th century renaissance -- were led by the laconic and politically astute Abd-al Aziz, who, on uniting the fractious Bedouin tribes, launched the Saudi \"Ikhwan\" in the spirit of Abd-al Wahhab's and Ibn Saud's earlier fighting proselytisers.The Ikhwan was a reincarnation of the early, fierce, semi-independent vanguard movement of committed armed Wahhabist \"moralists\" who almost had succeeded in seizing Arabia by the early 1800s. In the same manner as earlier, the Ikhwan again succeeded in capturing Mecca, Medina and Jeddah between 1914 and 1926. Abd-al Aziz, however, began to feel his wider interests to be threatened by the revolutionary \"Jacobinism\" exhibited by the Ikhwan. The Ikhwan revolted -- leading to a civil war that lasted until the 1930s, when the King had them put down: he machine-gunned them.For this king, (Abd-al Aziz), the simple verities of previous decades were eroding. Oil was being discovered in the peninsular. Britain and America were courting Abd-al Aziz, but still were inclined to support Sharif Husain as the only legitimate ruler of Arabia. The Saudis needed to develop a more sophisticated diplomatic posture.So Wahhabism was forcefully changed from a movement of revolutionary jihad and theological takfiri purification, to a movement of conservative social, political, theological, and religious da'wa (Islamic call) and to justifying the institution that upholds loyalty to the royal Saudi family and the King's absolute power.OIL WEALTH SPREAD WAHHABISMWith the advent of the oil bonanza -- as the French scholar, Giles Kepel writes, Saudi goals were to \"reach out and spread Wahhabism across the Muslim world ... to \"Wahhabise\" Islam, thereby reducing the \"multitude of voices within the religion\" to a \"single creed\" -- a movement which would transcend national divisions. Billions of dollars were -- and continue to be -- invested in this manifestation of soft power.It was this heady mix of billion dollar soft power projection -- and the Saudi willingness to manage Sunni Islam both to further America's interests, as it concomitantly embedded Wahhabism educationally, socially and culturally throughout the lands of Islam -- that brought into being a western policy dependency on Saudi Arabia, a dependency that has endured since Abd-al Aziz's meeting with Roosevelt on a U.S. warship (returning the president from the Yalta Conference) until today.Westerners looked at the Kingdom and their gaze was taken by the wealth; by the apparent modernization; by the professed leadership of the Islamic world. They chose to presume that the Kingdom was bending to the imperatives of modern life -- and that the management of Sunni Islam would bend the Kingdom, too, to modern life.\"On the one hand, ISIS is deeply Wahhabist. On the other hand, it is ultra radical in a different way. It could be seen essentially as a corrective movement to contemporary Wahhabism.\"But the Saudi Ikhwan approach to Islam did not die in the 1930s. It retreated, but it maintained its hold over parts of the system -- hence the duality that we observe today in the Saudi attitude towards ISIS.On the one hand, ISIS is deeply Wahhabist. On the other hand, it is ultra radical in a different way. It could be seen essentially as a corrective movement to contemporary Wahhabism.ISIS is a \"post-Medina\" movement: it looks to the actions of the first two Caliphs, rather than the Prophet Muhammad himself, as a source of emulation, and it forcefully denies the Saudis' claim of authority to rule.As the Saudi monarchy blossomed in the oil age into an ever more inflated institution, the appeal of the Ikhwan message gained ground (despite King Faisal's modernization campaign). The \"Ikhwan approach\" enjoyed -- and still enjoys -- the support of many prominent men and women and sheikhs. In a sense, Osama bin Laden was precisely the representative of a late flowering of this Ikhwani approach.Today, ISIS' undermining of the legitimacy of the King's legitimacy is not seen to be problematic, but rather a return to the true origins of the Saudi-Wahhab project.In the collaborative management of the region by the Saudis and the West in pursuit of the many western projects (countering socialism, Ba'athism, Nasserism, Soviet and Iranian influence), western politicians have highlighted their chosen reading of Saudi Arabia (wealth, modernization and influence), but they chose to ignore the Wahhabist impulse.After all, the more radical Islamist movements were perceived by Western intelligence services as being more effective in toppling the USSR in Afghanistan -- and in combatting out-of-favor Middle Eastern leaders and states.Why should we be surprised then, that from Prince Bandar's Saudi-Western mandate to manage the insurgency in Syria against President Assad should have emerged a neo-Ikhwan type of violent, fear-inducing vanguard movement: ISIS? And why should we be surprised -- knowing a little about Wahhabism -- that \"moderate\" insurgents in Syria would become rarer than a mythical unicorn? Why should we have imagined that radical Wahhabism would create moderates? Or why could we imagine that a doctrine of \"One leader, One authority, One mosque: submit to it, or be killed\" could ever ultimately lead to moderation or tolerance?Or, perhaps, we never imagined.This article is Part I of Alastair Crooke's historical analysis of the roots of ISIS and its impact on the future of the Middle East. Read Part II here.CloseFighting in IraqofAn Iraqi Shiite fighter, loyal to Muslim Shiite cleric Moqtada al-Sadr, takes part in military and first aid training on Aug. 19, 2014 in Najaf, central Iraq. (HAIDAR HAMDANI/AFP/Getty Images)Iraqi forces patrol the town of Jurf al-Sakhar in Babil province after the Iraqi army announced a military operation against Islamic State (IS) militants on Aug. 17, 2014. (Stringer/Anadolu Agency/Getty Images)Members of the Hezbollah Brigade in Iraq, a Shiite movement supporting Iraqi government forces in the ongoing clashes against Islamic Sate (IS) jihadists in northern Iraq, carry the coffin of a comrade during his funeral procession on Aug. 20, 2014 in Najaf after he was killed in combat south of Baghdad. (HAIDAR HAMDANI/AFP/Getty Images)Smoke rises during airstrikes targeting Islamic State (IS) militants at the Mosul Dam in Iraq on Aug. 18, 2014. (AP Photo/Khalid Mohammed)A car bomb exploded outside the house of Iraqi Intelligence Service member Abdulemir Asgar Kamal, damaging buildings in Kirkuk, Iraq on Aug. 20, 2014. (Ali Mukarrem Garip/Anadolu Agency/Getty Images)A Peshmerga fighter flashes the sign for victory on top of an armored vehicle at the frontline of fighting with Islamic State (IS) militants east of Mosul on Aug. 18, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)Peshmerga soldiers pose for a group portrait at a military base south of Erbil, the capital of the Kurdistan Regional Government in Iraq. (Vianney Le Caer/Pacific Press/LightRocket/Getty Images)A Shiite fighter, loyal to Iraqi Shiite cleric Moqtada al-Sadr, holds a position against Islamic State (IS) militants after re-taking control of an area in the Jurf al-Sakher district south of Baghdad, Iraq on Aug. 18, 2014. (ALI AL-SAADI/AFP/Getty Images)Members of Iraqi anti-terrorism forces wave the national flag in celebration after securing a checkpoint from Sunni militants in the village of Badriyah, west of Mosul, Iraq on Aug. 19, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)An Iraqi Kurdish Peshmerga fighter monitors the area from a frontline position in Bashiqa, northeast of Mosul, Iraq on Aug. 16, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)Members of the minority Yezidi religious sect, who fled their homes after assaults from Islamic State (IS) militants, take shelter in buildings under construction in the Zakho district nearby the Iraq-Turkey border on Aug. 16, 2014. (Ahmet Izgi/Anadolu Agency/Getty Images)An internally displaced Iraqi woman holds her sister during a sandstorm outside the Bajid Kandala camp in Feeshkhabour, Iraq on Aug. 19, 2014. (AP Photo/Khalid Mohammed)Displaced Iraqis catch clothes provided by a charity outside the Bajid Kandala camp in Feeshkhabour, Iraq on Aug. 19, 2014. (AP Photo/Khalid Mohammed)Iraqi Kurdish Peshmerga fighters monitor the area from a frontline position in Bashiqa, northeast of Mosul, Iraq on Aug. 16, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)On Aug. 16, 2014, Kurdish Peshmerga forces patrol a bridge, which led from Guver village to Mosul, after it was destroyed by Islamic State (IS) militants. (Ahmet Izgi/Anadolu Agency/Getty Images)On Aug. 14, 2014, an Iraqi Kurdish Peshmerga fighter takes position on the frontline near the Kurdish checkpoint of Aski kalak, west of Erbil, the capital of the autonomous Kurdish region in northern Iraq. (SAFIN HAMED/AFP/Getty Images) Share Tweet✖AdvertisementShare this✖ closeCurrent SlideMore:Da'ishIslamic StateISISISIS WahhabismIslamic State WahhabismThe Islamic State Saudi ArabiaIbn Abd Al WahhabISIL WahhabismSaudi ArabiaThe Islamic StateISIS Saudi ArabiaISIL Saudi ArabiaSaudi Arabia NewsAround the WebIraq crisis: Sunni caliphate has been bankrolled by Saudi Arabia ...Saudis have lost the right to take Sunni leadership - FT.comSaudi Arabia does not support Islamic State terrorists – or any othersSaudis Must Stop Exporting ExtremismSuggested For YouFOLLOW HUFFPOSTEmailEmail AddressPlease check the checkbox to indicate your consentOptionsThe Morning EmailWorldPostGet top stories and blog posts emailed to me each day..FacebookHuffPostWorldPostTwitterHuffPostFollowWorldPostFollowGoogle PlusHuffPostWorldPostRSSMost Popular on HuffPostLatest NewsWorldPostAll RSS / FeedsPhoneAvailable on the App StoreAndroid App on Google PlayGet it at Blackberry App WorldWatch Aziz Ansari Get Ridiculous With Grover on Sesame StreetLed Zeppelin Loses First Round in ‘Stairway to Heaven’ LawsuitTinder Thinks You’ll Pay to Find a Match. Swipe Right?Time - PoliticsSearch The Huffington PostEnter Search TermsSubmit SearchAdvertiseLog InMake HuffPost your Home PageRSSCareersFAQUser AgreementPrivacyComment PolicyAbout UsAbout Our AdsContact UsCopyright ©2015 TheHuffingtonPost.com, Inc.\"The Huffington Post\" is a registered trademark of TheHuffingtonPost.com, Inc. All rights reserved.Part of HPMG NewsUse this form to alert a HuffPost editor about a factual or typographical error in this story.Notify message* Required*** What kind of error is this?Choose an optionFactual or typographicalComment moderation problemRights and permissionsOther* What is the correction?0 countDescribe the error here (1,000 character limit)* Type the words below so we know you are not a cyborgSign me up for The Morning EmailThanks for your report!"
+        ],
+        "content_text_length": 23276,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "You Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi Arabia | Alastair Crooke",
+        "keywords": "you, can't, understand, isis, if, you, don't, know, the, history, of, wahhabism, in, saudi, arabia, worldpost",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 09 0a 3c 21 2d 2d 20 20 4d 6f 62 69 6c 65 20 72",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "www.huffingtonpost.co.uk",
+          "plus.google.com",
+          "appworld.blackberry.com",
+          "advertising.aol.com",
+          "www.independent.co.uk",
+          "www.brasilpost.com.br",
+          "www.huffingtonpost.fr",
+          "www.huffingtonpost.kr",
+          "www.theguardian.com",
+          "time.com",
+          "www.huffingtonpost.in",
+          "reddit.com",
+          "www.huffingtonpost.ca",
+          "play.google.com",
+          "twitter.com",
+          "www.tumblr.com",
+          "www.time.com",
+          "www.stumbleupon.com",
+          "www.nytimes.com",
+          "www.huffingtonpost.es",
+          "voces.huffingtonpost.com",
+          "www.amazon.com",
+          "www.huffpostmaghreb.com",
+          "adinfo.aol.com",
+          "english.alarabiya.net",
+          "www.ft.com",
+          "www.huffingtonpost.com",
+          "www.huffingtonpost.jp",
+          "www.facebook.com",
+          "itunes.apple.com",
+          "privacy.aol.com",
+          "www.huffingtonpost.de",
+          "live.huffingtonpost.com",
+          "www.amazon.co.uk",
+          "islamgendermodernity.files.wordpress.com"
+        ],
+        "links_domains": [
+          "huffingtonpost.kr",
+          "huffingtonpost.es",
+          "tumblr.com",
+          "stumbleupon.com",
+          "huffingtonpost.in",
+          "aol.com",
+          "amazon.co.uk",
+          "facebook.com",
+          "time.com",
+          "reddit.com",
+          "huffingtonpost.ca",
+          "apple.com",
+          "huffingtonpost.co.uk",
+          "twitter.com",
+          "brasilpost.com.br",
+          "nytimes.com",
+          "independent.co.uk",
+          "huffingtonpost.fr",
+          "blackberry.com",
+          "huffingtonpost.jp",
+          "huffpostmaghreb.com",
+          "huffingtonpost.de",
+          "huffingtonpost.com",
+          "ft.com",
+          "amazon.com",
+          "theguardian.com",
+          "google.com",
+          "alarabiya.net",
+          "wordpress.com"
+        ],
+        "links_public_suffixes": [
+          "de",
+          "ca",
+          "com",
+          "com.br",
+          "jp",
+          "fr",
+          "co.uk",
+          "kr",
+          "net",
+          "in",
+          "es"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "div",
+          "img",
+          "noscript",
+          "br",
+          "meta",
+          "title",
+          "time",
+          "figure",
+          "style",
+          "n.length;o++)r(n[o]);return",
+          "button",
+          "h4",
+          "fieldset",
+          "h1",
+          "head",
+          "option",
+          "h3",
+          "hh--236slideexpand--363325--hh",
+          "h2",
+          "ul",
+          "b",
+          "form",
+          "select",
+          "a",
+          "menu",
+          "label",
+          "script",
+          "section",
+          "header",
+          "footer",
+          "li",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "textarea",
+          "legend",
+          "p",
+          "nav",
+          "html",
+          "em",
+          "o;)i[r]=t[e+r];return",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=utf-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=utf-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_384": "CndJP0YNTs7ILSEi455E5jDPj1CDlvPn0NBf6vmZxtKamfLSbOYg0GlvyXV2ccdc",
+        "ssdeep_hash_bs_768": "wVXyI0/Pj1CxvPn0NneVLfYgaXVn",
+        "ssdeep_hash_ngram_bs_384": "CndJP0YNTs7ILSEi455E5jDPj1CDlvPn0NBf6vmZxtKamfLSbOYg0GlvyXV2ccdc",
+        "ssdeep_hash_ngram_bs_768": "wVXyI0/Pj1CxvPn0NneVLfYgaXVn",
+        "crawl_dates": [
+          "2015-03-05T04:04:16Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861367900897300
+      },
+      {
+        "source_file_s": "MAT-2.warc@81018126",
+        "url": "http://www.huffingtonpost.com/alastair-crooke/isis-wahhabism-saudi-arabia_b_5717157.html",
+        "content_type_ext": "html",
+        "host": "www.huffingtonpost.com",
+        "domain": "huffingtonpost.com",
+        "public_suffix": "com",
+        "server": [
+          "Apache"
+        ],
+        "content_type_served": "text/html; charset=utf-8",
+        "content_length": 195237,
+        "id": "sha1:KQKEKTE6ITUXP55G2R2LVVF633XC5DHZ/NX44OQNjnaoksNR2I3jEiw==",
+        "hash": [
+          "sha1:KQKEKTE6ITUXP55G2R2LVVF633XC5DHZ"
+        ],
+        "crawl_date": "2015-03-05T04:04:26Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040426",
+        "content": [
+          "You Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi Arabia | Alastair CrookeView mobile siteMarch 4, 2015Huffpost WorldPostEdition: U.S.Show/HideBrasil BRCanada CADeutschland DEEspaña ESFrance FRΕλλάδα (Greece) GRIndia INItalia IT日本 (Japan) JP한국 (Korea) KRMaghreb MGUnited Kingdom UKUnited States USFollowNewslettersGet WorldPostNewslettersEmail addressEnter Email AddressHuffington Post SearchSearch The Huffington PostEnter Search TermsSubmit SearchiOS appAndroid appMoreDesktop AlertsLog inCreate Account$USERNAMEDesktop NotificationsProfileSettingsLogoutUS EDITIONIndiaBrasilU.K.MaghrebJapanDeutschlandCanadaKoreaFranceEspanaHuffPost LiveNextTop Stories For Thursday, March 5NextProtecting FBI WhistleblowersTomorrowComedian Adam Carolla LIVETomorrowEngaging Men For Gender EqualityTomorrowHockey Legend Slava Fetisov LIVEGo to Huffpost LiveAll SectionsNewsPoliticsWorldPostBusinessSmall BusinessMoneyMediaSportsEducationCrimeWeird NewsGood NewsEntertainmentEntertainmentCelebrityComedyArts & CultureBooksTVLife & StyleHealthy LivingGPS for the SoulStyleHomeTasteWeddingsTravelParentsDivorceHuff/Post 50Marlo ThomasOWNDr. PhilTech & ScienceTechScienceGreenCodeVoicesWomenBlack VoicesLatino VoicesVoces (en español)Gay VoicesReligionCollegeTeenImpactLocalChicagoDCDenverDetroitHawaiiLos AngelesMiamiNew YorkSan FranciscoOur Mobile Apps:iOSAndroidHuffPost Live (iOS)GPS For The Soul (iOS)GPS For The Soul (Android)WorldPostAsia PacificMiddle EastAmericasAfricaEuropeGlobal OrderScience & TechFutureEnvironmentGovernanceCultureFaith & PhilosophyAlastair CrookeBecome a fanFmr. MI-6 agent; Author, 'Resistance: The Essence of Islamic Revolution'EmailYou Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi ArabiaPosted:08/27/2014 11:56 am EDTUpdated:10/27/2014 5:59 am EDTShareTweetEmailCommenttumblrstumbleredditBEIRUT -- The dramatic arrival of Da'ish (ISIS) on the stage of Iraq has shocked many in the West. Many have been perplexed -- and horrified -- by its violence and its evident magnetism for Sunni youth. But more than this, they find Saudi Arabia's ambivalence in the face of this manifestation both troubling and inexplicable, wondering, \"Don't the Saudis understand that ISIS threatens them, too?\"It appears -- even now -- that Saudi Arabia's ruling elite is divided. Some applaud that ISIS is fighting Iranian Shiite \"fire\" with Sunni \"fire\"; that a new Sunni state is taking shape at the very heart of what they regard as a historical Sunni patrimony; and they are drawn by Da'ish's strict Salafist ideology.Other Saudis are more fearful, and recall the history of the revolt against Abd-al Aziz by the Wahhabist Ikhwan (Disclaimer: this Ikhwan has nothing to do with the Muslim Brotherhood Ikhwan -- please note, all further references hereafter are to the Wahhabist Ikhwan, and not to the Muslim Brotherhood Ikhwan), but which nearly imploded Wahhabism and the al-Saud in the late 1920s.Many Saudis are deeply disturbed by the radical doctrines of Da'ish (ISIS) -- and are beginning to question some aspects of Saudi Arabia's direction and discourse.THE SAUDI DUALITYSaudi Arabia's internal discord and tensions over ISIS can only be understood by grasping the inherent (and persisting) duality that lies at the core of the Kingdom's doctrinal makeup and its historical origins.One dominant strand to the Saudi identity pertains directly to Muhammad ibn ʿAbd al-Wahhab (the founder of Wahhabism), and the use to which his radical, exclusionist puritanism was put by Ibn Saud. (The latter was then no more than a minor leader -- amongst many -- of continually sparring and raiding Bedouin tribes in the baking and desperately poor deserts of the Nejd.)The second strand to this perplexing duality, relates precisely to King Abd-al Aziz's subsequent shift towards statehood in the 1920s: his curbing of Ikhwani violence (in order to have diplomatic standing as a nation-state with Britain and America); his institutionalization of the original Wahhabist impulse -- and the subsequent seizing of the opportunely surging petrodollar spigot in the 1970s, to channel the volatile Ikhwani current away from home towards export -- by diffusing a cultural revolution, rather than violent revolution throughout the Muslim world.But this \"cultural revolution\" was no docile reformism. It was a revolution based on Abd al-Wahhab's Jacobin-like hatred for the putrescence and deviationism that he perceived all about him -- hence his call to purge Islam of all its heresies and idolatries.MUSLIM IMPOSTORSThe American author and journalist, Steven Coll, has written how this austere and censorious disciple of the 14th century scholar Ibn Taymiyyah, Abd al-Wahhab, despised \"the decorous, arty, tobacco smoking, hashish imbibing, drum pounding Egyptian and Ottoman nobility who travelled across Arabia to pray at Mecca.\"In Abd al-Wahhab's view, these were not Muslims; they were imposters masquerading as Muslims. Nor, indeed, did he find the behavior of local Bedouin Arabs much better. They aggravated Abd al-Wahhab by their honoring of saints, by their erecting of tombstones, and their \"superstition\" (e.g. revering graves or places that were deemed particularly imbued with the divine).All this behavior, Abd al-Wahhab denounced as bida -- forbidden by God.Like Taymiyyah before him, Abd al-Wahhab believed that the period of the Prophet Muhammad's stay in Medina was the ideal of Muslim society (the \"best of times\"), to which all Muslims should aspire to emulate (this, essentially, is Salafism).Taymiyyah had declared war on Shi'ism, Sufism and Greek philosophy. He spoke out, too against visiting the grave of the prophet and the celebration of his birthday, declaring that all such behavior represented mere imitation of the Christian worship of Jesus as God (i.e. idolatry). Abd al-Wahhab assimilated all this earlier teaching, stating that \"any doubt or hesitation\" on the part of a believer in respect to his or her acknowledging this particular interpretation of Islam should \"deprive a man of immunity of his property and his life.\"One of the main tenets of Abd al-Wahhab's doctrine has become the key idea of takfir. Under the takfiri doctrine, Abd al-Wahhab and his followers could deem fellow Muslims infidels should they engage in activities that in any way could be said to encroach on the sovereignty of the absolute Authority (that is, the King). Abd al-Wahhab denounced all Muslims who honored the dead, saints, or angels. He held that such sentiments detracted from the complete subservience one must feel towards God, and only God. Wahhabi Islam thus bans any prayer to saints and dead loved ones, pilgrimages to tombs and special mosques, religious festivals celebrating saints, the honoring of the Muslim Prophet Muhammad's birthday, and even prohibits the use of gravestones when burying the dead.\"Those who would not conform to this view should be killed, their wives and daughters violated, and their possessions confiscated, he wrote. \"Abd al-Wahhab demanded conformity -- a conformity that was to be demonstrated in physical and tangible ways. He argued that all Muslims must individually pledge their allegiance to a single Muslim leader (a Caliph, if there were one). Those who would not conform to this view should be killed, their wives and daughters violated, and their possessions confiscated, he wrote. The list of apostates meriting death included the Shiite, Sufis and other Muslim denominations, whom Abd al-Wahhab did not consider to be Muslim at all.There is nothing here that separates Wahhabism from ISIS. The rift would emerge only later: from the subsequent institutionalization of Muhammad ibn ʿAbd al-Wahhab's doctrine of \"One Ruler, One Authority, One Mosque\" -- these three pillars being taken respectively to refer to the Saudi king, the absolute authority of official Wahhabism, and its control of \"the word\" (i.e. the mosque).It is this rift -- the ISIS denial of these three pillars on which the whole of Sunni authority presently rests -- makes ISIS, which in all other respects conforms to Wahhabism, a deep threat to Saudi Arabia.BRIEF HISTORY 1741- 1818Abd al-Wahhab's advocacy of these ultra radical views inevitably led to his expulsion from his own town -- and in 1741, after some wanderings, he found refuge under the protection of Ibn Saud and his tribe. What Ibn Saud perceived in Abd al-Wahhab's novel teaching was the means to overturn Arab tradition and convention. It was a path to seizing power.\"Their strategy -- like that of ISIS today -- was to bring the peoples whom they conquered into submission. They aimed to instill fear. \"Ibn Saud's clan, seizing on Abd al-Wahhab's doctrine, now could do what they always did, which was raiding neighboring villages and robbing them of their possessions. Only now they were doing it not within the ambit of Arab tradition, but rather under the banner of jihad. Ibn Saud and Abd al-Wahhab also reintroduced the idea of martyrdom in the name of jihad, as it granted those martyred immediate entry into paradise.In the beginning, they conquered a few local communities and imposed their rule over them. (The conquered inhabitants were given a limited choice: conversion to Wahhabism or death.) By 1790, the Alliance controlled most of the Arabian Peninsula and repeatedly raided Medina, Syria and Iraq.Their strategy -- like that of ISIS today -- was to bring the peoples whom they conquered into submission. They aimed to instill fear. In 1801, the Allies attacked the Holy City of Karbala in Iraq. They massacred thousands of Shiites, including women and children. Many Shiite shrines were destroyed, including the shrine of Imam Hussein, the murdered grandson of Prophet Muhammad.A British official, Lieutenant Francis Warden, observing the situation at the time, wrote: \"They pillaged the whole of it [Karbala], and plundered the Tomb of Hussein... slaying in the course of the day, with circumstances of peculiar cruelty, above five thousand of the inhabitants ...\"Osman Ibn Bishr Najdi, the historian of the first Saudi state, wrote that Ibn Saud committed a massacre in Karbala in 1801. He proudly documented that massacre saying, \"we took Karbala and slaughtered and took its people (as slaves), then praise be to Allah, Lord of the Worlds, and we do not apologize for that and say: 'And to the unbelievers: the same treatment.'\"In 1803, Abdul Aziz then entered the Holy City of Mecca, which surrendered under the impact of terror and panic (the same fate was to befall Medina, too). Abd al-Wahhab's followers demolished historical monuments and all the tombs and shrines in their midst. By the end, they had destroyed centuries of Islamic architecture near the Grand Mosque.But in November of 1803, a Shiite assassin killed King Abdul Aziz (taking revenge for the massacre at Karbala). His son, Saud bin Abd al Aziz, succeeded him and continued the conquest of Arabia. Ottoman rulers, however, could no longer just sit back and watch as their empire was devoured piece by piece. In 1812, the Ottoman army, composed of Egyptians, pushed the Alliance out from Medina, Jeddah and Mecca. In 1814, Saud bin Abd al Aziz died of fever. His unfortunate son Abdullah bin Saud, however, was taken by the Ottomans to Istanbul, where he was gruesomely executed (a visitor to Istanbul reported seeing him having been humiliated in the streets of Istanbul for three days, then hanged and beheaded, his severed head fired from a canon, and his heart cut out and impaled on his body).In 1815, Wahhabi forces were crushed by the Egyptians (acting on the Ottoman's behalf) in a decisive battle. In 1818, the Ottomans captured and destroyed the Wahhabi capital of Dariyah. The first Saudi state was no more. The few remaining Wahhabis withdrew into the desert to regroup, and there they remained, quiescent for most of the 19th century.HISTORY RETURNS WITH ISISIt is not hard to understand how the founding of the Islamic State by ISIS in contemporary Iraq might resonate amongst those who recall this history. Indeed, the ethos of 18th century Wahhabism did not just wither in Nejd, but it roared back into life when the Ottoman Empire collapsed amongst the chaos of World War I.The Al Saud -- in this 20th century renaissance -- were led by the laconic and politically astute Abd-al Aziz, who, on uniting the fractious Bedouin tribes, launched the Saudi \"Ikhwan\" in the spirit of Abd-al Wahhab's and Ibn Saud's earlier fighting proselytisers.The Ikhwan was a reincarnation of the early, fierce, semi-independent vanguard movement of committed armed Wahhabist \"moralists\" who almost had succeeded in seizing Arabia by the early 1800s. In the same manner as earlier, the Ikhwan again succeeded in capturing Mecca, Medina and Jeddah between 1914 and 1926. Abd-al Aziz, however, began to feel his wider interests to be threatened by the revolutionary \"Jacobinism\" exhibited by the Ikhwan. The Ikhwan revolted -- leading to a civil war that lasted until the 1930s, when the King had them put down: he machine-gunned them.For this king, (Abd-al Aziz), the simple verities of previous decades were eroding. Oil was being discovered in the peninsular. Britain and America were courting Abd-al Aziz, but still were inclined to support Sharif Husain as the only legitimate ruler of Arabia. The Saudis needed to develop a more sophisticated diplomatic posture.So Wahhabism was forcefully changed from a movement of revolutionary jihad and theological takfiri purification, to a movement of conservative social, political, theological, and religious da'wa (Islamic call) and to justifying the institution that upholds loyalty to the royal Saudi family and the King's absolute power.OIL WEALTH SPREAD WAHHABISMWith the advent of the oil bonanza -- as the French scholar, Giles Kepel writes, Saudi goals were to \"reach out and spread Wahhabism across the Muslim world ... to \"Wahhabise\" Islam, thereby reducing the \"multitude of voices within the religion\" to a \"single creed\" -- a movement which would transcend national divisions. Billions of dollars were -- and continue to be -- invested in this manifestation of soft power.It was this heady mix of billion dollar soft power projection -- and the Saudi willingness to manage Sunni Islam both to further America's interests, as it concomitantly embedded Wahhabism educationally, socially and culturally throughout the lands of Islam -- that brought into being a western policy dependency on Saudi Arabia, a dependency that has endured since Abd-al Aziz's meeting with Roosevelt on a U.S. warship (returning the president from the Yalta Conference) until today.Westerners looked at the Kingdom and their gaze was taken by the wealth; by the apparent modernization; by the professed leadership of the Islamic world. They chose to presume that the Kingdom was bending to the imperatives of modern life -- and that the management of Sunni Islam would bend the Kingdom, too, to modern life.\"On the one hand, ISIS is deeply Wahhabist. On the other hand, it is ultra radical in a different way. It could be seen essentially as a corrective movement to contemporary Wahhabism.\"But the Saudi Ikhwan approach to Islam did not die in the 1930s. It retreated, but it maintained its hold over parts of the system -- hence the duality that we observe today in the Saudi attitude towards ISIS.On the one hand, ISIS is deeply Wahhabist. On the other hand, it is ultra radical in a different way. It could be seen essentially as a corrective movement to contemporary Wahhabism.ISIS is a \"post-Medina\" movement: it looks to the actions of the first two Caliphs, rather than the Prophet Muhammad himself, as a source of emulation, and it forcefully denies the Saudis' claim of authority to rule.As the Saudi monarchy blossomed in the oil age into an ever more inflated institution, the appeal of the Ikhwan message gained ground (despite King Faisal's modernization campaign). The \"Ikhwan approach\" enjoyed -- and still enjoys -- the support of many prominent men and women and sheikhs. In a sense, Osama bin Laden was precisely the representative of a late flowering of this Ikhwani approach.Today, ISIS' undermining of the legitimacy of the King's legitimacy is not seen to be problematic, but rather a return to the true origins of the Saudi-Wahhab project.In the collaborative management of the region by the Saudis and the West in pursuit of the many western projects (countering socialism, Ba'athism, Nasserism, Soviet and Iranian influence), western politicians have highlighted their chosen reading of Saudi Arabia (wealth, modernization and influence), but they chose to ignore the Wahhabist impulse.After all, the more radical Islamist movements were perceived by Western intelligence services as being more effective in toppling the USSR in Afghanistan -- and in combatting out-of-favor Middle Eastern leaders and states.Why should we be surprised then, that from Prince Bandar's Saudi-Western mandate to manage the insurgency in Syria against President Assad should have emerged a neo-Ikhwan type of violent, fear-inducing vanguard movement: ISIS? And why should we be surprised -- knowing a little about Wahhabism -- that \"moderate\" insurgents in Syria would become rarer than a mythical unicorn? Why should we have imagined that radical Wahhabism would create moderates? Or why could we imagine that a doctrine of \"One leader, One authority, One mosque: submit to it, or be killed\" could ever ultimately lead to moderation or tolerance?Or, perhaps, we never imagined.This article is Part I of Alastair Crooke's historical analysis of the roots of ISIS and its impact on the future of the Middle East. Read Part II here.CloseFighting in IraqofAn Iraqi Shiite fighter, loyal to Muslim Shiite cleric Moqtada al-Sadr, takes part in military and first aid training on Aug. 19, 2014 in Najaf, central Iraq. (HAIDAR HAMDANI/AFP/Getty Images)Iraqi forces patrol the town of Jurf al-Sakhar in Babil province after the Iraqi army announced a military operation against Islamic State (IS) militants on Aug. 17, 2014. (Stringer/Anadolu Agency/Getty Images)Members of the Hezbollah Brigade in Iraq, a Shiite movement supporting Iraqi government forces in the ongoing clashes against Islamic Sate (IS) jihadists in northern Iraq, carry the coffin of a comrade during his funeral procession on Aug. 20, 2014 in Najaf after he was killed in combat south of Baghdad. (HAIDAR HAMDANI/AFP/Getty Images)Smoke rises during airstrikes targeting Islamic State (IS) militants at the Mosul Dam in Iraq on Aug. 18, 2014. (AP Photo/Khalid Mohammed)A car bomb exploded outside the house of Iraqi Intelligence Service member Abdulemir Asgar Kamal, damaging buildings in Kirkuk, Iraq on Aug. 20, 2014. (Ali Mukarrem Garip/Anadolu Agency/Getty Images)A Peshmerga fighter flashes the sign for victory on top of an armored vehicle at the frontline of fighting with Islamic State (IS) militants east of Mosul on Aug. 18, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)Peshmerga soldiers pose for a group portrait at a military base south of Erbil, the capital of the Kurdistan Regional Government in Iraq. (Vianney Le Caer/Pacific Press/LightRocket/Getty Images)A Shiite fighter, loyal to Iraqi Shiite cleric Moqtada al-Sadr, holds a position against Islamic State (IS) militants after re-taking control of an area in the Jurf al-Sakher district south of Baghdad, Iraq on Aug. 18, 2014. (ALI AL-SAADI/AFP/Getty Images)Members of Iraqi anti-terrorism forces wave the national flag in celebration after securing a checkpoint from Sunni militants in the village of Badriyah, west of Mosul, Iraq on Aug. 19, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)An Iraqi Kurdish Peshmerga fighter monitors the area from a frontline position in Bashiqa, northeast of Mosul, Iraq on Aug. 16, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)Members of the minority Yezidi religious sect, who fled their homes after assaults from Islamic State (IS) militants, take shelter in buildings under construction in the Zakho district nearby the Iraq-Turkey border on Aug. 16, 2014. (Ahmet Izgi/Anadolu Agency/Getty Images)An internally displaced Iraqi woman holds her sister during a sandstorm outside the Bajid Kandala camp in Feeshkhabour, Iraq on Aug. 19, 2014. (AP Photo/Khalid Mohammed)Displaced Iraqis catch clothes provided by a charity outside the Bajid Kandala camp in Feeshkhabour, Iraq on Aug. 19, 2014. (AP Photo/Khalid Mohammed)Iraqi Kurdish Peshmerga fighters monitor the area from a frontline position in Bashiqa, northeast of Mosul, Iraq on Aug. 16, 2014. (AHMAD AL-RUBAYE/AFP/Getty Images)On Aug. 16, 2014, Kurdish Peshmerga forces patrol a bridge, which led from Guver village to Mosul, after it was destroyed by Islamic State (IS) militants. (Ahmet Izgi/Anadolu Agency/Getty Images)On Aug. 14, 2014, an Iraqi Kurdish Peshmerga fighter takes position on the frontline near the Kurdish checkpoint of Aski kalak, west of Erbil, the capital of the autonomous Kurdish region in northern Iraq. (SAFIN HAMED/AFP/Getty Images) Share Tweet✖AdvertisementShare this✖ closeCurrent SlideMore:Da'ishIslamic StateISISISIS WahhabismIslamic State WahhabismThe Islamic State Saudi ArabiaIbn Abd Al WahhabISIL WahhabismSaudi ArabiaThe Islamic StateISIS Saudi ArabiaISIL Saudi ArabiaSaudi Arabia NewsAround the WebIraq crisis: Sunni caliphate has been bankrolled by Saudi Arabia ...Saudis have lost the right to take Sunni leadership - FT.comSaudi Arabia does not support Islamic State terrorists – or any othersSaudis Must Stop Exporting ExtremismSuggested For YouFOLLOW HUFFPOSTEmailEmail AddressPlease check the checkbox to indicate your consentOptionsThe Morning EmailWorldPostGet top stories and blog posts emailed to me each day..FacebookHuffPostWorldPostTwitterHuffPostFollowWorldPostFollowGoogle PlusHuffPostWorldPostRSSMost Popular on HuffPostLatest NewsWorldPostAll RSS / FeedsPhoneAvailable on the App StoreAndroid App on Google PlayGet it at Blackberry App WorldWatch Aziz Ansari Get Ridiculous With Grover on Sesame StreetLed Zeppelin Loses First Round in ‘Stairway to Heaven’ LawsuitTinder Thinks You’ll Pay to Find a Match. Swipe Right?Time - PoliticsSearch The Huffington PostEnter Search TermsSubmit SearchAdvertiseLog InMake HuffPost your Home PageRSSCareersFAQUser AgreementPrivacyComment PolicyAbout UsAbout Our AdsContact UsCopyright ©2015 TheHuffingtonPost.com, Inc.\"The Huffington Post\" is a registered trademark of TheHuffingtonPost.com, Inc. All rights reserved.Part of HPMG NewsUse this form to alert a HuffPost editor about a factual or typographical error in this story.Notify message* Required*** What kind of error is this?Choose an optionFactual or typographicalComment moderation problemRights and permissionsOther* What is the correction?0 countDescribe the error here (1,000 character limit)* Type the words below so we know you are not a cyborgSign me up for The Morning EmailThanks for your report!"
+        ],
+        "content_text_length": 23276,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "You Can't Understand ISIS If You Don't Know the History of Wahhabism in Saudi Arabia | Alastair Crooke",
+        "keywords": "you, can't, understand, isis, if, you, don't, know, the, history, of, wahhabism, in, saudi, arabia, worldpost",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 09 0a 3c 21 2d 2d 20 20 4d 6f 62 69 6c 65 20 72",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "www.huffingtonpost.co.uk",
+          "plus.google.com",
+          "appworld.blackberry.com",
+          "advertising.aol.com",
+          "www.independent.co.uk",
+          "www.brasilpost.com.br",
+          "www.huffingtonpost.fr",
+          "www.huffingtonpost.kr",
+          "www.theguardian.com",
+          "time.com",
+          "www.huffingtonpost.in",
+          "reddit.com",
+          "www.huffingtonpost.ca",
+          "play.google.com",
+          "twitter.com",
+          "www.tumblr.com",
+          "www.time.com",
+          "www.stumbleupon.com",
+          "www.nytimes.com",
+          "www.huffingtonpost.es",
+          "voces.huffingtonpost.com",
+          "www.amazon.com",
+          "www.huffpostmaghreb.com",
+          "adinfo.aol.com",
+          "english.alarabiya.net",
+          "www.ft.com",
+          "www.huffingtonpost.com",
+          "www.huffingtonpost.jp",
+          "www.facebook.com",
+          "itunes.apple.com",
+          "privacy.aol.com",
+          "www.huffingtonpost.de",
+          "live.huffingtonpost.com",
+          "www.amazon.co.uk",
+          "islamgendermodernity.files.wordpress.com"
+        ],
+        "links_domains": [
+          "huffingtonpost.kr",
+          "huffingtonpost.es",
+          "tumblr.com",
+          "stumbleupon.com",
+          "huffingtonpost.in",
+          "aol.com",
+          "amazon.co.uk",
+          "facebook.com",
+          "time.com",
+          "reddit.com",
+          "huffingtonpost.ca",
+          "apple.com",
+          "huffingtonpost.co.uk",
+          "twitter.com",
+          "brasilpost.com.br",
+          "nytimes.com",
+          "independent.co.uk",
+          "huffingtonpost.fr",
+          "blackberry.com",
+          "huffingtonpost.jp",
+          "huffpostmaghreb.com",
+          "huffingtonpost.de",
+          "huffingtonpost.com",
+          "ft.com",
+          "amazon.com",
+          "theguardian.com",
+          "google.com",
+          "alarabiya.net",
+          "wordpress.com"
+        ],
+        "links_public_suffixes": [
+          "de",
+          "ca",
+          "com",
+          "com.br",
+          "jp",
+          "fr",
+          "co.uk",
+          "kr",
+          "net",
+          "in",
+          "es"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "div",
+          "img",
+          "noscript",
+          "br",
+          "meta",
+          "title",
+          "time",
+          "figure",
+          "style",
+          "n.length;o++)r(n[o]);return",
+          "button",
+          "h4",
+          "fieldset",
+          "h1",
+          "head",
+          "option",
+          "h3",
+          "hh--236slideexpand--363325--hh",
+          "h2",
+          "ul",
+          "b",
+          "form",
+          "select",
+          "a",
+          "menu",
+          "label",
+          "script",
+          "section",
+          "header",
+          "footer",
+          "li",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "textarea",
+          "legend",
+          "p",
+          "nav",
+          "html",
+          "em",
+          "o;)i[r]=t[e+r];return",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=utf-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=utf-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_384": "CndJP0YNTs7ILSEi455E5jDPj1CDlvPn0NBf6vmZxtKamfLSbOYg0GlvyXV2ccdc",
+        "ssdeep_hash_bs_768": "wVXyI0/Pj1CxvPn0NneVLfYgaXVn",
+        "ssdeep_hash_ngram_bs_384": "CndJP0YNTs7ILSEi455E5jDPj1CDlvPn0NBf6vmZxtKamfLSbOYg0GlvyXV2ccdc",
+        "ssdeep_hash_ngram_bs_768": "wVXyI0/Pj1CxvPn0NneVLfYgaXVn",
+        "crawl_dates": [
+          "2015-03-05T04:04:26Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861384624636000
+      },
+      {
+        "source_file_s": "MAT-2.warc@6614566",
+        "url": "http://twiey.com/article/17",
+        "host": "twiey.com",
+        "domain": "twiey.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx"
+        ],
+        "content_type_served": "text/html; charset=UTF-8",
+        "content_length": 14768,
+        "id": "sha1:2V4LYOA5WXG3Z4N2NPODGUI3UUVF4TRV/wUGEFR9wiOShRNmzayYArA==",
+        "hash": [
+          "sha1:2V4LYOA5WXG3Z4N2NPODGUI3UUVF4TRV"
+        ],
+        "crawl_date": "2015-03-05T04:03:43Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040343",
+        "content": [
+          "【新事実発覚！】 ２５年経って明かされたドラゴンボールの真実超速バズッター通信【新事実発覚！】 ２５年経って明かされたドラゴンボールの真実「ドラゴンボールＺ」初代エンディングテーマ。イントロ部分を逆再生すると…!?【新事実を知った人々の反応】うおぉおーーー！！！すげぇえ！！！！！約25年くらい経つけど今日まで全然気付かなかった！！！だから最初の声がおかしいのか‥‥‥‥納得自分も結構気になってたんですよｗ当時でこんなことできるなんてすごいですね((´∀｀))新着記事【グロ注意】首切られた後でも人間って動くんだな・・・【閲覧注意】ISIS（イスラム国）がアップした21人一斉斬首動画がヤバすぎる後藤真希、巨乳お尻丸出しヌード！「これネット初流出だろ！」「乳首見えとる！」（画像大量）【ﾎﾞｯｷ注意】流出した吉沢明歩（AV女優）のノーモザイクおま●こを発見！【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいイスラム国で性奴隷として170ドルで売られてる少女が可愛すぎるｗｗｗｗ綾瀬はるか、「ブルマ」「透け乳首」恥ずかしい過去画像が続々流出…熱愛相手・松坂桃李ファンの犯行か…美女真空パック・・・やり過ぎておしっこ漏らして失神寸前・・・【エログロ】可愛い女の子に本気のエロ拷問した結果･･･人気記事【超閲覧注意】ISIS(イスラム国)が後藤健二さんの斬首映像を公開【驚愕】女の子をガチガチに固定したままマジでイカせるとこうなる【画像あり】ベッキーのパンツどころか●●●も写ってしまった件【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】レ●プで犯されて死んでる女の子の画像【感動】ディズニーランドで迷子の園内放送がない理由【衝撃画像】壇蜜が普通にま●こ晒しててエロ過ぎる件ｗｗｗｗ（画像7枚）【閲覧注意】彼女を布団圧縮袋に入れて空気を抜いた結果・・・(画像11枚)【超閲覧注意】ヤクザの組長の娘をレ〇プした男の末路に背筋が凍った・・・【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいpchttp://twiey.com/http://twiey.com/article/17"
+        ],
+        "content_text_length": 992,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "【新事実発覚！】 ２５年経って明かされたドラゴンボールの真実",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 68 74 6d 6c 3e 0a 3c 68 65 61 64 3e 0a 20 20",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "twiey.com"
+        ],
+        "links_domains": [
+          "twiey.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "form",
+          "link",
+          "a",
+          "div",
+          "img",
+          "script",
+          "br",
+          "meta",
+          "input",
+          "title",
+          "p",
+          "html",
+          "head",
+          "h1",
+          "h3",
+          "span",
+          "h2"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "ja",
+        "ssdeep_hash_bs_48": "Usp+UsLGsn/wZxy+fiEhjFSFm/ndyOBOkabKFpr8/djNrl+gehRVdLiEEYbbb7by",
+        "ssdeep_hash_bs_96": "UsZsqs/wq+6Agm/ndNBOkabysdjx8sEW",
+        "ssdeep_hash_ngram_bs_48": "Usp+UsLGsn/wZxy+fiEhjFSFm/ndyOBOkabKFpr8/djNrl+gehRVdLiEEYbbb7by",
+        "ssdeep_hash_ngram_bs_96": "UsZsqs/wq+6Agm/ndNBOkabysdjx8sEW",
+        "crawl_dates": [
+          "2015-03-05T04:03:43Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861330682740700
+      },
+      {
+        "source_file_s": "MAT-2.warc@13366090",
+        "url": "http://twiey.com/article/18",
+        "host": "twiey.com",
+        "domain": "twiey.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx"
+        ],
+        "content_type_served": "text/html; charset=UTF-8",
+        "content_length": 14780,
+        "id": "sha1:Z3QARIWYNZWOQEJG3YT7KRSUS3NUJYQ4//bM9KyK3xOwUOu8/jrdDOg==",
+        "hash": [
+          "sha1:Z3QARIWYNZWOQEJG3YT7KRSUS3NUJYQ4"
+        ],
+        "crawl_date": "2015-03-05T04:03:47Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040347",
+        "content": [
+          "【超閲覧注意】ヤクザの組長の娘をレ〇プした男の末路に背筋が凍った・・・超速バズッター通信【超閲覧注意】ヤクザの組長の娘をレ〇プした男の末路に背筋が凍った・・・友達のA子の父親は、893の組長だ。ある日、A子は親に内緒で彼氏と八丈島に遊びに行っていた。それを知った父親は激怒。ヘリをチャーターした組員がB子を連れ戻しに行った。それを知って私達悪友は、皆で大笑い。そして、帰ってきたA子に話を聞いた。 衝撃の結末はこちら（超閲覧注意）新着記事【グロ注意】首切られた後でも人間って動くんだな・・・【閲覧注意】ISIS（イスラム国）がアップした21人一斉斬首動画がヤバすぎる後藤真希、巨乳お尻丸出しヌード！「これネット初流出だろ！」「乳首見えとる！」（画像大量）【ﾎﾞｯｷ注意】流出した吉沢明歩（AV女優）のノーモザイクおま●こを発見！【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいイスラム国で性奴隷として170ドルで売られてる少女が可愛すぎるｗｗｗｗ綾瀬はるか、「ブルマ」「透け乳首」恥ずかしい過去画像が続々流出…熱愛相手・松坂桃李ファンの犯行か…美女真空パック・・・やり過ぎておしっこ漏らして失神寸前・・・【エログロ】可愛い女の子に本気のエロ拷問した結果･･･人気記事【超閲覧注意】ISIS(イスラム国)が後藤健二さんの斬首映像を公開【驚愕】女の子をガチガチに固定したままマジでイカせるとこうなる【画像あり】ベッキーのパンツどころか●●●も写ってしまった件【閲覧注意】ISIS、今度は人質の頭をショットガンで吹き飛ばす動画を公開【閲覧注意】レ●プで犯されて死んでる女の子の画像【感動】ディズニーランドで迷子の園内放送がない理由【衝撃画像】壇蜜が普通にま●こ晒しててエロ過ぎる件ｗｗｗｗ（画像7枚）【閲覧注意】彼女を布団圧縮袋に入れて空気を抜いた結果・・・(画像11枚)【超閲覧注意】ヤクザの組長の娘をレ〇プした男の末路に背筋が凍った・・・【閲覧注意】イスラム国がヨルダン人パイロットを焼き殺す動画がやばいpchttp://twiey.com/http://twiey.com/article/18"
+        ],
+        "content_text_length": 977,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "【超閲覧注意】ヤクザの組長の娘をレ〇プした男の末路に背筋が凍った・・・",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 68 74 6d 6c 3e 0a 3c 68 65 61 64 3e 0a 20 20",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "twiey.com"
+        ],
+        "links_domains": [
+          "twiey.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "form",
+          "link",
+          "a",
+          "div",
+          "img",
+          "script",
+          "br",
+          "meta",
+          "input",
+          "title",
+          "p",
+          "html",
+          "head",
+          "h1",
+          "h3",
+          "span",
+          "h2"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "ja",
+        "ssdeep_hash_bs_48": "yv9U1+ylwRZEhh12SJpmMdB3mdXJndyBYLdtDawyybNr8/djNrl+gehRVdLiEEeF",
+        "ssdeep_hash_bs_96": "yvqJWRZqddxmBJndyYLdtDabysdjx8s0",
+        "ssdeep_hash_ngram_bs_48": "yv9U1+ylwRZEhh12SJpmMdB3mdXJndyBYLdtDawyybNr8/djNrl+gehRVdLiEEeF",
+        "ssdeep_hash_ngram_bs_96": "yvqJWRZqddxmBJndyYLdtDabysdjx8s0",
+        "crawl_dates": [
+          "2015-03-05T04:03:47Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861337457590300
+      },
+      {
+        "source_file_s": "MAT-2.warc@41629305",
+        "url": "http://matome-plus.com/",
+        "url_type": "slashpage",
+        "host": "matome-plus.com",
+        "domain": "matome-plus.com",
+        "public_suffix": "com",
+        "server": [
+          "Apache/2.2.25",
+          "PHP/5.2.17"
+        ],
+        "content_type_served": "text/html",
+        "content_length": 12183,
+        "id": "sha1:R32CJQ3HENKLQZCJL27V2PPTBBBIL3GK/SCcaWgiqpR9w49whfhJtfQ==",
+        "hash": [
+          "sha1:R32CJQ3HENKLQZCJL27V2PPTBBBIL3GK"
+        ],
+        "crawl_date": "2015-03-05T04:03:59Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040359",
+        "content": [
+          "まとめサイト速報＋まとめサイト速報＋TOP2ch動画芸能おもしろ漫画ゲーム萌え役立つデザインNEWSその他ABOUTミラー痛いニュース(ﾉ∀`)【兵庫】 前歯のない女が女子生徒に声かけ「名前と住所教えて。今からケーキ作りに行く...中島みゆきさんから母校にFAXで祝辞が届きみんな感激→赤の他人が書いた偽物でしたクルド人女性「美味しいお肉とスープをありがとう。ところで息子は？」 ISIS「たった今...【ニコ生】 川崎中１殺害の容疑者宅に凸→上村君の通夜にも出没→絡まれて配信を止められ...アルファルファモザイク目玉焼きも作れない女ってどう思う？ガチで親に訴えると言われたんだが…俺の彼女は大手予備校講師に痴漢された経験があるんだがチェックシャツの着こなしに自信ニキきてくれニュー速クオリティＫ1史上最強はマーク・ハントでおｋ？【画像あり】ミス大妻女子大の横田彩夏さんがガチで可愛いと話題にｗｗｗｗｗｗ【画像】ステーキけんで1番高いステーキ注文したwwwwwww【画像】川口春奈のプリプリお尻がドエロいwwwwwハムスター速報９６歳のじいさんの運転がマジでシャレになってないｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ...暗殺教室・松井優征先生が証言「肌年齢がおかしい荒木飛呂彦先生は石仮面を被った。ここ...アメリカ大使が韓国人に襲われる「おれが米国のやつを切ってやった」・・・アメリカが日...【川崎中一殺害】上村遼太くん殺害グループが「川崎国」を名乗った為に川崎市民が「川崎...暇人＼(＾o＾)／速報笑点の視聴率ｗｗｗｗｗｗｗｗ【画像あり】川口春奈のプリプリお尻ガストとかサイゼリヤを不味いというやつが理解できない【画像あり】偉人の名言系ボケてわろたｗｗｗｗｗVIPPERな俺東日本大震災からもうすぐ4年になるわけだが・・いわゆる「昔のオタク」ってどういう人種なんやドラクエの女の子で可愛いのは一度は通ってみたいアニメ・漫画の学校 TOP30!123456789101112131415161718next新着一覧|VIP|ニュース|短レス|やる夫|その他　HG 1/144 ダハック(ガンダム Gのレコンギスタ)　　MG 1/100 百式Ver2.0 (機動戦士Zガンダム)HGBF 1/144 ディナイアルガンダム (ガンダムビルドファイターズトライ)HGUC 1/144 LM314V23/24 V2アサルトバスターガンダム (機動戦士Vガンダム)copyright © まとめサイト速報＋ All Rights Reserved."
+        ],
+        "content_text_length": 1151,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "まとめサイト速報＋",
+        "keywords": "まとめ,まとめサイト,まとめサイト速報,matome,2ch",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 20 50 55 42 4c 49 43 20 22 2d 2f 2f 57 33 43 2f 2f 44",
+        "content_type_droid": "application/xhtml+xml; version=1.0",
+        "links_hosts": [
+          "hamusoku.com",
+          "news4vip.livedoor.biz",
+          "matome-plus.com",
+          "alfalfalfa.com",
+          "matome-plus.net",
+          "blog.livedoor.jp",
+          "himasoku.com",
+          "www.amazon.co.jp"
+        ],
+        "links_domains": [
+          "hamusoku.com",
+          "amazon.co.jp",
+          "matome-plus.com",
+          "livedoor.biz",
+          "livedoor.jp",
+          "alfalfalfa.com",
+          "matome-plus.net",
+          "himasoku.com"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "jp",
+          "net",
+          "co.jp",
+          "biz"
+        ],
+        "elements_used": [
+          "li",
+          "body",
+          "title",
+          "ul",
+          "font",
+          "a",
+          "link",
+          "img",
+          "div",
+          "html",
+          "h1",
+          "head",
+          "meta"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "1.0",
+        "content_type_full": "text/html; charset=UTF-8",
+        "content_type_norm": "html",
+        "content_language": "ja",
+        "ssdeep_hash_bs_48": "umqzcxPQvSk19XIid3tgymROUGgAsE7vcCylguFEedAdnd0dvF",
+        "ssdeep_hash_bs_96": "umqzAPDgNIGtUzoOPFEemn8",
+        "ssdeep_hash_ngram_bs_48": "umqzcxPQvSk19XIid3tgymROUGgAsE7vcCylguFEedAdnd0dvF",
+        "ssdeep_hash_ngram_bs_96": "umqzAPDgNIGtUzoOPFEemn8",
+        "crawl_dates": [
+          "2015-03-05T04:03:59Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861354591322000
+      },
+      {
+        "source_file_s": "MAT-2.warc@94947176",
+        "url": "http://www.turnto23.com/",
+        "url_type": "slashpage",
+        "host": "www.turnto23.com",
+        "domain": "turnto23.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html;charset=UTF-8",
+        "server": [
+          "Apache-Coyote/1.1"
+        ],
+        "content_length": 217269,
+        "id": "sha1:L2HQBZKAODLJQJI2QAOZ6WMFNXXU53U3/nRKH+mXZ6q0XndxT1cn4cQ==",
+        "hash": [
+          "sha1:L2HQBZKAODLJQJI2QAOZ6WMFNXXU53U3"
+        ],
+        "crawl_date": "2015-03-05T04:04:32Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040432",
+        "content": [
+          "Bakersfield News & Kern County News, California News, Weather, and Sports - 23ABC News23ABC NewsNewsletters/AlertsMobileContestsWatch ABCWeatherClear53°More WeatherHomeSectionsBackFeaturedBackNewsBackAll NewsBlack History MonthLocalStateUS | World NewsSlideshowsDecodeDCPoliticsIrresistibleNewstipsFinancial Fitness ZoneEntertainmentBackAll EntertainmentMovie ReviewsRight This MinuteMETV BakersfieldLets Ask AmericaCrosswordsThe ListSudokuWho Wants To Be A MillionaireLifestyleBackAll LifestyleTechnologyValentine's DayStaying HealthyFamilyEducationCommunity CalendarThe ChewSportsBackAll SportsLocal SportsSuper BowlStudent Athletes23FNLVideoBackAll VideoLive VideoABC News Live VideoMarketplaceBackAll MarketplaceHelp For The HolidaysCalifornia Lottery ResultsMoneyShopSmartAbout UsBackAll About UsHearing Impaired ResourcesAdvertiseContact UsRSSTV Listings23ABC JobsNewslettersAztecaBackAll AztecaHoroscopoTiempoContactenosCalendarioWeatherBackAll WeatherWeather AlertsWeather CamsTrafficBackAll TrafficGas PricesDrive TimesTraffic CamerasSiteWebRelevanceDateSheriff disagrees with \"green tip\" banAmmunition is flying off shelves at guns stores across the county after the Bureau of Alcohol, Tobacco and Firearms…Motorhome on fire on Hwy. 99 and 7th Standard Rd20 mins agoReport: US ambassador to S. Korea attacked4 hours agoThief steals free library from community garden55 mins agoMarch most popular month to divorce52 mins agoHow your dentist could screen you for diabetesQuiz: Which great NCAA coach matches you best?53 mins agoConnectFacebookTwitterMOREYouTubePinterestInstagramMobile AppsCommunity CalendarRSS FeedsNewstipsFeatured ContentWhy stay-at-home parents get nothing doneDon't Miss These StoriesFourth annual Trout Fihsing Derby this SaturdayEye exams and glasses given to pre-selected kidsDelano PD: Man attacked wife, mother-in-lawBPD: Woman stole from Dollar General in the SWToday's KernCast23BPD: Man stole surveillance cameras off garageBPD: Woman stole from Walmart on Gosford RoadMan dies after being hit by car, BPD saysSimple Steals: \"The Dress\" iPhone Case for $8.99Free children's immunization clinics for MarchCrash leaves two boys with major injuriesOn March 3, at approximately 5:50 p.m., the California Highway Patrol received a call of a…Mojave JobFest taking place ThursdayThe Mojave JobFest will take place on Thursday, March 5 at the Mojave Air & Space Port…More Top StoriesRecent VideosPreviousNextSheriff disagrees with \"green tip\" ban1 hour agoMarch most popular month to divorce49 mins agoThief steals free library from community garden52 mins agoEye exams and glasses given to pre-selected kidsBrain injured patient finds hopeMS impacts hundreds in Kern CountyMange hits kit fox population in BakersfieldState increases water allocation for 2015February rain totals fall shortWet weather brings snow to local mountainsCalifornia State NewsCalifornians slacked on saving water in JanuaryA new report shows Californians also slacked off on our water conservation last month.Jeb Bush and Nigeria: From glory to claimsJeb Bush was the son of the sitting U.S. president when he was greeted in Nigeria as a hero, leading a 21-person delegation to the country in…Two teenagers arrested in Fresno after chaseTwo teenagers were arrested over the weekend after leading a Sheriff's deputy on a chase.Suspect in fatal street race turns himself inA man suspected of driving a Ford Mustang that struck and killed two spectators during a street race in Southern California has turned himself in.More California NewsUS NewsU.S. ambassador to South Korea attacked in SeoulU.S. Ambassador Mark Lippert was reportedly attacked by a man shouting anti-war slogans while he visited South Korea's capital city.Report: US ambassador to S. Korea attackedThe U.S. ambassador to South Korea has been seriously injured in an attack in Seoul, according to South Korea’s official news agency.More Americans want ground troops to fight ISISAs the conflict with ISIS drags on, more Americans favor sending U.S. ground troops to fight militants in Syria and Iraq.Mount Everest's poop problem piles upHarsh conditions on the mountain make sewage and water treatment systems virtually impossible, which could be a health concern for climbers.More National NewsSpotlightGet Storm Shield for weather alertsStorm Shield is a life-saving app that is like a NOAA Emergency Weather Radio for your iPhone and Android.Get the new, free 23ABC News appKern County's best breaking news app has been completely re-designed to bring you faster performance and stunning improvements to photos…Decode DCWhich political party is the conservative party?Why are we still talking about Obamacare?Photo GalleriesPreviousNextIsraeli PM warns Congress about IranFeb 2015 Kern County Snowy stormAt the 2015 Academy AwardsOscars 2015: On the red carpetPHOTOS: Icy Niagara Falls drawing tourists2015 Westminster Kennel Club Dog ShowPeek inside New York Fashion WeekOSCARS: Classic moments in Oscars historyPICS: Boston hit with another major snow stormPICS: Relics recall RadioShack's heydayEntertainmentR. Kelly & Lady Gaga to headline Selma...David Walliams and wife Lara Stone split -...Chris Brown a dad - reportCharli XCX and Ne-Yo interviews cut short in...More Entertainment NewsHealthHormone might offer similar benefits as exerciseAdults get the flu about twice a decadeLong-lost Japanese battleship found?Alzheimer's protein plaque found in 20-year-oldsForest tree seeds added to 'doomsday' vaultMore Health NewsIrresistiblePeople respond to challenge to top #WeaselPeckerToddler Stylists Are All The RageVIDEO: Doctors talk vaccines on KimmelDress color debate blows up the internetTwitter reactions to llamas on the looseMore Irresistible StoriesLocal NewsNational News WeatherSports Entertainment Lifestyle Marketplace23ABC NewsAdvertise with UsContact UsStation JobsTV ListingsHearing Impaired ResourcesCommunity CalendarIShotItLet's Ask AmericaThe ListRSS FeedsMobile Apps23ABC NewsiPhone Kindle AndroidStorm ShieldiPhoneAndroidStay ConnectedfacebooktwitterpinterestinstagramyoutubeNewslettersScripps TV Station Group © 2015 The E.W. Scripps CoPrivacy Policy Terms of Use EEO FCC Public File"
+        ],
+        "content_text_length": 6434,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "Bakersfield News & Kern County News, California News, Weather, and Sports - 23ABC News",
+        "keywords": "bakersfield news, california news, bakersfield california, kern county news, tehachapi news, events, shopping, local news, today, central bakersfield, east bakersfield, southwest bakersfield",
+        "content_encoding": "UTF-8",
+        "content_ffb": "0a0a0d0a",
+        "content_first_bytes": "0a 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a 0d 0a",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "pinterest.com",
+          "www.calottery.com",
+          "www.thelisttv.com",
+          "letsaskamerica.tv",
+          "www.twitter.com",
+          "www.instagram.com",
+          "www.youtube.com",
+          "www.thelistshow.tv",
+          "www.scripps.com",
+          "stations.fcc.gov",
+          "ishotit.turnto23.com",
+          "abc.go.com",
+          "www.facebook.com",
+          "twitter.com",
+          "bit.ly",
+          "instagram.com",
+          "metvnetwork.com",
+          "www.turnto23.com",
+          "www.pinterest.com"
+        ],
+        "links_domains": [
+          "pinterest.com",
+          "go.com",
+          "turnto23.com",
+          "letsaskamerica.tv",
+          "thelisttv.com",
+          "facebook.com",
+          "twitter.com",
+          "bit.ly",
+          "instagram.com",
+          "scripps.com",
+          "calottery.com",
+          "metvnetwork.com",
+          "youtube.com",
+          "thelistshow.tv",
+          "fcc.gov"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "tv",
+          "ly",
+          "gov"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "div",
+          "img",
+          "figcaption",
+          "noscript",
+          "aside",
+          "meta",
+          "time",
+          "title",
+          "figure",
+          "style",
+          "button",
+          "h1",
+          "head",
+          "option",
+          "ul",
+          "form",
+          "select",
+          "a",
+          "script",
+          "header",
+          "section",
+          "i",
+          "li",
+          "footer",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "p",
+          "nav",
+          "html",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_96": "GEHr7G5E85nne/WafoW4AMIaXAze4OUO3iXc7kjULvqw/",
+        "ssdeep_hash_bs_192": "nL7Gfe/W0oW4AMIaXmFkrl3",
+        "ssdeep_hash_ngram_bs_96": "GEHr7G5E85nne/WafoW4AMIaXAze4OUO3iXc7kjULvqw/",
+        "ssdeep_hash_ngram_bs_192": "nL7Gfe/W0oW4AMIaXmFkrl3",
+        "crawl_dates": [
+          "2015-03-05T04:04:32Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861392062185500
+      },
+      {
+        "source_file_s": "MAT-2.warc@41395999",
+        "url": "http://rss.harikonotora.net/",
+        "url_type": "slashpage",
+        "host": "rss.harikonotora.net",
+        "domain": "harikonotora.net",
+        "public_suffix": "net",
+        "server": [
+          "Apache/2.2.25"
+        ],
+        "content_type_served": "text/html",
+        "content_length": 59305,
+        "id": "sha1:XMMUWUHZ5MZXVY5XU77SQDIQTKQB7FJ3/9yNO7Qj+Yu6QSGt4TfHe5w==",
+        "hash": [
+          "sha1:XMMUWUHZ5MZXVY5XU77SQDIQTKQB7FJ3"
+        ],
+        "crawl_date": "2015-03-05T04:04:01Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040401",
+        "content": [
+          "まとめブログアンテナFollow @hariko_t←トップ（サイトメニュー）｜ログイン｜公開ＲＳＳ一覧｜モバイルの利用｜価格比較ようこそゲストさん　新規ユーザー登録についてはこちら03月05日13：03新着人気記事ニュース芸能スポーツアニメ・ゲーム話題・雑談日常掲載サイト(104)13：02【動物】これは怖すぎ！サファリパークでライオンが超接近→歯で後部座席のドアを開けられてしまう情報屋さん。13：00【画像】ドイツの新型スーパーカーｗｗｗｗｗｗｗｗラジック13：00【野球】広島、交流戦までは巨人に前田、阪神に黒田を全当てなんJPRIDE13：00「役職につきたくない」がトップ！ 若者の出世願望調査ニュース30over13：00竹内由恵アナ可愛いすぎｗｗｗｗｗｗｗ芸能人の気になる噂13：00本日放送のアメトーークは「しずかちゃん大好き芸人」！！　ニッチすぎんだろｗｗｗｗｗはちま起稿12：59姉がマルチ商法にハマっているんだがｗｗｗｗｗｗｗ調理兵はVIPPERだった12：56駐韓米国大使が韓国人に襲われた状況がヤバイ…(動画あり)GOSSIP速報12：55Ｋ1史上最強はマーク・ハントでおｋ？ニュー速クオリティ12：55笑点の視聴率ｗｗｗｗｗｗｗｗ暇人速報12：53こういうギターリフがかっこい曲でおすすめ教えてくれゆるりとひじきそくほう12：50すぐにヤらせちゃう女の子の特徴いたしん！12：50過去に陰で男性をからかっていたことが旦那にバレて、「自分がまともな親になれると思ってんの？」と言われた鬼嫁ちゃんねる12：48【孤独のグルメ】figma「井之頭五郎」「井之頭五郎 大盛りver.」再販予約開始！fig速12：42お店の売上1日8万円(´・ω・`)はーとログ12：42Gのレコンギスタのモビルスーツが異形過ぎてかっこよすぎろぼ速VIP12：40【予約開始】『メタルギアソリッド5』の予約が始まったぞおおおお！！オレ的ゲーム速報＠刃12：40元旦那が他人を装って復縁メールを送りつけてくるようになった。バレてないつもりなのだろうか。鬼嫁日記12：39「作者の知識量すげえ…」と思った漫画seiyufan12：39大学の第二外国語って何がいいの？育児板拾い読み＠２ｃｈ＋α12：37カウボーイのカカトに着いてる車輪ソニック速報12：35韓国の突然の独立放棄で『アメリカが涙目になる』異常事態が発生寸前。100年前と同じことをアメリカ相手に再現中U-1速報12：33【驚愕の事実】こんなにある！！年々小さくなっている食べ物がこちらｗｗｗｗｗｗｗｗｗｗオールジャンルのオージャン12：33おまえらがメリット馬鹿にするから意地になって1500円のシャンプー買った結果ｗｗｗｗｗｗｗｗｗｗｗ流速VIP12：31幼女「じしゃくにんげんだぞー！」俺「なんだって！？」幼女「くっついちゃうぞー！」ぎゅうーちゃんねるＺ12：30ミスタードーナツ ４月から「ポン・デ・リング」など１４種類のドーナツを値上げへお料理速報12：30【画像】今月の『ToLoveる（とらぶる）』でティアーユがフェ○未遂しててワロタｗｗｗｗｗｗ虹神速報-にじそく12：30鹿島、連敗スタート　FCソウルのセットプレーから失点　FCソウル 1-0 鹿島フットボール速報12：28【画像】AKB48川栄李奈がムチムチ過ぎる件ｗｗｗｗｗｗｗｗｗｗ今日速2ch12：24【49枚】 おもしろい画像をはってくれないか？ラビット速報12：18【画像】米大使を襲撃した韓国人容疑者の姿をご覧ください！！！暇つぶしニュース12：17【AKB48/SKE48】※AKB調べ「実際嗅いでみたらいい匂いだったAKBメンバー！メンバーの匂いが忠実に再現される！！」の感想？【NMB48/HKT48】AKB48タイムズ12：15ラーメン二郎店主「丼戻せ」　俺「えっ･･･？」　店主「丼カウンターに上げろ！！」←何だこいつ･･･キチガイだろマジキチ速報12：15【韓国】駐韓米大使襲撃…男は普段から民和協の行事に来ていたが会員ではない、招請者にも含まれていないキムチ速報12：13日本語の鼻濁音が来世紀にはほぼ消滅　←元々トーホグの方言だし日本語全体の問題じゃなくね【2ch】コピペ情報局12：12禁煙のホームで煙草を吸い始めたリーマン。電車が到着すると、火のついた煙草を足下に転がしやがった！まだ火のついている煙草を拾い上げた俺は･･･ふよふよ速報。12：11ワールドトリガーって漫画面白い？ジャンプ速報12：10結婚2週目なんだけど家内が家事をしてくれず困っております。結婚・恋愛ニュースぷらす12：10制服をだるっだるに着崩し見るからにDQNという格好で出てきた高校生バイトくんを「ちょっと待て、その格好はなんだ」と呼び止めた結果…せちがら速報12：10【衝撃】学校へ行く途中に車に轢かれてしまった！しかしテストが気がかりだったのでそのまま学校へ行った結果…子育て速報今日の記事全部表示　昨日　２日前　３日前痛いニュース(ﾉ∀`)【兵庫】 前歯のない女が女子生徒に声かけ「名前と住所教えて。今からケーキ作りに行くから」中島みゆきさんから母校にFAXで祝辞が届きみんな感激→赤の他人が書いた偽物でしたクルド人女性「美味しいお肉とスープをありがとう。ところで息子は？」 ISIS「たった今お前が食べたよ」【ニコ生】 川崎中１殺害の容疑者宅に凸→上村君の通夜にも出没→絡まれて配信を止められ、警察に被害届ニュー速クオリティ【画像あり】ミス大妻女子大の横田彩夏さんがガチで可愛いと話題にｗｗｗｗｗｗ【画像】ステーキけんで1番高いステーキ注文したwwwwwww【画像】川口春奈のプリプリお尻がドエロいwwwww彼女できたんだけど、金かかりすぎじゃね？飯代、交通費、プレゼント代、宿泊費・・・・情報屋さんこじはること小嶋陽菜がお尻丸出しｗｗｗもうアイドルじゃないだろｗｗｗｗ（画像）【実録】白バイ隊員焦る。どんな大物が乗っていたのか？ 白バイがSP警護車両を捕らえてしまった結果 →【いったいどんな風に仕上がるのか？】カップヌードルの謎肉でハンバーグを作ってみた【音楽】世界40カ国以上でデビュー。日本の謎の女子中学生バンド、五五七二三二〇 のMVが話題。中の人ってもしかして…暇つぶしニュース【画像】米大使を襲撃した韓国人容疑者の姿をご覧ください！！！嫁がやらしてくれないのでデリ頼んだ結果wwwwwwwww【悲報】 鳥取市:婚活イベントに非難殺到！！！！【悲報】駐韓米国大使、襲撃される！！！　これは酷い・・・（閲覧注意）ねたAtoZすぐにヤらせちゃう女の子の特徴エチオピアで最古のホモ属化石　２８０万年前【速報】韓国人が駐韓米国大使を襲撃【動画あり】鳥取市:婚活イベントに「男性は公務員限定」AKB48まとめんばー【動画】AKB48大和田南那があん誰「萌え我慢選手権」で見せたメイド姿が天使すぎると話題に【AKB48】今夜のオールナイトニッポンは25時の生放送で出演メンバーを解禁！驚きのメンバーが登場NMB48三浦亜莉沙が卒業を発表AKB48木﨑ゆりあが3月5日放送「WADAIの王国」に出演！話題はダンスが全力過ぎる若手メンバー西野未姫ｗ【2ch】コピペ情報局日本語の鼻濁音が来世紀にはほぼ消滅　←元々トーホグの方言だし日本語全体の問題じゃなくね大手企業就活採用担当「親が問い合わせてきた時点で落とす」出産後、自分の胎盤を食べることが流行に耳そうじのし過ぎはNG! どうしても気になる場合でも週1回まで人生VIP職人ブログｗｗｗ【悲報】ネット通販のせいで運送業がボロボロ川崎の中学生殺した犯人の姉と友達だけどなにか質問あっか？面接官に大恥じかかせたったったｗｗｗｗ川崎の事件の上村君って純朴な少年だったみたいに扱われてるけどオタクニュースコンビニで奇跡の現象発生！！これは完全に笑わせようとしてるｗｗｗｗｗｗｗｗｗｗｗｗゾンビが大発生した場合どこに逃げるのが一番いいかを科学的に考察してみたｗｗｗｗｗｗ【朗報】竹達彩奈さんが豚まんをプロデュース！これは妄想が捗りますね！Iカップグラドルの柳瀬早紀さんの胸がとてつもなく大きすぎて完全にアニメキャラの胸と絶賛▲ページトップ　Follow @hariko_tウェブマスター様へ公開ＲＳＳ掲載サイト一覧（掲載順）copyright harikonotora.net All Rights Reserved."
+        ],
+        "content_text_length": 3680,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "まとめブログアンテナ",
+        "keywords": "アンテナ,まとめ",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 20 50 55 42 4c 49 43 20 22 2d 2f 2f 57 33 43 2f 2f 44",
+        "content_type_droid": "text/html; version=4.01",
+        "links_hosts": [
+          "jyouhouya3.net",
+          "news.2chblog.jp",
+          "www.harikonotora.net",
+          "rss.harikonotora.net",
+          "workingnews.blog117.fc2.com",
+          "netaatoz.jp",
+          "qlip.jp",
+          "harikonotora.net",
+          "otanew.jp",
+          "news4vip.livedoor.biz",
+          "b.hatena.ne.jp",
+          "twitter.com",
+          "www.masa-credit.net",
+          "akb48-matome.blog.jp",
+          "pritre.com",
+          "blog.livedoor.jp"
+        ],
+        "links_domains": [
+          "otanew.jp",
+          "jyouhouya3.net",
+          "livedoor.biz",
+          "livedoor.jp",
+          "blog.jp",
+          "twitter.com",
+          "masa-credit.net",
+          "fc2.com",
+          "netaatoz.jp",
+          "pritre.com",
+          "qlip.jp",
+          "harikonotora.net",
+          "2chblog.jp",
+          "hatena.ne.jp"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "jp",
+          "ne.jp",
+          "net",
+          "biz"
+        ],
+        "elements_used": [
+          "body",
+          "ul",
+          "b",
+          "form",
+          "font",
+          "link",
+          "a",
+          "img",
+          "div",
+          "noscript",
+          "script",
+          "br",
+          "meta",
+          "li",
+          "input",
+          "title",
+          "base",
+          "html",
+          "head",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=utf-8",
+        "content_type_version": "4.01",
+        "content_type_full": "text/html; charset=utf-8; version=4.01",
+        "content_type_norm": "html",
+        "content_language": "ja",
+        "ssdeep_hash_bs_192": "pJuSLWi+CBrnDrs8LETIV7K/bWepilnn3yuCJk/lchdTnWf1",
+        "ssdeep_hash_bs_384": "pJu0WiB/rsN0G/bWnlnn3yfu/OnWt",
+        "ssdeep_hash_ngram_bs_192": "pJuSLWi+CBrnDrs8LETIV7K/bWepilnn3yuCJk/lchdTnWf1",
+        "ssdeep_hash_ngram_bs_384": "pJu0WiB/rsN0G/bWnlnn3yfu/OnWt",
+        "crawl_dates": [
+          "2015-03-05T04:04:01Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861354420404200
+      }
+    ]
+  }
+}

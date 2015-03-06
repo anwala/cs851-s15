@@ -1,0 +1,743 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 6,
+    "params": {
+      "indent": "true",
+      "q": "food",
+      "_": "1425612923351",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 33,
+    "start": 0,
+    "docs": [
+      {
+        "source_file_s": "MAT-2.warc@11383413",
+        "url": "http://img.grouponcdn.com/deal/vtyD2nnNR1nSiaW9uYUW5t/food-and-drink-108x126.png",
+        "content_type_ext": "png",
+        "host": "img.grouponcdn.com",
+        "domain": "grouponcdn.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx/1.2.9"
+        ],
+        "content_type_served": "image/png",
+        "content_length": 8040,
+        "id": "sha1:LRVBCCMHNCXMKD27YNGDM4HRYGWOAQZL/kQ803wLAxUldBj/32cQojg==",
+        "hash": [
+          "sha1:LRVBCCMHNCXMKD27YNGDM4HRYGWOAQZL"
+        ],
+        "crawl_date": "2015-03-05T04:03:46Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040346",
+        "content": [
+          ""
+        ],
+        "content_text_length": 0,
+        "content_type": [
+          "image/png"
+        ],
+        "content_ffb": "89504e47",
+        "content_first_bytes": "89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 6c 00 00 00 7e 08 03 00 00 00 f6 a6 04",
+        "content_type_droid": "image/png; version=1.0",
+        "content_type_tika": "image/png",
+        "content_type_version": "1.0",
+        "content_type_full": "image/png; version=1.0",
+        "content_type_norm": "image",
+        "crawl_dates": [
+          "2015-03-05T04:03:46Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861335802937300
+      },
+      {
+        "source_file_s": "MAT-2.warc@77683046",
+        "url": "https://foursquare.com/",
+        "url_type": "slashpage",
+        "host": "foursquare.com",
+        "domain": "foursquare.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx"
+        ],
+        "content_type_served": "text/html; charset=utf-8",
+        "content_length": 66262,
+        "id": "sha1:S3HF4D7ANMGM7EQYWP2YXMP6JBGI6RPA/EOJYZcPnNuWLI869/yfmUg==",
+        "hash": [
+          "sha1:S3HF4D7ANMGM7EQYWP2YXMP6JBGI6RPA"
+        ],
+        "crawl_date": "2015-03-05T04:04:25Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040425",
+        "content": [
+          "Norfolk | Food, Nightlife, EntertainmentFoursquareLog InSign UpHere are some popular tips in Norfolk. Select a taste to see more:Beer gardensHealthy foodCocktailsGood for workingMexican foodTrendy placesPhilly cheesesteaksBagelsSeafoodFoursquare helps you find the perfect places in Norfolk to go with friends:9.0Mt. Trashmore ParkPark 310 Edwin Dr Virginia Beach, VAPeople talk about: run some hills, fly kite, dog poopPeople also say (45 tips):Jonnice Slaughter: \"Great place to jog/walk for exercising with mother nature.\"9.3No Frill Bar and GrillAmerican Restaurant 806 Spotswood Ave Norfolk, VAPeople talk about: drunken cheese bread, funky chicken sandwich, norfolk hot brownPeople also say (49 tips):John Lewis Jr: \"Funky Chicken Sandwich is awesome!!!\"8.9Total Wine & MoreWine Shop 536 West 21st Street Norfolk, VAPeople talk about: wine tastingPeople also say (8 tips):George Boneillo: \"You should do the wine tasting there on Saturdays. You can taste several different wines and they provided a coupon if you decide to purchase a bottle.\"9.2Cafe StelláCafé 1907 Colonial Ave Norfolk, VAPeople talk about: cold pressed iced coffee, white lavender mocha, hibiscusPeople also say (41 tips):Nick Jones: \"Fantastic house roasted coffee and pastries and savory eats made by the owners. Highly recommended. The Americano is excellent.\"8.9The BirchBar 1231 W Olney Rd Norfolk, VAPeople talk about: ask ben, awesome beersPeople also say (25 tips):Ed Gartin: \"When in doubt ask for help, these people are incredibly knowledgeable about their beers.\"9.1Yorgo's BageldasheryBagel Shop 2123 Colonial Ave Norfolk, VAPeople talk about: peterman, vegan breakfast, everything bagelPeople also say (37 tips):PETA Manager: \"Best vegan breakfast bagels!\"See more popular placesCheck out exclusive money-saving specials in Norfolk:8.4Krispy Kreme DoughnutsDonut Shop 5832 Northampton Blvd Virginia Beach, VASpecialBuy any dozen, get $2 off a second dozen of Original Glazed doughnuts.8.6The Royal ChocolateGourmet Shop 164 Central Park Ave Virginia Beach, VAPeople talk about: frozen hot chocolateSpecialTwo for one beverage of your choice...includes hot chocolate, spicy hot chocolate, frozen hot chocolate!7.6Carolina CupcakeryCupcake Shop 2019 Colley Ave Norfolk, VASpecialGet 10% off when you check in at Carolina Cupcakery!!! Have yourself a sweet treat!!!See more specialsJoin over 50 million people using Foursquare to get tips tailored to your tastes.Get the free appAboutBlogBusinessesCitiesDevelopersHelpJobsCookies (Updated)Privacy (Updated)TermsEnglish EnglishItalianoDeutschEspañolFrançais日本語ภาษาไทย한국어РусскийPortuguêsBahasa IndonesiaTürkçeCities:AtlantaAustinBostonChicagoDallasDenverHoustonLas VegasLos AngelesNew YorkPhiladelphiaPortlandSan DiegoSan FranciscoSeattleWashington, D.C.Countries:BelgiumBrazilCanadaChileFinlandFranceGermanyGreat BritainHungaryIndonesiaJapanMexicoNetherlandsPhilippinesRussiaSingaporeSpainThailandTurkeyMore Great Places in Norfolk:abcdefghijklmnopqrstuvwxyz#Foursquare © 2015  Lovingly made in NYC & SFYou must enable JavaScript to use foursquare.comWe use the latest and greatest technology available to provide the best possible web experience.Please enable JavaScript in your browser settings to continue.Download Foursquare for your smart phone and start exploring the world around you!"
+        ],
+        "content_text_length": 3479,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "Norfolk | Food, Nightlife, Entertainment",
+        "keywords": "Foursquare,foursq,4sq,check-in,badges,explore,recommendation,local,review,tip,restaurant,bar,coffee,park,New York,San Francisco,Chicago,London,sushi,pizza,cocktails,vacation,food,search,cities",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 3c 68 74 6d 6c 20 78 6d 6c 6e 73 3d 22 68 74 74 70",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "th.foursquare.com",
+          "pt.foursquare.com",
+          "ko.foursquare.com",
+          "ja.foursquare.com",
+          "id.foursquare.com",
+          "fr.foursquare.com",
+          "ru.foursquare.com",
+          "business.foursquare.com",
+          "de.foursquare.com",
+          "blog.foursquare.com",
+          "developer.foursquare.com",
+          "es.foursquare.com",
+          "foursquare.com",
+          "it.foursquare.com",
+          "tr.foursquare.com"
+        ],
+        "links_domains": [
+          "foursquare.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "ul",
+          "form",
+          "link",
+          "a",
+          "img",
+          "div",
+          "noscript",
+          "script",
+          "br",
+          "meta",
+          "li",
+          "title",
+          "input",
+          "strong",
+          "button",
+          "p",
+          "html",
+          "h1",
+          "head",
+          "h3",
+          "h2",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_96": "FWYOncs2Xqc+eiF5XMcljiCqcAeIrqyII+jVg/WKnMR",
+        "ssdeep_hash_bs_192": "F7OcJXR+xF5cclOCqCyIxujnMR",
+        "ssdeep_hash_ngram_bs_96": "FWYOncs2Xqc+eiF5XMcljiCqcAeIrqyII+jVg/WKnMR",
+        "ssdeep_hash_ngram_bs_192": "F7OcJXR+xF5cclOCqCyIxujnMR",
+        "crawl_dates": [
+          "2015-03-05T04:04:25Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861382605078500
+      },
+      {
+        "source_file_s": "MAT-2.warc@4820957",
+        "url": "http://entame07xxx.seesaa.net/styles-index.css",
+        "content_type_ext": "css",
+        "host": "entame07xxx.seesaa.net",
+        "domain": "seesaa.net",
+        "public_suffix": "net",
+        "server": [
+          "Apache"
+        ],
+        "content_type_served": "text/css",
+        "content_length": 8325,
+        "id": "sha1:F4PW24GEAE7KCGY54GI45NG5JW5ECJHY/HtrSKFkQo7PcB6OQgD62bA==",
+        "hash": [
+          "sha1:F4PW24GEAE7KCGY54GI45NG5JW5ECJHY"
+        ],
+        "crawl_date": "2015-03-05T04:03:43Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040343",
+        "content": [
+          "body {font-family:Verdana;margin:0px;padding:0px;text-align:center;background-color:#A9D4FF;}#container{margin:0px auto;padding:0px;width:810px;color:#6F4233;background-image:url(http://blog.seesaa.jp/img/bg/drop_water_blue/bg.gif);background-position:center;background-repeat:repeat-y;}a{color:#0085F0;}h1 {margin:0px;padding-top:30px;font-weight:bolder;font-size:20px;}h1 a{color:#0085F0;font-family:Verdana;text-decoration: none;font-weight:bolder;}h2 {}h3 {font-size:12px;font-weight:bolder;font-family:Verdana;background-image:url(http://blog.seesaa.jp/img/bg/drop_water_blue/title.gif);background-repeat:no-repeat;background-position:center;padding: 8px 25px 8px 25px;margin:15px 0px 0px 0px;}h3 a{text-decoration: none;color:#fff;}#banner{border-top:5px solid #0085F0;font-family:Verdana;margin:0px;text-align:left;padding:0px 20px 20px 20px;margin:0px 5px;}.description {color:#6F4233;font-size:12px;line-height:150%;padding:0px 10px 0px 0px;}.navi {font-size:12px;text-align:center;margin-bottom:10px;margin-top:10px;}#content {margin:0px 0px 0px 15px;_margin:0px 0px 0px 7px;float:left;width:565px;font-size:12px;font-family:Verdana;line-height:150%;}.blog {text-align:left;padding-top:10px;margin-bottom:10px;background-image:url(http://blog.seesaa.jp/img/bg/drop_water_blue/blog_top.gif);background-position:center top;background-repeat:no-repeat;}.blogbody {background-image:url(http://blog.seesaa.jp/img/bg/drop_water_blue/blog_bg.gif);background-position:center;background-repeat:repeat-y;}.date{clear:left;color:#6F4233;font-size:10px;font-weight:normal;text-align:right;margin:15px 20px 0px 20px;padding:4px 5px 4px 10px;background-color:#DBD1C9;}.title{font-weight:bold;}.title a{border:none;}.text{font-size: 12px;padding:0px 25px 5px 25px;margin-top:0px;}.posted{ font-size: 10px; text-align: right;margin-bottom:5px;padding:3px 20px 15px 20px;background-image:url(http://blog.seesaa.jp/img/bg/drop_water_blue/blog_bottom.gif);background-position:center bottom;background-repeat:no-repeat;}#links-left {}#links {font-weight:normal;float:left;width:210px;margin: 0px 0px 0px 15px;text-align:left;font-family:Verdana;}#calendar {margin-bottom:10px;}#calendar table {width:210px;}#calendar th{}#calendar td{}.calendarhead {color:#0085F0;background-color:#A9D4FF;font-size:12px;font-weight:normal;padding:5px 0px 5px 15px;margin-bottom:5px;font-weight:bold;text-align:left;font-family:Verdana;}.calendarhead a{color:#2A3535;text-decoration:none;}.calendarhead .calendarday a{color:#2A3535;font-size:10px;text-decoration:none;}.calendarhead .calendarday{color:#2A3535;font-size:10px;}.calendarday {color:#666;font-size:12px;padding:3px;font-family:Verdana;}.sidetitle {color:#0085F0;background-color:#A9D4FF;font-size:12px;font-weight:normal;padding:5px 0px 5px 15px;margin-bottom:5px;font-weight:bold;}#links .side {font-size:12px;padding:0px 15px 10px 15px;margin-bottom:10px;}.side-tag {font-size:12px;padding:0px 15px 10px 15px;margin-bottom:10px;}.side-tag a{font-size:12px;}.powered {text-align:center;}.powered table{margin:10px auto;}.syndicate {font-size:10px;margin-right:10px;text-align:center;}.syndicate a{}#comments {margin-bottom:30px;margin-top:25px;text-align:left;padding:0px 0px;border:1px solid #D8D8D8;background-color:#fff;}#comments form {padding:0px 20px;margin:0px 0px 10px 0px;}#comments input {max-width:200px;}#comments textarea{width:300px;}.comments-head{ font-weight:bold;margin:0px;padding:10px 20px;font-size:12px;}.comments-body {margin-top:5px;font-size:12px;}.comments-post {font-family:Verdana;font-size:10px;padding:10px;text-align:right;}#trackback {border:1px solid #D8D8D8;background-color:#fff;margin-bottom:10px;font-size:12px;padding:10px 20px;text-align:left;}#footer{margin:0px;padding:0px;height:50px;clear:left;background-image:url(http://blog.seesaa.jp/img/bg/drop_water_blue/footer.gif);background-position:top center;background-repeat:no-repeat;background-color:#A9D4FF;}.copyright{font-size:80%;width:100%;text-align:center;}.diet-content{padding-left:10px;font-size:12px;}#diet-foods{padding-left:10px;font-size:12px;}.food-title{width:20%;clear:left;float:left;}.food-content{width:75%;padding-top:10px;}#diet-container{border:1px solid #D8D8D8;padding:5px;margin-bottom:5px;}.diet-title{padding:2px 10px 2px 5px;font-size:12px;margin-top:5px;font-weight:bold;}.diet-content{padding-left:10px;font-size:12px;}#diet-foods{padding-left:10px;font-size:12px;}.food-title{width:20%;clear:left;float:left;}.food-content{width:75%;padding-top:10px;}blockquote{border:1px dashed #ccc;padding:5px;margin:10px;}.tag-word{margin:20px 0px 0px 0px;line-height:1.4em;}.tag{margin-bottom:10px;padding:10px 20px;position:relative;border:1px solid #D8D8D8;background-color:#fff;}#tag_cloud{border:1px solid #D8D8D8;padding:5px;;text-align:left;position:relative;}#tag_cloud a {padding:2px;}.tag-title{font-size:16px;font-weight:bold;text-align:left;}.tag-body{margin:10px 0px;padding:10px 0px 0px 0px;position:relative;}.tag-service{text-align:left;font-weight:bold;border-bottom:1px solid #CCC;padding:0px 0px 5px 0px;clear:left;position:relative;}.tag-search{text-align:right;padding:5px 0px;margin-bottom:10px;font-weight:bold;position:relative;}.tag-article{padding:0px 10px 10px 10px;text-align:left;position:relative;}.tag-article-title{text-align:left;padding:0px 0px 5px 0px;font-weight:bold;position:relative;}.tag-article-posted{font-weight:normal;position:relative;}.tag-article-summary{padding:0px 10px;line-height:1.4em;position:relative;}.tag-more{text-align:right;margin:10px 0px;clear:left;position:relative;}.tag-photos{float:left;margin:10px 5px;position:relative;width:140px;height:200px;}.tag-photos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-audios{margin:5px;position:relative;}.tag-audios-title{text-align:left;font-weight:bold;padding:0px 0px 5px 0px;position:relative;}.tag-audios-posted{font-weight:normal;position:relative;}.tag-videos{float:left;margin:10px 5px;position:relative;}.tag-videos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-navi{clear:left;text-align:center;margin:10px 0px;position:relative;}.listCategoryArticle{margin-top:5px;padding:5px;border:solid 1px #FFE2E2;}.listCategoryArticle ul{list-style:none;padding:0;margin:0 0 0 10px;text-align:left;list-style-position:outside;}.listCategoryArticle ul li{margin:0;background:url(http://blog.seesaa.jp/img/listCategoryArticle.gif) no-repeat 0 2px;padding-left:12px;line-height:1.4;font-size:10px;}/* twitter quote */.tweetBlockQuote{margin-bottom:10px;overflow:hidden;width:98%;}.tweetBlockQuote img{border:0;}.tweetBlockQuote .tweetImg{padding:0px;width:53px;text-align:left;overflow:hidden;vertical-align:top;float:left;margin-right:7px;}.tweetBlockQuote .tweetMain{padding:5px;border:solid 1px #ddd;background:#fff;color:#000;overflow:hidden;vertical-align:top;float:left;width:70%;}.tweetBlockQuote .tweetMain a.tweetOwner{color:#E86390;font-weight:bold;text-decoration:none;}.tweetBlockQuote .tweetMain a.tweetFriends{font-weight:bold;color:#26A6DC;text-decoration:none;}.tweetBlockQuote .tweetMain .tweetText{color:#000;}.tweetBlockQuote .tweetMain .tweetText a{color:#000;text-decoration:underline;}.tweetBlockQuote .tweetMain .tweetDate{color:#9C9C9C;}.tweetBlockQuote .tweetBoth{clear:both;}/* twitter quote */"
+        ],
+        "content_text_length": 8292,
+        "content_type": [
+          "text/plain"
+        ],
+        "content_encoding": "windows-1252",
+        "content_ffb": "626f6479",
+        "content_first_bytes": "62 6f 64 79 20 7b 0d 0a 66 6f 6e 74 2d 66 61 6d 69 6c 79 3a 56 65 72 64 61 6e 61 3b 0d 0a 6d 61",
+        "content_type_droid": "application/octet-stream",
+        "content_type_tika": "text/plain; charset=windows-1252",
+        "content_type_full": "text/plain; charset=windows-1252",
+        "content_type_norm": "text",
+        "content_language": "en",
+        "ssdeep_hash_bs_96": "UmP22B/uyF2lUcrRcCVD3C1Xpf1EEqMsh3WmuMlnu4/3SApk1u/M7",
+        "ssdeep_hash_bs_192": "7O9zRcCVjyXpf2EqZWQk1aa",
+        "ssdeep_hash_ngram_bs_96": "UmP22B/uyF2lUcrRcCVD3C1Xpf1EEqMsh3WmuMlnu4/3SApk1u/M7",
+        "ssdeep_hash_ngram_bs_192": "7O9zRcCVjyXpf2EqZWQk1aa",
+        "crawl_dates": [
+          "2015-03-05T04:03:43Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861329559715800
+      },
+      {
+        "source_file_s": "MAT-2.warc@11372397",
+        "url": "http://geino06gossip.seesaa.net/styles-index.css",
+        "content_type_ext": "css",
+        "host": "geino06gossip.seesaa.net",
+        "domain": "seesaa.net",
+        "public_suffix": "net",
+        "server": [
+          "Apache"
+        ],
+        "content_type_served": "text/css",
+        "content_length": 9149,
+        "id": "sha1:GHVYTWKJD3ISEUCMZ5RKU2UGV4OC7IZI/uCqw2jawpHI5/eT56Zu9AA==",
+        "hash": [
+          "sha1:GHVYTWKJD3ISEUCMZ5RKU2UGV4OC7IZI"
+        ],
+        "crawl_date": "2015-03-05T04:03:46Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040346",
+        "content": [
+          "/* font size & font family */body {font-family:\"‚l‚r ‚oƒSƒVƒbƒN\";font-size:small;}#banner {font-family:\"Verdana\" sans-serif;}#banner h1 a {font-size:x-large;}.tag-title {font-size:x-large;}#banner .description {font-size:normal;}.sidetitle {font-size:normal;}.syndicate {font-size:normal;}.date {font-size:small;}h3.title {font-size:large;}.listCategoryArticle ul li {font-size:x-small;}.tag-word {font-size:x-small;}.posted {font-size:x-small;}#calendar th {font-size:small;}.calendarday {font-size:small;}.comments-body {font-size:x-small;}body{text-align:center;margin:0;padding:0;color:#555;}a:link{color:#E95295;}a:visited{color:#DB1C72;}a:hover{text-decoration:none;}h2,h3{padding:0;margin:0;}#container{width:960px;text-align:left;margin:0 auto;}#banner{padding:0px 0px 0px 0px;margin-bottom:20px;}#banner h1 a{color:#333;text-decoration:none;}#banner h1{margin:0;padding-top:10px;padding-bottom:10px;}#banner .description{color:#888;font-weight:normal;padding-left:0px;}.navi {text-align:center;padding-bottom:14px;}.navi a{text-decoration:none;}#links-left{}#links{width:240px;float:left;padding:0px 0px 0px 0px;line-height:1.5;}.sidetitle{color:#333;text-align:center;padding:10px 0px 0px 0px;margin-bottom:0px;font-weight:bold;}.side{margin-top:0px;margin-bottom:25px;padding:10px 15px 15px 15px;}.side-tag {margin-top:0px;margin-bottom:25px;padding:10px 15px 15px 15px;}#content{width:680px;float:left;margin-right:40px;}.blog{padding-top:0px;margin-bottom:25px;}.date{font-weight:normal;background-repeat:no-repeat;background-position:top left;padding:15px 0px 0px 0px;font-size:12px;color:#583822;}.blogbody{margin-bottom:0px;}h3.title{margin:0 0px 10px;padding:0px 0px 3px 0px;line-height:1.5;font-size:14px;color:#E7142D;font-weight:bold;border-bottom:dotted 1px #333;}a.title{text-decoration:none;color:inherit;}.text:after{content:\".\";display:block;clear:both;height:0;visibility:hidden;}.text{margin:0 0 0 0px;color:inherit;padding:10px 15px 10px 0px;line-height:1.5;font-weight:normal;background-color:#fff;min-height: 1px;}* html .text{height:1px;_height:100%;/*\\*//*/height:auto;overflow:hidden;/**/}.text blockquote{border:1px solid #f8f8f8;margin:10px;padding:8px 12px;color:inherit;border:solid 1px #f8f8f8;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#f8f8f8;}.tag-word{margin:0px 0px 0px 0px;line-height:1.4em;text-align:right;}.tag-word a{color:#E7142D;}.bookmark{margin-top:5px;}.posted{padding:0px 15px 15px 0px;text-align:right;margin-bottom:0px;color:inherit;}.posted a{color:#E7142D;}#footer{clear:both;}.powered {padding:20px 0px 20px 0px;text-align:center;}.powered table{margin:0px auto;}.syndicate {margin-right:10px;text-align:center;}#calendar {text-align:center;margin-bottom:25px;}#calendar table{width:100%;margin:0px auto;}.calendarhead {color:inherit;text-align:center;padding:10px 0px 5px 0px;margin-bottom:0px;font-weight:bold;}.calendarhead a{text-decoration:none;color:inherit;}.calendarhead .calendarday a{text-decoration:none;display:inline;color:#E7142D;}#calendar th{color:#C7DC68;}.calendarday {padding:0px 0px 5px;color:inherit;text-align:center;}.calendarday a{font-weight:bold;display:block;text-decoration:underline;padding:0px 0;color:#E95295;}input{max-width:200px;}#comments .input-submit{background:url(http://blog.seesaa.jp/img/bg/super_simple/btn_bg.jpg) no-repeat;width:69px;height:29px;border:0;color:#fff;font-weight:bold;cursor:pointer;margin-right:5px;}#comments {padding:15px 15px 15px 0px;margin-top:25px;background:#fff;}#comments form {margin:0px;padding:0px 10px;}textarea{width:95%;margin-bottom:5px;}.comments-head{ margin:0 0px 10px;padding:0px 0px 3px 0px;line-height:1.5;font-size:14px;background-repeat:repeat-x;background-position:bottom center;color:#E7142D;font-weight:bold;border-bottom:dotted 1px #333;}.comments-body {margin:0px;padding:0px;}.comments-body .text{border:1px solid #f8f8f8;margin:0px;padding:8px 12px;color:inherit;border:solid 1px #f8f8f8;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#f8f8f8;}.comments-post {padding:5px 10px;text-align:right;margin-bottom:25px;color:#888;}#trackback {padding:15px 15px 15px 15px;margin-top:25px;background:#fff;}.copyright{text-align:center;}.diet-content{padding-left:10px;}#diet-foods{padding-left:10px;}.food-title{width:20%;clear:left;float:left;}.food-content{width:75%;padding-top:10px;}#diet-container{border:1px solid #999;padding:5px;margin-bottom:5px;}.diet-title{padding:2px 10px 2px 5px;margin-top:5px;}.diet-content{padding-left:10px;}#diet-foods{padding-left:10px;}.food-title{width:20%;clear:left;float:left;}.food-content{width:75%;padding-top:10px;}.tag{margin-top:0px;padding:10px;margin-left:0px;background:#fff;}#tag_cloud{border:1px solid #CCC;padding:10px;text-align:left;position:relative;}#tag_cloud a {padding:2px;}.tag-title{font-weight:bold;text-align:left;}.tag-body{margin:10px 0px;padding:10px 0px 0px 0px;position:relative;}.tag-service{text-align:left;font-weight:bold;border-bottom:1px solid #CCC;padding:0px 0px 5px 0px;clear:left;position:relative;}.tag-search{text-align:right;padding:5px 0px;margin-bottom:10px;font-weight:bold;position:relative;}.tag-article{padding:0px 10px 10px 10px;text-align:left;position:relative;}.tag-article-title{text-align:left;padding:0px 0px 5px 0px;font-weight:bold;position:relative;}.tag-article-posted{font-weight:normal;position:relative;}.tag-article-summary{padding:0px 10px;line-height:1.4em;position:relative;}.tag-more{text-align:right;margin:10px 0px;clear:left;position:relative;}.tag-photos{float:left;margin:10px 5px;position:relative;width:140px;height:200px;}.tag-photos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-audios{margin:5px;position:relative;}.tag-audios-title{text-align:left;font-weight:bold;padding:0px 0px 5px 0px;position:relative;}.tag-audios-posted{font-weight:normal;position:relative;}.tag-videos{float:left;margin:10px 5px;position:relative;}.tag-videos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-navi{clear:left;text-align:center;margin:10px 0px;position:relative;}.listCategoryArticle{margin-top:5px;padding:5px;border:solid 1px #FFE2E2;}.listCategoryArticle ul{list-style:none;padding:0;margin:0 0 0 10px;text-align:left;list-style-position:outside;}.listCategoryArticle ul li{margin:0;background:url(http://blog.seesaa.jp/img/listCategoryArticle.gif) no-repeat 0 2px;padding-left:12px;line-height:1.4;}#links,#links-left,.side,#content,.blog,.blogbody,.text{overflow:hidden;}/* twitter quote */.tweetBlockQuote{margin-bottom:10px;overflow:hidden;width:98%;}.tweetBlockQuote img{border:0;}.tweetBlockQuote .tweetImg{padding:0px;width:53px;text-align:left;overflow:hidden;vertical-align:top;float:left;margin-right:7px;}.tweetBlockQuote .tweetMain{padding:5px;border:solid 1px #ddd;background:#fff;color:#000;overflow:hidden;vertical-align:top;float:left;width:70%;}.tweetBlockQuote .tweetMain a.tweetOwner{color:#E86390;font-weight:bold;text-decoration:none;}.tweetBlockQuote .tweetMain a.tweetFriends{font-weight:bold;color:#26A6DC;text-decoration:none;}.tweetBlockQuote .tweetMain .tweetText{color:#000;}.tweetBlockQuote .tweetMain .tweetText a{color:#000;text-decoration:underline;}.tweetBlockQuote .tweetMain .tweetDate{color:#9C9C9C;}.tweetBlockQuote .tweetBoth{clear:both;}/* twitter quote */"
+        ],
+        "content_text_length": 8462,
+        "content_type": [
+          "text/plain"
+        ],
+        "content_encoding": "windows-1252",
+        "content_ffb": "2f2a2066",
+        "content_first_bytes": "2f 2a 20 66 6f 6e 74 20 73 69 7a 65 20 26 20 66 6f 6e 74 20 66 61 6d 69 6c 79 20 2a 2f 0d 0a 62",
+        "content_type_droid": "application/octet-stream",
+        "content_type_tika": "text/plain; charset=windows-1252",
+        "content_type_full": "text/plain; charset=windows-1252",
+        "content_type_norm": "text",
+        "content_language": "en",
+        "ssdeep_hash_bs_192": "Z9Qu6iou0BtJ78n1Q/NcnsLmZphK2UwUu9",
+        "ssdeep_hash_bs_384": "XQ3RF+n1Q/NcfphKV7O",
+        "ssdeep_hash_ngram_bs_192": "Z9Qu6iou0BtJ78n1Q/NcnsLmZphK2UwUu9",
+        "ssdeep_hash_ngram_bs_384": "XQ3RF+n1Q/NcfphKV7O",
+        "crawl_dates": [
+          "2015-03-05T04:03:46Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861335788257300
+      },
+      {
+        "source_file_s": "MAT-2.warc@20589590",
+        "url": "http://entamegeinoxxx.seesaa.net/styles-index.css",
+        "content_type_ext": "css",
+        "host": "entamegeinoxxx.seesaa.net",
+        "domain": "seesaa.net",
+        "public_suffix": "net",
+        "server": [
+          "Apache"
+        ],
+        "content_type_served": "text/css",
+        "content_length": 9149,
+        "id": "sha1:GHVYTWKJD3ISEUCMZ5RKU2UGV4OC7IZI/0a/oec7JuTPTuHisS3fMQg==",
+        "hash": [
+          "sha1:GHVYTWKJD3ISEUCMZ5RKU2UGV4OC7IZI"
+        ],
+        "crawl_date": "2015-03-05T04:03:54Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040354",
+        "content": [
+          "/* font size & font family */body {font-family:\"‚l‚r ‚oƒSƒVƒbƒN\";font-size:small;}#banner {font-family:\"Verdana\" sans-serif;}#banner h1 a {font-size:x-large;}.tag-title {font-size:x-large;}#banner .description {font-size:normal;}.sidetitle {font-size:normal;}.syndicate {font-size:normal;}.date {font-size:small;}h3.title {font-size:large;}.listCategoryArticle ul li {font-size:x-small;}.tag-word {font-size:x-small;}.posted {font-size:x-small;}#calendar th {font-size:small;}.calendarday {font-size:small;}.comments-body {font-size:x-small;}body{text-align:center;margin:0;padding:0;color:#555;}a:link{color:#E95295;}a:visited{color:#DB1C72;}a:hover{text-decoration:none;}h2,h3{padding:0;margin:0;}#container{width:960px;text-align:left;margin:0 auto;}#banner{padding:0px 0px 0px 0px;margin-bottom:20px;}#banner h1 a{color:#333;text-decoration:none;}#banner h1{margin:0;padding-top:10px;padding-bottom:10px;}#banner .description{color:#888;font-weight:normal;padding-left:0px;}.navi {text-align:center;padding-bottom:14px;}.navi a{text-decoration:none;}#links-left{}#links{width:240px;float:left;padding:0px 0px 0px 0px;line-height:1.5;}.sidetitle{color:#333;text-align:center;padding:10px 0px 0px 0px;margin-bottom:0px;font-weight:bold;}.side{margin-top:0px;margin-bottom:25px;padding:10px 15px 15px 15px;}.side-tag {margin-top:0px;margin-bottom:25px;padding:10px 15px 15px 15px;}#content{width:680px;float:left;margin-right:40px;}.blog{padding-top:0px;margin-bottom:25px;}.date{font-weight:normal;background-repeat:no-repeat;background-position:top left;padding:15px 0px 0px 0px;font-size:12px;color:#583822;}.blogbody{margin-bottom:0px;}h3.title{margin:0 0px 10px;padding:0px 0px 3px 0px;line-height:1.5;font-size:14px;color:#E7142D;font-weight:bold;border-bottom:dotted 1px #333;}a.title{text-decoration:none;color:inherit;}.text:after{content:\".\";display:block;clear:both;height:0;visibility:hidden;}.text{margin:0 0 0 0px;color:inherit;padding:10px 15px 10px 0px;line-height:1.5;font-weight:normal;background-color:#fff;min-height: 1px;}* html .text{height:1px;_height:100%;/*\\*//*/height:auto;overflow:hidden;/**/}.text blockquote{border:1px solid #f8f8f8;margin:10px;padding:8px 12px;color:inherit;border:solid 1px #f8f8f8;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#f8f8f8;}.tag-word{margin:0px 0px 0px 0px;line-height:1.4em;text-align:right;}.tag-word a{color:#E7142D;}.bookmark{margin-top:5px;}.posted{padding:0px 15px 15px 0px;text-align:right;margin-bottom:0px;color:inherit;}.posted a{color:#E7142D;}#footer{clear:both;}.powered {padding:20px 0px 20px 0px;text-align:center;}.powered table{margin:0px auto;}.syndicate {margin-right:10px;text-align:center;}#calendar {text-align:center;margin-bottom:25px;}#calendar table{width:100%;margin:0px auto;}.calendarhead {color:inherit;text-align:center;padding:10px 0px 5px 0px;margin-bottom:0px;font-weight:bold;}.calendarhead a{text-decoration:none;color:inherit;}.calendarhead .calendarday a{text-decoration:none;display:inline;color:#E7142D;}#calendar th{color:#C7DC68;}.calendarday {padding:0px 0px 5px;color:inherit;text-align:center;}.calendarday a{font-weight:bold;display:block;text-decoration:underline;padding:0px 0;color:#E95295;}input{max-width:200px;}#comments .input-submit{background:url(http://blog.seesaa.jp/img/bg/super_simple/btn_bg.jpg) no-repeat;width:69px;height:29px;border:0;color:#fff;font-weight:bold;cursor:pointer;margin-right:5px;}#comments {padding:15px 15px 15px 0px;margin-top:25px;background:#fff;}#comments form {margin:0px;padding:0px 10px;}textarea{width:95%;margin-bottom:5px;}.comments-head{ margin:0 0px 10px;padding:0px 0px 3px 0px;line-height:1.5;font-size:14px;background-repeat:repeat-x;background-position:bottom center;color:#E7142D;font-weight:bold;border-bottom:dotted 1px #333;}.comments-body {margin:0px;padding:0px;}.comments-body .text{border:1px solid #f8f8f8;margin:0px;padding:8px 12px;color:inherit;border:solid 1px #f8f8f8;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#f8f8f8;}.comments-post {padding:5px 10px;text-align:right;margin-bottom:25px;color:#888;}#trackback {padding:15px 15px 15px 15px;margin-top:25px;background:#fff;}.copyright{text-align:center;}.diet-content{padding-left:10px;}#diet-foods{padding-left:10px;}.food-title{width:20%;clear:left;float:left;}.food-content{width:75%;padding-top:10px;}#diet-container{border:1px solid #999;padding:5px;margin-bottom:5px;}.diet-title{padding:2px 10px 2px 5px;margin-top:5px;}.diet-content{padding-left:10px;}#diet-foods{padding-left:10px;}.food-title{width:20%;clear:left;float:left;}.food-content{width:75%;padding-top:10px;}.tag{margin-top:0px;padding:10px;margin-left:0px;background:#fff;}#tag_cloud{border:1px solid #CCC;padding:10px;text-align:left;position:relative;}#tag_cloud a {padding:2px;}.tag-title{font-weight:bold;text-align:left;}.tag-body{margin:10px 0px;padding:10px 0px 0px 0px;position:relative;}.tag-service{text-align:left;font-weight:bold;border-bottom:1px solid #CCC;padding:0px 0px 5px 0px;clear:left;position:relative;}.tag-search{text-align:right;padding:5px 0px;margin-bottom:10px;font-weight:bold;position:relative;}.tag-article{padding:0px 10px 10px 10px;text-align:left;position:relative;}.tag-article-title{text-align:left;padding:0px 0px 5px 0px;font-weight:bold;position:relative;}.tag-article-posted{font-weight:normal;position:relative;}.tag-article-summary{padding:0px 10px;line-height:1.4em;position:relative;}.tag-more{text-align:right;margin:10px 0px;clear:left;position:relative;}.tag-photos{float:left;margin:10px 5px;position:relative;width:140px;height:200px;}.tag-photos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-audios{margin:5px;position:relative;}.tag-audios-title{text-align:left;font-weight:bold;padding:0px 0px 5px 0px;position:relative;}.tag-audios-posted{font-weight:normal;position:relative;}.tag-videos{float:left;margin:10px 5px;position:relative;}.tag-videos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-navi{clear:left;text-align:center;margin:10px 0px;position:relative;}.listCategoryArticle{margin-top:5px;padding:5px;border:solid 1px #FFE2E2;}.listCategoryArticle ul{list-style:none;padding:0;margin:0 0 0 10px;text-align:left;list-style-position:outside;}.listCategoryArticle ul li{margin:0;background:url(http://blog.seesaa.jp/img/listCategoryArticle.gif) no-repeat 0 2px;padding-left:12px;line-height:1.4;}#links,#links-left,.side,#content,.blog,.blogbody,.text{overflow:hidden;}/* twitter quote */.tweetBlockQuote{margin-bottom:10px;overflow:hidden;width:98%;}.tweetBlockQuote img{border:0;}.tweetBlockQuote .tweetImg{padding:0px;width:53px;text-align:left;overflow:hidden;vertical-align:top;float:left;margin-right:7px;}.tweetBlockQuote .tweetMain{padding:5px;border:solid 1px #ddd;background:#fff;color:#000;overflow:hidden;vertical-align:top;float:left;width:70%;}.tweetBlockQuote .tweetMain a.tweetOwner{color:#E86390;font-weight:bold;text-decoration:none;}.tweetBlockQuote .tweetMain a.tweetFriends{font-weight:bold;color:#26A6DC;text-decoration:none;}.tweetBlockQuote .tweetMain .tweetText{color:#000;}.tweetBlockQuote .tweetMain .tweetText a{color:#000;text-decoration:underline;}.tweetBlockQuote .tweetMain .tweetDate{color:#9C9C9C;}.tweetBlockQuote .tweetBoth{clear:both;}/* twitter quote */"
+        ],
+        "content_text_length": 8462,
+        "content_type": [
+          "text/plain"
+        ],
+        "content_encoding": "windows-1252",
+        "content_ffb": "2f2a2066",
+        "content_first_bytes": "2f 2a 20 66 6f 6e 74 20 73 69 7a 65 20 26 20 66 6f 6e 74 20 66 61 6d 69 6c 79 20 2a 2f 0d 0a 62",
+        "content_type_droid": "application/octet-stream",
+        "content_type_tika": "text/plain; charset=windows-1252",
+        "content_type_full": "text/plain; charset=windows-1252",
+        "content_type_norm": "text",
+        "content_language": "en",
+        "ssdeep_hash_bs_192": "Z9Qu6iou0BtJ78n1Q/NcnsLmZphK2UwUu9",
+        "ssdeep_hash_bs_384": "XQ3RF+n1Q/NcfphKV7O",
+        "ssdeep_hash_ngram_bs_192": "Z9Qu6iou0BtJ78n1Q/NcnsLmZphK2UwUu9",
+        "ssdeep_hash_ngram_bs_384": "XQ3RF+n1Q/NcfphKV7O",
+        "crawl_dates": [
+          "2015-03-05T04:03:54Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861344804962300
+      },
+      {
+        "source_file_s": "MAT-2.warc@12544858",
+        "url": "https://grassroots.groupon.com/",
+        "url_type": "slashpage",
+        "host": "grassroots.groupon.com",
+        "domain": "groupon.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx/1.0.4"
+        ],
+        "content_type_served": "text/html; charset=UTF-8",
+        "content_length": 14564,
+        "id": "sha1:XTTK2OMSGF67IG3BVDCUERJHA65NPPLR/Wt9XwsPyC6w98qAEEK6x5g==",
+        "hash": [
+          "sha1:XTTK2OMSGF67IG3BVDCUERJHA65NPPLR"
+        ],
+        "crawl_date": "2015-03-05T04:03:47Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040347",
+        "content": [
+          "Groupon Grassroots | A new way to discover local causes, rally together, and lend a helping handBack to GROUPONGroupon GrassrootsAbout UsStart Your CampaignGet InvolvedOur ImpactGrassroots BlogFeatured CampaignFeeding America and the Taste of GrouponDuring the Taste of Groupon, Groupon will donate one meal to Feeding America every time a customer buys an offer (up to 500,000 meals total from all participating businesses). It’s a great way to bring in new customers and create awareness for our businesses— all while supporting the nation’s largest domestic hunger-relief charity.Donate NowHunger & Food AccessA new way to discover local causes, rally together, and lend a helping handFind Your CauseWe showcase a variety of community projects you can support, from helping a local school stock up on supplies to growing a neighborhood garden that provides access to healthy food.Do it TogetherCollective action powers every campaign we feature and unites you with enough supporters to accomplish amazing things that couldn’t be done alone.Keep it LocalWith a little effort, you can make a big difference in your neighborhood. Projects you support will directly affect the schools, services, and streets of your community.Top Campaigns$830 RaisedSchool Photos for Children in Foster CareTreehouse garnered enough funding to provide school photos for 41 children living in foster care.$7,425 RaisedJob Training for Underserved WomenMore than 490 $15 gift cards were sold for Women’s Bean Project, a social enterprise that connects underserved women with designers to create jewelry and gourmet fare to empower women in marketing, production, and life skills.$2,310 RaisedBuild Community GardensGateway Greening can purchase the lumber and soil to build 37 raised 4′x12′ garden beds (a $61.21 value each) for a community garden in the St. Louis area.To celebrate the launch of Groupon Grassroots, Groupon provided a $1,000 kickoff grant to this campaign.$2,016 RaisedExtracurricular Activities for Foster YouthIn Treehouse’s second Grassroots campaign, enough funds were raised to provide one month of activities for 25 foster youth. This is a part of Treehouse’s Little Wishes program that supports youths in extracurricular activities of their choice.1,576 campaigns have raised $8,678,827 from 427,878 supporters nationwide. Start your campaign.TwitterFlickrPinterestActive CampaignsSee all active campaigns >See all active campaigns >Groupon GrassrootsNurture positive change in your own backyard.HomeAboutFAQPressContact"
+        ],
+        "content_text_length": 2573,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "Groupon Grassroots | A new way to discover local causes, rally together, and lend a helping hand",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 21 2d 2d 5b 69 66 20 6c 74 20 49 45 20 37 20",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "pinterest.com",
+          "www.flickr.com",
+          "www.groupon.com",
+          "twitter.com",
+          "grassroots.groupon.com"
+        ],
+        "links_domains": [
+          "pinterest.com",
+          "groupon.com",
+          "twitter.com",
+          "flickr.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "ul",
+          "link",
+          "a",
+          "img",
+          "div",
+          "script",
+          "br",
+          "meta",
+          "header",
+          "footer",
+          "li",
+          "title",
+          "strong",
+          "p",
+          "nav",
+          "h4",
+          "html",
+          "em",
+          "head",
+          "h1",
+          "h3",
+          "h2",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_48": "TWZrd4F7ST38Yet8sld4nrX0X895XxGUBIPQ6J8EEKzJE5sxJQzqG",
+        "ssdeep_hash_bs_96": "o+STECbrT95XAlJNzxaqG",
+        "ssdeep_hash_ngram_bs_48": "TWZrd4F7ST38Yet8sld4nrX0X895XxGUBIPQ6J8EEKzJE5sxJQzqG",
+        "ssdeep_hash_ngram_bs_96": "o+STECbrT95XAlJNzxaqG",
+        "crawl_dates": [
+          "2015-03-05T04:03:47Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861336721490000
+      },
+      {
+        "source_file_s": "MAT-2.warc@16891640",
+        "url": "http://johnnys-net-20xx.seesaa.net/styles-index.css",
+        "content_type_ext": "css",
+        "host": "johnnys-net-20xx.seesaa.net",
+        "domain": "seesaa.net",
+        "public_suffix": "net",
+        "server": [
+          "Apache"
+        ],
+        "content_type_served": "text/css",
+        "content_length": 13683,
+        "id": "sha1:DAEK7JZZZT2R7GCWHI5D7J2HXUX7IHCY/NEP2s39O094K1FrAYJH4Mg==",
+        "hash": [
+          "sha1:DAEK7JZZZT2R7GCWHI5D7J2HXUX7IHCY"
+        ],
+        "crawl_date": "2015-03-05T04:03:50Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040350",
+        "content": [
+          "/* font size & font family --base-fontsize:10px-- */body {font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro','ƒ�ƒCƒŠƒI',Meiryo,'‚l‚r ‚oƒSƒVƒbƒN',sans-serif; font-size: 62.5%; line-height: 1.7;}#banner {font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W6',sans-serif;}#banner h1 a {font-size: 360%; *font-size: 225%;}.tag-title {font-size: x-large;}h3.title {font-size: 200%; font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W6',sans-serif;}.tag-word {font-size: 85.7%;}/* 14px */.side {font-size: 140%;}.sidetitle {font-size: 140%; font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W6',sans-serif;}#banner .description {font-size: 140%;}.blog .text {font-size: 140%;}.comments-body {font-size: 140%;}.comments-head {font-size: 140%;}#trackback {font-size: 140%;}.date {font-size: 140%; font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W6',sans-serif;}#calendar th {font-size: 140%; font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W6',sans-serif;}.calendarhead {font-size: 140%; font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W6',sans-serif;}.calendarday {font-size: 140%;}.tag-body {font-size: 140%;}/* 12px */#tag_cloud {font-size: 120%;}.side-tag {font-size: 120%;}.posted {font-size: 120%;}.navi {font-size: 120%;}.syndicate {font-size: 120%;}.calendarhead span.calendarday { font-size: 85.7%;}.comments-post {font-size: 85.7%;}.tag-more {font-size: 85.7%;}.tag-article-posted {font-size: 85.7%;}#links,#links-left,.side,#content,.blog,.blogbody,.text {overflow: hidden;}body {background-image: url(\"http://blog.seesaa.jp/img/bg/simple_pink/bg.jpg\");background-color: #FFF;text-align: center;margin: 0;padding: 0;color: #333;}a:link { color: #369; text-decoration:none; font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W6',sans-serif;}a:visited { color: #AAA; text-decoration:none;}a:hover { text-decoration: underline;}#links a:link { text-decoration: underline;}#links a:visited { text-decoration: underline;}#links a:hover { text-decoration: none;}#links-left a:link { text-decoration: underline;}#links-left a:visited { text-decoration: underline;}#links-left a:hover { text-decoration: none;}h2,h3 {padding: 0; margin: 0;}#container{width: 1080px;text-align: left;margin: 0 auto;}#banner {height: 300px;}#banner h1 {overflow: hidden;max-height: 175px;margin: 0 0 5px;padding-top: 60px;}#banner h1 a {color: #000;line-height: 1.2;}#banner .description{color: #000;}.navi {padding-bottom: 14px;text-align: center;}.navi a{text-decoration: none;color: #333;}.navi a:hover {text-decoration: underline;}#links-left{float: left;width: 300px;margin: 0 20px 0 0;padding: 0;color: #FFF;}#links {width: 300px;float: left;padding: 0;color: #FFF;}#links a:link,#links-left a:link {color: #369;}.sidetitle {color: #666;text-align:left;padding: 10px 0 0 15px;margin-bottom: 0;font-weight: 700;border-radius: 8px 8px 0 0;}#links .sidetitle,#links-left .sidetitle {height: 50px;background: url(\"http://blog.seesaa.jp/img/bg/simple_pink/bg_section_l.png\") no-repeat #F5F5F5 0 30px;border-radius: 8px 8px 0 0;}#links .sidetitle { background: url(\"http://blog.seesaa.jp/img/bg/simple_pink/bg_section_l.png\") no-repeat #F5F5F5 0 30px;}#links .side,#links .side-tag,#links-left .side,#links-left .side-tag {margin-top: 0;margin-bottom: 20px;padding: 10px 10px 10px 15px;background: #F5F5F5;color: #666;}#content{float: left;width: 760px;margin-right: 20px;}.blog{position: relative;padding-top: 0;margin-bottom: 40px;}.date{margin-bottom: 10px;padding: 6px 10px;text-align: left;color: #F09;font-weight: 700;background: #F5F5F5;border-radius: 8px;}.blogbody{margin-bottom: 0;padding: 0;background: #FFF;font-weight: normal;border-radius: 8px;}h3.title {padding: 20px 20px 0 20px;}a.title{text-decoration: none;color: #000;font-weight: 700;display: block;}.blog .text{margin: 0;padding: 20px;font-weight: 400;}.text:after {visibility: hidden;display: block;font-size: 0;content: \" \";clear: both;height: 0;}* html .text{zoom: 1;} /* IE6 */*:first-child+html .text{zoom: 1;} /* IE7 */.text blockquote{margin: 10px -20px;padding: 20px;color: #666;background-color: #F5F5F5;}.bookmark {clear: both;margin-top: 5px;}.posted {color: #313131;padding: 0 20px 20px 0;text-align: right;margin-bottom: 0;}#footer{ clear:both; }.powered {padding: 20px 0 20px 0;text-align: center;}.powered table{margin: 0 auto;}.syndicatesy {margin-right: 10px;text-align: center;}.syndicate a:link,.syndicate a:visited {color: #000 !important;text-decoration: none;}.syndicate a:hover {text-decoration: underline;}#links #calendar,#links-left #calendar {margin-top: 0;margin-bottom: 15px;padding: 0 0 10px 0;background: #F5F5F5;border-radius: 8px;}#links #calendar table,#links-left #calendar table{width: 280px;margin: 0 auto;border-collapse: separate;border-spacing: 1px;}#links-left #calendar table {width: 193px;}#links .calendarhead,#links-left .calendarhead {height: 60px;margin-bottom: 0;padding-top: 10px;background: url(\"http://blog.seesaa.jp/img/bg/simple_pink/bg_section_l.png\") no-repeat 0 35px;color: #666;text-align: center;font-weight: 700;}#links-left .calendarhead {background: url(\"http://blog.seesaa.jp/img/bg/simple_pink/bg_section_s.png\") no-repeat 0 35px;}#links td.calendarday a,#links-left td.calendarday a {display: block;width: 100%;height: 25px;line-height: 25px;padding: 0;font-weight: 700;text-decoration:none;color: #369;text-decoration: underline;}#links td.calendarday a:hover,#links-left td.calendarday a:hover {text-decoration: none;}#links .calendarhead .calendarday,#links-left .calendarhead .calendarday{color: #999;}#links .calendarhead a:link,#links .calendarhead a:visited,#links .calendarhead .calendarday a:link,#links .calendarhead .calendarday a:visited,#links-left .calendarhead .calendarday a:link,#links-left .calendarhead .calendarday a:visited,#links-left .calendarhead a:link,#links-left .calendarhead a:visited {text-decoration: none;color: #666;}#links .calendarhead a:hover,#links .calendarhead .calendarday a:hover,#links-left .calendarhead .calendarday a:hover,#links-left .calendarhead a:hover {text-decoration: underline;}#calendar th{ color: #666;}#calendar th.calendarday:first-of-type { color: #C33;}#calendar th.calendarday:last-of-type { color: #06C;}#calendar td{height: 25px;margin: 0;padding: 0;line-height: 25px;background: #FFF;}.calendarday {padding: 1px 2px;color: #000;}.side input[type=\"text\"]{height: 20px;margin: 0;padding: 0 5px;border: 1px solid #E0E0E0;line-height: 22px;width: 200px;vertical-align: middle;}.side .input-submit{float: right;width: 40px;height: 22px;background:url(\"http://blog.seesaa.jp/img/bg/simple_pink/btn_search.png\") no-repeat;border: none;color: #FFF;cursor: pointer;font-weight: 700;text-shadow: 0 -1px 0 rgba(0,0,0,.3);*margin-top: -22px;}.side input[type=\"text\"]:hover,.side .input-submit:hover {opacity: 0.9;filter:alpha(opacity=90);-ms-filter:\"alpha(opacity=90)\";}#comments .input-submit{border: none;margin-right: 10px;width: 74px;height: 34px;cursor: pointer;background: url(\"http://blog.seesaa.jp/img/bg/simple_pink/btn_submit.png\") no-repeat;color: #FFF;font-weight: 700;text-shadow: 0 -1px 0 rgba(0,0,0,.3);}#comments .input-submit:hover{opacity: 0.9;filter:alpha(opacity=90);-ms-filter:\"alpha(opacity=90)\";}#comments input[type=\"text\"] {margin-bottom: 10px;padding: 8px 10px;border: 1px solid #E0E0E0;background: #FFF;}#comments {background: url(\"http://blog.seesaa.jp/img/bg/simple_pink/bg_comments.png\") no-repeat 0 0 #F5F5F5;padding: 20px;margin-top: 25px;}#comments form {margin: 0;}textarea{width: 95%;margin-bottom: 10px;padding: 10px;border: 1px solid #E0E0E0;}.comments-head{margin: 0 0 10px 0;font-weight: 700;color: #F09;}.comments-body {margin: 0;padding: 0;}.comments-body .text{color: #333;padding: 0;margin: 0;}.comments-post {color: #666;padding: 5px 10px;text-align: right;margin-bottom: 20px;}#trackback {padding: 20px;margin-top: 25px;background: #FFF;color: #333;}.copyright{text-align:center;}.diet-content{padding-left:10px;}#diet-foods{padding-left:10px;}.food-title{width: 20%;clear: left;float: left;}.food-content{width: 75%;padding-top: 10px;}#diet-container{margin-bottom: 5px;padding: 5px;border: 1px solid #999;}.diet-title{padding: 2px 10px 2px 5px;margin-top: 5px;}.diet-content{padding-left: 10px;}#diet-foods{padding-left: 10px;}.food-title{width: 20%;clear: left;float: left;}.food-content{width: 75%;padding-top: 10px;}.tag-word{margin: 10px 0 0 0;line-height: 1.4;text-align: right;}.tag {padding: 20px;margin-top: 0;background: #FFF;color: #333;border-radius: 8px;}#tag_cloud{border: 1px solid #CCC;padding: 10px;text-align: left;position: relative;}#tag_cloud a {padding: 2px;}.tag-title{font-weight: bold;text-align: left;}.tag-body{margin: 10px 0px;padding: 10px 0px 0px 0px;position: relative;}.tag-service{text-align: left;font-weight: bold;border-bottom: 1px solid #E0E0E0;padding: 0 0 5px 0;clear: left;position: relative;}.tag-search{text-align: right;padding: 5px 0;margin-bottom: 10px;font-weight: bold;position: relative;}.tag-article{padding: 0 10px 10px 10px;text-align: left;position: relative;}.tag-article-title{text-align:left;padding: 0 0 5px 0;font-weight: 700;position: relative;}.tag-article-posted{font-weight: 400;position: relative;}.tag-article-summary{padding: 0 10px;line-height: 1.4;position: relative;}.tag-more{text-align: right;margin: 10px 0;clear: left;position: relative;}.tag-photos{float: left;margin: 10px 5px;position: relative;width: 140px;height: 200px;}.tag-photos-title{line-height: 1.4;padding: 5px 0;text-align: left;position: relative;}.tag-audios{margin: 5px;position: relative;}.tag-audios-title{text-align: left;font-weight: bold;padding: 0 0 5px 0;position: relative;}.tag-audios-posted{font-weight: 400;position: relative;}.tag-videos{float:left;margin: 10px 5px;position: relative;}.tag-videos-title{line-height: 1.4;padding: 5px 0;text-align: left;position: relative;}.tag-navi{clear: left;text-align: center;margin: 10px 0;position: relative;}.listCategoryArticle{margin-top: 5px;padding: 10px 5px;border: 1px solid #E0E0E0;}.listCategoryArticle ul{list-style: none;padding: 0;margin: 0 0 0 10px;text-align: left;list-style-position: outside;}.listCategoryArticle ul li {margin: 0;background:url(http://blog.seesaa.jp/img/listCategoryArticle.gif) no-repeat 0 4px;padding-left: 12px;line-height: 1.4;}/* twitter quote */.tweetBlockQuote {margin-bottom: 20px;overflow: hidden;}.tweetBlockQuote img{border: 0;}.tweetBlockQuote .tweetImg {padding: 0;width: 53px;text-align: left;overflow: hidden;vertical-align: top;float: left;margin-right: 7px;}.tweetBlockQuote .tweetMain {padding: 5px;border: solid 1px #ddd;background: #fff;color: #000;overflow: hidden;vertical-align: top;}.tweetBlockQuote .tweetMain a.tweetOwner{color: #E86390;font-weight: bold;text-decoration: none;}.tweetBlockQuote .tweetMain a.tweetFriends{font-weight: bold;color: #26A6DC;text-decoration: none;}.tweetBlockQuote .tweetMain .tweetText{color: #000;}.tweetBlockQuote .tweetMain .tweetText a{color: #000;text-decoration: underline;}.tweetBlockQuote .tweetMain .tweetDate{color: #9C9C9C;}.tweetBlockQuote .tweetBoth{clear: both;}/* twitter quote */.seesaaArticleSearch .sASweb {padding-top: 3px;background-position: 0 6px;}.seesaaArticleSearch .sASarticle {padding-top: 3px;width: 140px;}.fanIco1,.fanIco2 {margin-top: -7px;}"
+        ],
+        "content_text_length": 12485,
+        "content_type": [
+          "text/plain"
+        ],
+        "content_encoding": "windows-1252",
+        "content_ffb": "2f2a2066",
+        "content_first_bytes": "2f 2a 20 66 6f 6e 74 20 73 69 7a 65 20 26 20 66 6f 6e 74 20 66 61 6d 69 6c 79 20 20 2d 2d 62 61",
+        "content_type_droid": "application/octet-stream",
+        "content_type_tika": "text/plain; charset=windows-1252",
+        "content_type_full": "text/plain; charset=windows-1252",
+        "content_type_norm": "text",
+        "content_language": "en",
+        "ssdeep_hash_bs_192": "ZZytEVv8o6cFTpZ73xm1AZH1K0C2X9O0mWgrJisl/ewtxls5ev",
+        "ssdeep_hash_bs_384": "74o6iTpZ73xm1v0C2X9dmWgswtxlk6",
+        "ssdeep_hash_ngram_bs_192": "ZZytEVv8o6cFTpZ73xm1AZH1K0C2X9O0mWgrJisl/ewtxls5ev",
+        "ssdeep_hash_ngram_bs_384": "74o6iTpZ73xm1v0C2X9dmWgswtxlk6",
+        "crawl_dates": [
+          "2015-03-05T04:03:50Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861341463150600
+      },
+      {
+        "source_file_s": "MAT-2.warc@93391791",
+        "url": "http://www.commercialappeal.com/",
+        "url_type": "slashpage",
+        "host": "www.commercialappeal.com",
+        "domain": "commercialappeal.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html;charset=UTF-8",
+        "server": [
+          "Apache-Coyote/1.1"
+        ],
+        "content_length": 158603,
+        "id": "sha1:QDZYNFJY3BCJ2GPGLLNST5BVB3XB7NVZ/u9HmOHGHEF81str0S60Czw==",
+        "hash": [
+          "sha1:QDZYNFJY3BCJ2GPGLLNST5BVB3XB7NVZ"
+        ],
+        "crawl_date": "2015-03-05T04:04:32Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040432",
+        "content": [
+          "The Commercial Appeal: Local News for Memphis, Tennessee, Delivered Throughout the Day.MCAE-Edition Reader Rewards Legal NoticesWant full access?SubscribeCurrent subscriber?ActivateHave an account? LoginWeatherFreezing rain28°More WeatherHome Sections BackFeatured BackNews Back All News Local InforMemphis Education Crime Columnists Nation & World Mid-South Memories Obituaries Archives RSS Feeds DecodeDCSports Back All Sports Tigers Grizzlies Redbirds Preps SEC Professional Outdoors Motorsports Golf Columnists Scores, Stats & OddsOpinion Back All Opinion Editorials Letters to the Editor Analysis Otis Sanford Local Commentary National and World CommentaryBusiness Back All Business Local Employment Real Estate Technology Automotive FedExGoMemphis Back All GoMemphis Food & Dining Music Arts Movies & Television Books Party Line Event Calendar Puzzles Comics Horoscopes Go Eat Blog Go Play BlogLifestyle Back All Lifestyle Health & Fitness Home & Garden Faith in Memphis Style Travel Weddings Good Health FIX ColumnistsData Back All Data Public employee salaries Inequality in Memphis Schools Report Card Beale Street Homicide tracker Greenbelt properties Greenbelts by county Crime trends Memphis-area power outages Farmers market finderWeather TrafficHomes Jobs Cars Classifieds Weekly Ads13Weather AlertsWinter Storm Warning issued March 4 at 8:29PM CST expiring March 5 at 9:00AM CST in effect for: Dyer, Gibson, Henry, Lake, Obion, WeakleyWinter Storm Warning issued March 4 at 8:29PM CST expiring March 5 at 12:00PM CST in effect for: Crockett, LauderdaleWinter Storm Warning issued March 3 at 2:08AM CST expiring March 5 at 6:00AM CST in effect for: Benton, Carroll, Chester, Decatur, Fayette, Hardeman, Hardin, Haywood, Henderson, McNairy, Madison, Shelby, TiptonWind Advisory issued March 4 at 8:03PM CST expiring March 5 at 6:00AM CST in effect for: Dyer, Lake, Lauderdale, Shelby, TiptonWind Advisory issued March 4 at 4:04PM CST expiring March 5 at 6:00AM CST in effect for: Benton, Carroll, Chester, Crockett, Decatur, Dyer, Fayette, Gibson, Hardeman, Hardin, Haywood, Henderson, Henry, Lake, Lauderdale, McNairy, Madison, Obion, Shelby, Tipton, WeakleyWinter Storm Warning issued March 3 at 2:08AM CST expiring March 5 at 6:00AM CST in effect for: Crockett, Dyer, Gibson, Henry, Lake, Lauderdale, Obion, WeakleyFlood Warning issued March 3 at 10:17AM CST expiring March 6 at 9:00PM CST in effect for: DyerFlood Warning issued February 26 at 12:45PM CST expiring February 27 at 12:45PM CST in effect for: Crockett, Dyer, LauderdaleFlood Warning issued March 3 at 10:17AM CST expiring March 4 at 10:17AM CST in effect for: Dyer, Gibson, ObionWind Advisory issued March 4 at 2:53AM CST expiring March 5 at 6:00AM CST in effect for: Benton, Carroll, Chester, Decatur, Hardin, Henderson, Henry, McNairyWind Advisory issued March 4 at 2:53AM CST expiring March 5 at 6:00AM CST in effect for: Crockett, Dyer, Fayette, Gibson, Hardeman, Haywood, Lake, Lauderdale, Madison, Obion, Shelby, Tipton, WeakleyWinter Storm Watch issued March 2 at 3:46AM CST expiring March 5 at 6:00AM CST in effect for: Crockett, Dyer, Gibson, Henry, Lake, Lauderdale, Obion, WeakleyWinter Storm Watch issued March 2 at 3:46AM CST expiring March 5 at 6:00AM CST in effect for: Benton, Carroll, Chester, Decatur, Fayette, Hardeman, Hardin, Haywood, Henderson, McNairy, Madison, Shelby, Tipton13Weather AlertsHappening NowPreviousNext9:44 PM Gasol's shot pushes Griz over Rockets 102-10010:03 PM Schools close, Mid-South braces for wintry blast8:42 PM Arlington names interim town administrator8:17 PM U.S. ambassador to S. Korea slashed in attack7:34 PM Waters: Schilling pushes for digital decency7:30 PM Man indicted in robbery, slaying7:05 PM Driver indicted in fatal hit-and-run6:49 PM Fire fees increase for Shelby County, Lakeland6:53 PM Shelby County Schools kicks off 10-year goals6:50 PM Capitol Report: Give a speciality license plateSiteWebRelevanceDateSchools close, Mid-South braces for wintry blastWhatever the city is greeted with upon waking Thursday, one thing will be certain: It’s going to be very cold. Fire fees increase for Shelby County, Lakeland3 hours agoGasol's shot pushes Griz over Rockets 102-10020 mins agoShelby County Schools kicks off 10-year goals3 hours agoFedEx's first black pilot dies3 hours agoHow your dentist could screen you for diabetesQuiz: Which great NCAA coach matches you best?53 mins agoConnectFacebook Twitter MORE Instagram YouTube RSS Feeds Contact UsMore Top Stories Haslam defends UT out-of-state enrollment planArlington names interim town administratorU.S. ambassador to S. Korea slashed in attackSports: On the air for March 5Volunteer opportunitiesWaters: Schilling pushes for digital decencyMan indicted in robbery, slayingDriver indicted in fatal hit-and-runCapitol Report: Give a speciality license plateCommission delays action on $3.6M food contractAAC tourney seeding on line for Tigers vs. UConnTo finish among the top five in the AAC and earn a first-round bye in next week’s…Woman charged with first-degree murderA 20-year-old woman has been charged in connection with the shooting death of a man killed…Latest Photo Galleries PreviousNextDay in Pictures Gallery - March 4, 20152 hours agoA selection of editorial cartoonsRobert Ariail's MemphisGrizzlies vs. Jazz Gallery - March 3, 2015Day in Pictures Gallery - March 3, 2015Most Wanted Fugitives GalleryGoMemphisMovie Review: 'Second Best Exotic Marigold HotelThe title is not to suggest it is inferior to its predecessor, an extremely popular 2011 ensemble comedy-drama that functioned more or less…Movie Review: 'What We Do in the Shadows'Arterial spatter, aerial “bat fight” and projectile vomiting aside, the vampire comedy is a very civilized mockumentary'The Boy from Oz' at Theatre MemphisPeter Allen might not be the most familiar name in the world of entertainment, yet he made a significant-enough mark to warrant his own…U of M Jazz Week highlighted by album premiereThe University of Memphis Rudi E. Scheidt School of Music’s annual Jazz Week activities culminate Saturday with a concert featuring a…Art Review: 'Two Smoking Barrels' Marshall ArtsViewers may feel a bit steamrollered by “Two Smoking Barrels,” a two-person exhibition that addresses issues of America’s…Stage Review: 'Assassins' at Circuit PlayhouseSo, who’s your favorite assassin? Yeah, it’s kind of a trick question since the gaggle of killers and would-be killers of…More Storiesmore circularsLocalSchools close, Mid-South braces for wintry blastWhatever the city is greeted with upon waking Thursday, one thing will be certain: It’s going to be very cold. Arlington names interim town administratorArlington has appointed Town Recorder Catherine Durant interim administrator as officials begin their search to replace Ed Haley, who left the…Mid-South Memories: March 5Mid-South Memories for March 5Volunteer opportunitiesMid-South volunteer opportunitiesMan indicted in robbery, slayingA 20-year-old man was indicted this week on murder charges for allegedly shooting a woman who came to the door after hearing a gunshot while…Driver indicted in fatal hit-and-runA man prosecutors say was responsible for a fatal collision after running a stop sign last year was indicted this week on vehicular homicide…More StoriesBusinessFedEx's first black pilot diesPioneering black aviator, one of FedEx's first pilots, dies at age 78.UTHSC receives $100,000 pharmacy donationUTHSC receives a $100,000 gift from a Murfreesboro foundation highlighting community pharmacy.EEOC charges restaurant wrongly fired workersThe U.S. Equal Employment Opportunity Commission said it filed a lawsuit Wednesday that alleges Noodles Asian Bistro Inc. dismissed two…GTx says cash will carry it through 2016GTx Inc. on Wednesday reported that it has enough cash to carry it through 2016.Regional One foundation hires events managerThe Regional One Health Foundation has a new manager of events and public engagement.TBA names Lucian Pera vice presidentThe Tennessee Bar Association has elected Memphis lawyer Lucian T. Pera vice president.More StoriesSportsGasol's shot pushes Griz over Rockets 102-100Sports: On the air for March 5AAC tourney seeding on line for Tigers vs. UConnArlington falls to Morristown West at statePreview: University of Memphis vs. ConnecticutGeoff Calkins' Take 5: On the Grizzlies' slumpMore StoriesEducationShelby County Schools kicks off 10-year goalsAlbert Cox left musical mark on Memphis, MelroseSCS kicks off new strategy to improve readingBartlett schools open enrollment deadline setLakeland bond opponents balk at early vote siteRhodes students learn from business CEOsMore storiesIn DepthJudge, clerk frequent fliers on public's dimeMemphis City Clerk Thomas Long is collecting more than fines and fees. He’s piling up frequent flier miles.Custody battle exposes system flawsSeven months after deaths of Orange Mound couple, relatives wrestle for custody of their four children.MoreHelpful Links SubscribeContact UsFAQ'sE-EditionObituariesArchivesLegal NoticesStatewide Public NoticesWashington Post AccessLatest Videos PreviousNextShelby County Schools kicks off 10-year goals3 hours agoGriz Morning After: A day off with reliefVIDEO: 2 llamas prompt viral chase in ArizonaAllegiant: Memphis has potential for expansionMorning After: Observations from win vs ClippersInforMemphisFire fees increase for Shelby County, LakelandFire fees for residents of unincorporated Shelby County and Lakeland will increase by 5.3 percent, allowing the Shelby County Fire Department…Capitol Report: Give a speciality license plateState officials launch gift certificate program for specialty license platesCommission delays action on $3.6M food contractThe Shelby County Commission’s budget and finance committee debated a $3.65 million food service contract for the Division of…Visit by state Democratic Party chair postponedA Memphis visit by the Tennessee Democratic Party’s new chair has been postponed due to weather.Haslam defends UT out-of-state enrollment planThe University of Tennessee's plans to increase enrollment of higher-paying out of state students is controversial but the governor says…More StoriesOpinion Letter: Vetoing workHow many construction jobs did President Obama fill with his veto of the Keystone XL pipeline project?Ellizabeth Warren is angry. She has a point.Warren Buffett thinks Sen. Elizabeth Warren, R-Massachusetts, would be more effective if she were less angry.Netanyahu's zero-sum gameWASHINGTON — Israeli Prime Minister Benjamin Netanyahu lobbied powerfully against a nuclear agreement with Iran in a well-crafted…Ruth Marcus: Hillary's impulse to secrecyWASHINGTON — Hillary Clinton may not have a serious opponent for the Democratic nomination — except herself.Letter: Pipe down, CohenIn the March 3 article “Israel, U.S. say ties still strong”, Steve Cohen’s comment that “Netanyahu is not Israel,…More StoriesLifestyleWhere to see classic sitcom houses in real lifeDinner Tonight: Trout AmandineRecipe for Health: Thai Grilled Chicken BreastsTuna Casserole? Yay!Tuna Casserole? Yuck!Fish stew to get its due at Sunday benefitBiggs: Sick of soup? Join the cold, weary massesMore StoriesNews Sports Business Opinion GoMemphis Lifestyle Data The Commercial Appeal SubscribeAcademic All-StarsArchivesReader RewardsBuy a photoNewspapers in EducationE-EditionRSS FeedsContact UsJobs at CAJobsHomesCarsClassifiedsToday's AdsCircularsLegal NoticesStatewide Public NoticesVintage photo salesMobile AppsCA MobileiPhone iPad Kindle Android WindowsStorm ShieldiPhoneAndroidStay ConnectedfacebooktwitterpinterestinstagramyoutubeBusiness Directory Business: e.g. salon Location: e.g. Memphis, TNScripps Interactive Newspapers Group © 2014 The E.W. Scripps CoPrivacy Policy Terms of Use"
+        ],
+        "content_text_length": 12042,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "The Commercial Appeal: Local News for Memphis, Tennessee, Delivered Throughout the Day.",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 20 3c 68 74 6d 6c 20 63 6c 61 73 73 3d 22 6c 74 72",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "events.commercialappeal.com",
+          "www.amazon.com",
+          "memphiscommercialappeal.tn.newsmemory.com",
+          "www.commercialappeal.com",
+          "www.twitter.com",
+          "tnpublicnotice.com",
+          "nieonline.com",
+          "www.instagram.com",
+          "commercialappeal.com",
+          "www.youtube.com",
+          "apps.microsoft.com",
+          "www.legalnotice.org",
+          "www.scripps.com",
+          "www.legacy.com",
+          "www.facebook.com",
+          "play.google.com",
+          "twitter.com",
+          "commercialappeal.sportsdirectinc.com",
+          "instagram.com",
+          "secure.adpay.com",
+          "itunes.apple.com",
+          "memp.mycapture.com",
+          "www.rdpdeals.com",
+          "www.pinterest.com"
+        ],
+        "links_domains": [
+          "pinterest.com",
+          "legacy.com",
+          "tnpublicnotice.com",
+          "nieonline.com",
+          "commercialappeal.com",
+          "sportsdirectinc.com",
+          "amazon.com",
+          "rdpdeals.com",
+          "facebook.com",
+          "microsoft.com",
+          "apple.com",
+          "google.com",
+          "twitter.com",
+          "instagram.com",
+          "scripps.com",
+          "adpay.com",
+          "youtube.com",
+          "legalnotice.org",
+          "mycapture.com",
+          "newsmemory.com"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "org"
+        ],
+        "elements_used": [
+          "body",
+          "root",
+          "link",
+          "div",
+          "img",
+          "figcaption",
+          "noscript",
+          "br",
+          "aside",
+          "meta",
+          "time",
+          "title",
+          "figure",
+          "style",
+          "button",
+          "h1",
+          "head",
+          "option",
+          "h3",
+          "ul",
+          "form",
+          "select",
+          "a",
+          "label",
+          "script",
+          "header",
+          "section",
+          "i",
+          "li",
+          "footer",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "p",
+          "nav",
+          "html",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_192": "iJIGDw01EVwWYZ4UxpaGYBU9Q35v0uSB3EVuguwladur5GJjZH",
+        "ssdeep_hash_bs_384": "47Dw01EVS4UxuaEBSxEUtwBs",
+        "ssdeep_hash_ngram_bs_192": "iJIGDw01EVwWYZ4UxpaGYBU9Q35v0uSB3EVuguwladur5GJjZH",
+        "ssdeep_hash_ngram_bs_384": "47Dw01EVS4UxuaEBSxEUtwBs",
+        "crawl_dates": [
+          "2015-03-05T04:04:32Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861391211790300
+      },
+      {
+        "source_file_s": "MAT-2.warc@20716779",
+        "url": "http://sportsjp06.seesaa.net/styles-index.css",
+        "content_type_ext": "css",
+        "host": "sportsjp06.seesaa.net",
+        "domain": "seesaa.net",
+        "public_suffix": "net",
+        "server": [
+          "Apache"
+        ],
+        "content_type_served": "text/css",
+        "content_length": 8499,
+        "id": "sha1:Z2XMACVEVLVJQYUW2P4LDCRMS25OJANM/iOtX2ZouDGVSVOF+meRctA==",
+        "hash": [
+          "sha1:Z2XMACVEVLVJQYUW2P4LDCRMS25OJANM"
+        ],
+        "crawl_date": "2015-03-05T04:03:54Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040354",
+        "content": [
+          "body {font-family: Arial, Helvetica, sans-serif;margin:0px;padding:0px;text-align:center;background-image:url(http://blog.seesaa.jp/img/bg/white/header.gif);background-repeat:repeat-x;background-color:#FFF;}#container{text-align:center;margin:0px auto 0px auto;padding:0px;width:800px;}a{text-decoration: underline;color:#A2CF03;}#banner{font-family:arial, Helvetica;height:122px;margin:0px 0px 10px 0px;padding:0px;text-align:left;}h1 {margin:0px;padding: 30px 10px 10px 0px;font-weight:bolder;font-size:20px;}h1 a{color:#989898;font-family:arial, Helvetica;text-decoration: none;font-weight:bolder;}h2 {font-size:12px;font-weight:bolder;font-family:arial, Helvetica;margin:0px;padding:8px 5px 10px 20px;}h3 {font-size:12px;font-weight:bolder;font-family:arial, Helvetica;margin:5px 0px 0px 0px;padding:0px 20px 8px 30px;}h3 a{font-weight:bolder;}.description {color:#9C9C9C;margin:0px 10px 10px 0px;font-size:14px;font-family:sans-serif;font-weight:bolder;}.navi {color:#999;font-size:12px;text-align:center;margin-bottom:10px;width:100%;}#content {float:left;width:532px;color:#989898;text-align:center;}.blog {margin:0px 0px 20px 0px;text-align:left;background-image:url(http://blog.seesaa.jp/img/bg/white/blog_top.gif);background-repeat:no-repeat;background-position:top left;}.blogbody {padding-top:5px;}.date{font-size: 12px; color:#B8B8B8;}.title{font-weight:bolder;text-align:left;}.title a{color:#636363;border:none;text-decoration: none;font-weight:bolder;}.text{font-size: 12px;color: #9B9B9B;margin-top:20px;padding:0px 30px 5px 30px;background-image:url(http://blog.seesaa.jp/img/bg/white/blog_bg.gif);background-repeat:repeat-y;}.posted{ font-size: 10px; color: #999;padding:22px 10px 8px 20px;background-image:url(http://blog.seesaa.jp/img/bg/white/blog_bottom.gif);background-repeat:no-repeat;background-position:bottom left;}#links-left {}#links {font-weight:normal;width:195px;float:left;margin-top:0px;margin-left:20px;text-align:center;}#calendar {font-weight:normal;width:195px;margin-bottom:10px;text-align:left;}#calendar table {width:195px;}#calendar th{text-align:center;font-size:12px;color:#999;padding:2px;background-color:#E9F0DB;border:1px solid #FFF;}#calendar td{text-align:center;font-size:12px;color:#999;padding:2px;background-color:#F5F5F5;border:1px solid #FFF;}.calendarhead {background-image:url(http://blog.seesaa.jp/img/bg/white/side_title.gif);background-repeat:no-repeat;color:#8E8E8E;font-size:12px;font-weight:bolder;padding:7px 0px 10px 25px;text-align:left;}.calendarhead a{color:#8E8E8E;text-decoration:none;}.calendarhead .calendarday a{color:#8E8E8E;}.calendarhead .calendarday a{color:#8E8E8E;text-decoration:none;}.calendarday {font-size:12px;}.sidetitle {background-image:url(http://blog.seesaa.jp/img/bg/white/side_title.gif);background-repeat:no-repeat;color:#8E8E8E;font-size:12px;font-weight:bolder;padding:7px 0px 7px 25px;text-align:left;}.side {color:#999;font-size:12px;font-weight:normal;line-height:1.2em;margin-bottom:10px;padding:3px 5px 3px 10px;text-align:left;}.side-tag {color:#999;font-size:12px;font-weight:normal;margin-bottom:10px;padding:3px 5px 3px 10px;text-align:left;}.side-tag a{font-size:12px;text-decoration:none;}.side input {border:1px solid #EAEAEA;background-color:#FFF;color:#8F8F8F;}.powered {padding:3px 5px 0px 0px;text-align:right;margin-left:10px;}.syndicate {font-size:10px;padding:5px 30px 0px 0px;padding-bottom:10px;}#comments {margin-top:25px;margin-left:5px;text-align:left;}#comments form{}#comments textarea{border:1px solid #EAEAEA;background-color:#FFF;color:#8F8F8F;}#comments input{border:1px solid #EAEAEA;background-color:#FFF;color:#8F8F8F;}.comments-head{ margin:0px;padding-top:10px;color: #999;font-size:12px;font-weight:bold;}.comments-body {padding:5px 5px 5px 0px;font-size: 12px;color: #999;}.comments-post{ font-size: 10px; color: #999;padding:10px 10px 10px 30px;}#trackback {font-size: 12px;color: #999;padding:7px 5px 7px 5px;margin-bottom:10px;margin-left:5px;text-align:left;border:1px dotted #999;}#footer{clear:left;padding:0px;text-align:right;background-image:url(http://blog.seesaa.jp/img/bg/white/footer.gif);background-repeat:repeat-x;}.copyright{font-size:80%;width:100%;text-align:center;}#diet-container{border:1px solid #999;padding:5px;margin-bottom:5px;}.diet-title{padding:2px 10px 2px 5px;font-size:12px;width:90px;margin-top:5px;font-weight:bold;}.diet-content{padding-left:10px;font-size:12px;}#diet-foods{padding-left:10px;font-size:12px;}.food-title{width:20%;clear:left;float:left;}.food-content{width:75%;padding-top:10px;}blockquote{border:1px solid #ccc;padding:5px;margin:10px;}.tag-word{margin:20px 0px 0px 0px;line-height:1.4em;}.tag{padding:10px;position:relative;font-size:12px;border:1px solid #E4E4E4;color: #9B9B9B;}#tag_cloud{border:1px solid #CCC;padding:10px;text-align:left;position:relative;}#tag_cloud a {padding:2px;}.tag-title{font-size:16px;font-weight:bold;text-align:left;}.tag-body{margin:10px 0px;padding:10px 0px 0px 0px;position:relative;}.tag-service{text-align:left;font-weight:bold;border-bottom:1px solid #CCC;padding:0px 0px 5px 0px;clear:left;position:relative;}.tag-search{text-align:right;padding:5px 0px;margin-bottom:10px;font-weight:bold;position:relative;}.tag-article{padding:0px 10px 10px 10px;text-align:left;position:relative;}.tag-article-title{text-align:left;padding:0px 0px 5px 0px;font-weight:bold;position:relative;}.tag-article-posted{font-weight:normal;position:relative;}.tag-article-summary{padding:0px 10px;line-height:1.4em;position:relative;}.tag-more{text-align:right;margin:10px 0px;clear:left;position:relative;}.tag-photos{float:left;margin:10px 7px;position:relative;width:140px;height:200px;}.tag-photos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-audios{margin:5px;position:relative;}.tag-audios-title{text-align:left;font-weight:bold;padding:0px 0px 5px 0px;position:relative;}.tag-audios-posted{font-weight:normal;position:relative;}.tag-videos{float:left;margin:10px 7px;position:relative;}.tag-videos-title{line-height:1.4em;padding:5px 0px;text-align:left;position:relative;}.tag-navi{clear:left;text-align:center;margin:10px 0px;position:relative;}.listCategoryArticle{margin-top:5px;padding:5px;border:solid 1px #FFE2E2;}.listCategoryArticle ul{list-style:none;padding:0;margin:0 0 0 10px;text-align:left;list-style-position:outside;}.listCategoryArticle ul li{margin:0;background:url(http://blog.seesaa.jp/img/listCategoryArticle.gif) no-repeat 0 2px;padding-left:12px;line-height:1.4;font-size:10px;}/* twitter quote */.tweetBlockQuote{margin-bottom:10px;overflow:hidden;width:98%;}.tweetBlockQuote img{border:0;}.tweetBlockQuote .tweetImg{padding:0px;width:53px;text-align:left;overflow:hidden;vertical-align:top;float:left;margin-right:7px;}.tweetBlockQuote .tweetMain{padding:5px;border:solid 1px #ddd;background:#fff;color:#000;overflow:hidden;vertical-align:top;float:left;width:70%;}.tweetBlockQuote .tweetMain a.tweetOwner{color:#E86390;font-weight:bold;text-decoration:none;}.tweetBlockQuote .tweetMain a.tweetFriends{font-weight:bold;color:#26A6DC;text-decoration:none;}.tweetBlockQuote .tweetMain .tweetText{color:#000;}.tweetBlockQuote .tweetMain .tweetText a{color:#000;text-decoration:underline;}.tweetBlockQuote .tweetMain .tweetDate{color:#9C9C9C;}.tweetBlockQuote .tweetBoth{clear:both;}/* twitter quote */"
+        ],
+        "content_text_length": 8406,
+        "content_type": [
+          "text/plain"
+        ],
+        "content_encoding": "windows-1252",
+        "content_ffb": "626f6479",
+        "content_first_bytes": "62 6f 64 79 20 7b 0d 0a 66 6f 6e 74 2d 66 61 6d 69 6c 79 3a 20 41 72 69 61 6c 2c 20 48 65 6c 76",
+        "content_type_droid": "application/octet-stream",
+        "content_type_tika": "text/plain; charset=windows-1252",
+        "content_type_full": "text/plain; charset=windows-1252",
+        "content_type_norm": "text",
+        "content_language": "en",
+        "ssdeep_hash_bs_96": "UQw0qnAbXxT3AxcGf1D0CkBtMR+rAp8YcIjG3u4tVSApk5u/M7",
+        "ssdeep_hash_bs_192": "VN7TAyGt0BtIlpYcEk5aa",
+        "ssdeep_hash_ngram_bs_96": "UQw0qnAbXxT3AxcGf1D0CkBtMR+rAp8YcIjG3u4tVSApk5u/M7",
+        "ssdeep_hash_ngram_bs_192": "VN7TAyGt0BtIlpYcEk5aa",
+        "crawl_dates": [
+          "2015-03-05T04:03:54Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861344937083000
+      },
+      {
+        "source_file_s": "MAT-2.warc@93616919",
+        "url": "http://www.10news.com/",
+        "url_type": "slashpage",
+        "host": "www.10news.com",
+        "domain": "10news.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html;charset=UTF-8",
+        "server": [
+          "Apache-Coyote/1.1"
+        ],
+        "content_length": 129504,
+        "id": "sha1:SROZTBEID3W4BONDBAVLR5U3QOPDEPBZ/XYLhWr5nOgX/1b4YiwUIzw==",
+        "hash": [
+          "sha1:SROZTBEID3W4BONDBAVLR5U3QOPDEPBZ"
+        ],
+        "crawl_date": "2015-03-05T04:04:32Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150305040432",
+        "content": [
+          "10News - San Diego, California, News, Weather, Sports10NewsTV Listings News Links Mobile Newsletters/Alerts ContestsWeatherMostly clear62°More WeatherHome Sections BackFeatured BackNews Back All News Local US/World Team 10 Military Politics DecodeDC Azteca SDFeatures Back All Features Balboa Park Centennial Bill's Excellent Adventure Black History Month OscarsMoney Back All Money ShopSmart Business News Team 10 Consumer News Military Auto Center Don't Waste Your Money Angie's List Financial Fitness ZoneSports Back All Sports Bolts Brown Bag Chargers College Sports Padres Tony Gwynn Remembered ColumnistsEntertainment Back All Entertainment Around The Web TV Listings Contests Games Right This Minute The List Let's Ask America OscarsLifestyle Back All Lifestyle Weddings Health Technology Pets Community Calendar Sustain San Diego Leadership Live Well San DiegoVideo Back All Video Live Video 10News Experience ABC News Live VideoMarketplace Back All Marketplace EducationAbout Us Back All About Us Advertise With Us Contact Us Mobile JobsWeather BackAll Weather Interactive Radar National Weather Wildfires Weather Alerts Disaster Preparedness California Drought Ski ReportTraffic BackAll Traffic Gas Prices Flight StatusWHAT'S TRENDINGPreviousNext'SimCity' game studio Maxis shuts downMLB team's latest food creation: The Churro DogAnd the 2015 MTV Movie Award nominees are ...NYC subway campaign takes stand against rudenessWhat to expect from Costco deal with Visa, CitiSiteWebRelevanceDateCRE superbug hits second LA hospital; 4 infectedThe CRE superbug has stuck a second Los Angeles hospital — Cedars-Sinai, where 68 were exposed.Car theft suspect shot by officer in Southcrest8 mins agoEx-officers, city face suit over medicine thefts60 mins agoSuit: USD discouraged victim from reporting rape33 mins agoNeighbors: New stadium will harm quality of life51 mins agoHow your dentist could screen you for diabetesQuiz: Which great NCAA coach matches you best?52 mins agoCONNECTFacebook Twitter MORE YouTube InstagramShopSmart CircularsMore Top Stories College on alert after report of sexual batteryMotorcyclist escapes after wild Escondido chaseJudge hears challenge to $185M AutoZone rulingPolice investigate 2 separate drive-by shootingsNew app causing a stir at local high schoolsOld law restricts rescue of abandoned seal pupBreezy at TimesConcern over beetle infestation in North CountyCooking accident sparks mobile home fireHormone might offer similar benefits as exerciseTrial begins in La Jolla attempted murder caseOpening statements and testimony got underway Wednesday in the trial of Hans Peterson, a…OC man indicted on charge of trying to join ISISAdam Dandach was previously indicted on charges he used a fake passport to board a flight.More NewsLatest Video PreviousNextSuit: USD discouraged victim from reporting rape30 mins agoOld law restricts rescue of abandoned seal pup36 mins agoNeighbors: New stadium will harm quality of life48 mins agoEx-officers, city face suit over medicine thefts56 mins agoConcern over beetle infestation in North County1 hour agoJudge hears challenge to $185M AutoZone rulingPolice investigate 2 separate drive-by shootingsWater main break leaves sinkhole in EscondidoBody-camera maker's ties raise questionsSD native joins exclusive billionaires clubNational City theater denied alcohol permitGroup OKs new guidelines for vacation rentalsU.S./World NewsCRE superbug hits second LA hospital; 4 infectedThe CRE superbug has stuck a second Los Angeles hospital — Cedars-Sinai, where 68 were exposed.U.S. ambassador to South Korea attacked in SeoulU.S. Ambassador Mark Lippert was reportedly attacked by a man shouting anti-war slogans while he visited South Korea's capital city.OC man indicted on charge of trying to join ISISAdam Dandach was previously indicted on charges he used a fake passport to board a flight.Mandarin Oriental probes credit card breachThe upscale hotel chain has hotels across the world., including in New York and Las Vegas.SKorean media say US ambassador attacked, hurtYonhap news agency said Mark Lippert was injured, but it wasn't clear the exact nature of his injuries.More U.S./World NewsTeam 10 Investigates Body-camera maker's ties raise questionsA review of records and interviews by the AP show Taser is covering airfare and hotel stays for police chiefs who speak at promotional conferences.Women claim accused BP 'peeper' is dangerousThey claim he photographed them with a hidden camera in the women's restroom at the Chula Vista station.Future of jailed woman's mansions in questionElba Esther Gordillo is accused of embezzling nearly $160 million from a Mexican labor union.Protest demanding training after Team 10 storiesCommunity members want change after Team 10's investigation regarding a deputy's treatment of a man with Down syndrome.Documents reveal new info in Barona deathsTeam 10 has uncovered new information about the deaths of a man and a toddler on the Barona Reservation in January.More Team 10 InvestigationsSpotlightLinks, Info Mentioned On 10NewsSend Us Your Pictures And VideoWeekly Savings: ShopSmart CircularsLet's Ask AmericaThe ListSlideshow Central PreviousNextPHOTOS: A history of NASA spacewalks, 1965-2015VIEWER PHOTOS: County sees snow, rain, hailGALLERY: Rainbow over San DiegoPHOTOS: Leonard Nimoy's prosperous lifeAt the 2015 Academy AwardsPHOTOS: Rainbow over San Diego, Feb. 22, 2015Oscars 2015: On the red carpetIMAGES: Stars backstage at Oscars rehearsalsPHOTOS: Preparing the Oscars envelopesIMAGES: 'Bill Griffith Day' in San Diego CountySportsMLB team's latest food creation: The Churro DogYankees fan walking from Tampa to NY for charityA-Rod is back and so is the dramaCurt Schilling defends his daughter on TwitterMore SportsMilitary Report Young Marine chosen to escort Iwo Jima veteransVets describe runaround when calling crisis lineVista Jail helping veterans with special housingUSS San Diego arrives homeAspire Center marks 1-year anniversaryMore MilitaryEntertainment And the 2015 MTV Movie Award nominees are ...Buddy Holly crash investigation may be reopenedChris Brown is... a father?Words Gordon Ramsay uses as alternative swearsAnsel Elgort's mom doesn't know Bruce WillisMore Entertainment NewsNewsWeather Team 10 Sports Entertainment Consumer Marketplace TV Listings KGTV Advertise with UsContact Us10News TeamJobs/InternshipsCommunity CalendarLeadershipContestsNewsletters/AlertsRight This MinuteMobile AppsKGTViPhone iPad Kindle Fire AndroidStorm ShieldiOSAndroidStay ConnectedfacebooktwitterinstagramyoutubeScripps TV Station Group © 2014 The E.W. Scripps CoPrivacy Policy Terms of Use EEO FCC Public File"
+        ],
+        "content_text_length": 6824,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "10News - San Diego, California, News, Weather, Sports",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 20 3c 68 74 6d 6c 20 63 6c 61 73 73 3d 22 6c 74 72",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "events.10news.com",
+          "www.amazon.com",
+          "www.thelisttv.com",
+          "letsaskamerica.tv",
+          "www.twitter.com",
+          "pictures.10news.com",
+          "www.instagram.com",
+          "www.youtube.com",
+          "oascentral.datasphere.com",
+          "stations.fcc.gov",
+          "www.facebook.com",
+          "twitter.com",
+          "play.google.com",
+          "bit.ly",
+          "instagram.com",
+          "itunes.apple.com",
+          "thelistshow.tv",
+          "www.10news.com"
+        ],
+        "links_domains": [
+          "datasphere.com",
+          "letsaskamerica.tv",
+          "thelisttv.com",
+          "amazon.com",
+          "facebook.com",
+          "apple.com",
+          "google.com",
+          "10news.com",
+          "bit.ly",
+          "twitter.com",
+          "instagram.com",
+          "youtube.com",
+          "thelistshow.tv",
+          "fcc.gov"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "tv",
+          "ly",
+          "gov"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "div",
+          "img",
+          "figcaption",
+          "noscript",
+          "aside",
+          "meta",
+          "title",
+          "time",
+          "figure",
+          "style",
+          "button",
+          "head",
+          "h1",
+          "option",
+          "h3",
+          "ul",
+          "form",
+          "select",
+          "a",
+          "script",
+          "header",
+          "section",
+          "i",
+          "li",
+          "footer",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "p",
+          "nav",
+          "html",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_192": "fQiVQIH9/V7j76nJB61P8JM9f8oyCDosN",
+        "ssdeep_hash_bs_384": "frVr0IUJM9ACDom",
+        "ssdeep_hash_ngram_bs_192": "fQiVQIH9/V7j76nJB61P8JM9f8oyCDosN",
+        "ssdeep_hash_ngram_bs_384": "frVr0IUJM9ACDom",
+        "crawl_dates": [
+          "2015-03-05T04:04:32Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494861391319793700
+      }
+    ]
+  }
+}

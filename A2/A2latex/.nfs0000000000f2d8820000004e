@@ -1,0 +1,457 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Programming/Coding Assignment
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Ted Pavlic (http://www.tedpavlic.com)
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing assignment content.
+%
+% This template uses a Perl script as an example snippet of code, most other
+% languages are also usable. Configure them in the "CODE INCLUSION 
+% CONFIGURATION" section.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage[usenames,dvipsnames]{color} % Required for custom colors
+\usepackage{graphicx} % Required to insert images
+\usepackage{listings} % Required for insertion of code
+\usepackage{courier} % Required for the courier font
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{setspace}
+\usepackage{color}
+\usepackage{comment}
+\usepackage{caption}
+
+\usepackage{hyperref}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    breaklinks=true
+}
+
+%\usepackage[]{algorithm2e}
+\usepackage{pdfpages}
+
+
+
+
+%For python inclusion (http://widerin.org/blog/syntax-highlighting-for-python-scripts-in-latex-documents)
+\definecolor{Code}{rgb}{0,0,0}
+\definecolor{Decorators}{rgb}{0.5,0.5,0.5}
+\definecolor{Numbers}{rgb}{0.5,0,0}
+\definecolor{MatchingBrackets}{rgb}{0.25,0.5,0.5}
+\definecolor{Keywords}{rgb}{0,0,1}
+\definecolor{self}{rgb}{0,0,0}
+\definecolor{Strings}{rgb}{0,0.63,0}
+\definecolor{Comments}{rgb}{0,0.63,1}
+\definecolor{Backquotes}{rgb}{0,0,0}
+\definecolor{Classname}{rgb}{0,0,0}
+\definecolor{FunctionName}{rgb}{0,0,0}
+\definecolor{Operators}{rgb}{0,0,0}
+\definecolor{Background}{rgb}{0.98,0.98,0.98}
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName} % Top left header
+%\chead{\hmwkClass\ (\hmwkClassInstructor\ \hmwkClassTime): \hmwkTitle} % Top center head
+\chead{\hmwkClass\ (\hmwkClassInstructor): \hmwkTitle} % Top center head
+\rhead{\firstxmark} % Top right header
+\lfoot{\lastxmark} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+%----------------------------------------------------------------------------------------
+%	CODE INCLUSION CONFIGURATION
+%----------------------------------------------------------------------------------------
+
+\definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0} % This is the color used for comments
+\lstloadlanguages{Perl} % Load Perl syntax for listings, for a list of other languages supported see: ftp://ftp.tex.ac.uk/tex-archive/macros/latex/contrib/listings/listings.pdf
+\lstset{language=Perl, % Use Perl in this example
+        frame=single, % Single frame around code
+        basicstyle=\small\ttfamily, % Use small true type font
+        keywordstyle=[1]\color{Blue}\bf, % Perl functions bold and blue
+        keywordstyle=[2]\color{Purple}, % Perl function arguments purple
+        keywordstyle=[3]\color{Blue}\underbar, % Custom functions underlined and blue
+        identifierstyle=, % Nothing special about identifiers                                         
+        commentstyle=\usefont{T1}{pcr}{m}{sl}\color{MyDarkGreen}\small, % Comments small dark green courier font
+        stringstyle=\color{Purple}, % Strings are purple
+        showstringspaces=false, % Don't put marks in string spaces
+        tabsize=5, % 5 spaces per tab
+        %
+        % Put standard Perl functions not included in the default language here
+        morekeywords={rand},
+        %
+        % Put Perl function parameters here
+        morekeywords=[2]{on, off, interp},
+        %
+        % Put user defined functions here
+        morekeywords=[3]{test},
+       	%
+        morecomment=[l][\color{Blue}]{...}, % Line continuation (...) like blue comment
+        numbers=left, % Line numbers on left
+        firstnumber=1, % Line numbers start with line 1
+        numberstyle=\tiny\color{Blue}, % Line numbers are blue and small
+        stepnumber=5 % Line numbers go in steps of 5
+}
+
+% Creates a new command to include a perl script, the first parameter is the filename of the script (without .pl), the second parameter is the caption
+\newcommand{\perlscript}[2]{
+\begin{itemize}
+\item[]\lstinputlisting[caption=#2,label=#1]{#1.pl}
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT STRUCTURE COMMANDS
+%	Skip this unless you know what you're doing
+%----------------------------------------------------------------------------------------
+
+% Header and footer for when a page split occurs within a problem environment
+\newcommand{\enterProblemHeader}[1]{
+\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+}
+
+% Header and footer for when a page split occurs between problem environments
+\newcommand{\exitProblemHeader}[1]{
+\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1}{}\nobreak
+}
+
+\setcounter{secnumdepth}{0} % Removes default section numbers
+\newcounter{homeworkProblemCounter} % Creates a counter to keep track of the number of problems
+
+\newcommand{\homeworkProblemName}{}
+\newenvironment{homeworkProblem}[1][Problem \arabic{homeworkProblemCounter}]{ % Makes a new environment called homeworkProblem which takes 1 argument (custom name) but the default is "Problem #"
+\stepcounter{homeworkProblemCounter} % Increase counter for number of problems
+\renewcommand{\homeworkProblemName}{#1} % Assign \homeworkProblemName the name of the problem
+\section{\homeworkProblemName} % Make a section in the document with the custom problem count
+\enterProblemHeader{\homeworkProblemName} % Header and footer within the environment
+}{
+\exitProblemHeader{\homeworkProblemName} % Header and footer after the environment
+}
+
+\newcommand{\problemAnswer}[1]{ % Defines the problem answer command with the content as the only argument
+\noindent\framebox[\columnwidth][c]{\begin{minipage}{0.98\columnwidth}#1\end{minipage}} % Makes the box around the problem answer and puts the content inside
+}
+
+\newcommand{\homeworkSectionName}{}
+\newenvironment{homeworkSection}[1]{ % New environment for sections within homework problems, takes 1 argument - the name of the section
+\renewcommand{\homeworkSectionName}{#1} % Assign \homeworkSectionName to the name of the section from the environment argument
+\subsection{\homeworkSectionName} % Make a subsection with the custom name of the subsection
+\enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]} % Header and footer within the environment
+}{
+\enterProblemHeader{\homeworkProblemName} % Header and footer after the environment
+}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CLASS SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\hmwkTitle}{Assignment\ \#2 } % Assignment title
+%\newcommand{\hmwkDueDate}{Monday,\ January\ 1,\ 2012} % Due date
+\newcommand{\hmwkClass}{Introduction to Web Science\ 101} % Course/class
+%\newcommand{\hmwkClassTime}{10:30am} % Class/lecture time
+\newcommand{\hmwkClassInstructor}{Dr. Nelson} % Teacher/lecturer
+\newcommand{\hmwkAuthorName}{Alexander Nwala} % Your name
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{
+\vspace{2in}
+\textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+%\normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate}\\
+%\vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
+\vspace{0.1in}\large{\textit{\hmwkClassInstructor}}
+\vspace{3in}
+}
+
+\author{\textbf{\hmwkAuthorName}}
+\date{Thursday, September 25, 2014} % Insert date here if you want it to appear below your name
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\setcounter{tocdepth}{1} % Uncomment this line if you don't want subsections listed in the ToC
+
+\newpage
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 1
+%----------------------------------------------------------------------------------------
+
+% To have just one problem per page, simply put a \clearpage after each problem
+
+\begin{homeworkProblem}
+
+Write a Python program that extracts 1000 unique links from
+Twitter.  You might want to take a look at:
+
+\url{http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/}
+
+But there are many other similar resources available on the web.  Note
+that only Twitter API 1.1 is currently available; version 1 code will
+no longer work.
+
+Also note that you need to verify that the final target URI (i.e., the
+one that responds with a 200) is unique.  You could have different
+shortened URIs for www.cnn.com.  For example, 
+
+\url{http://cnn.it/1cTNZ3V}
+\url{http://t.co/BiYdsGotTd}
+
+Both ultimately redirect to cnn.com, so they count as only 1 unique URI.
+Also note the second URI redirects twice -- don't stop at the first
+redirect.
+
+You might want to use the search feature to find URIs, or you can
+pull them from the feed of someone famous (e.g., Tim O'Reilly).
+
+Hold on to this collection -- we'll use it later throughout the semester.
+
+
+%\lstinputlisting[breaklines=true, caption=Curl Demo]{"/home/anwala/CS 895/Assignment 1/problem1_curlDemonstration.py"}
+\lstinputlisting[breaklines=true, caption=Main Block]{/home/anwala/CS895/Assignment2/mainBlockCodeSnippet.py}
+
+
+\begin{comment}
+\begin{figure}
+    \caption{curlDemoOutput}
+    \begin{center}
+        \includegraphics{curlDemo} % Example image
+    \end{center}
+\end{figure}
+\end{comment}
+
+%\problemAnswer
+%{
+    \textbf{SOLUTION}
+
+    The solution for this problem is outlined by the following steps:
+    \begin{enumerate}
+    \item \textbf{Establish connection between application and Twitter:} This was achieved through 
+    tweepy (\url{http://www.tweepy.org/}) [1] which provides a python wrapper for the Twitter api.
+    \item \textbf{Authenticate application:} This was achieved by registering the application with a Twitter account 
+    and generating OAuth (\url{https://dev.twitter.com/oauth}) [2] access tokens
+    \item \textbf{Fetch tweets with links:} This was achived through the Twitter api search utility. With this, I was able 
+    to search for tweets containing  ``www.''. However, since we are only interested in tweets with links, I applied 
+    the link filter to the search query ``www.-filter:link''. This query was encoded as outlined by Listing 2: \begin{verbatim}www%2E-filter:link\end{verbatim}
+
+    \lstinputlisting[breaklines=true, caption=Query Twitter]{/home/anwala/CS895/Assignment2/queryTwitterCodeSnippet.py}
+
+    \item \textbf{Expand urls: } Given that Twitter shortens urls embedded in tweets, the application implements expands the urls by accessing the this attribute from the tweet json. However, since the expanded url could yet again be a short url from a third party url shortening service such as bitly, the url is yet again expanded as shown in Listing 3.
+
+     \lstinputlisting[breaklines=true, caption=Expand Url]{/home/anwala/CS895/Assignment2/expandUrl.py}
+
+    \item \textbf{Send request continuously in a rate friendly manner:} Given that Twitter imposes a search rate limit (\url{https://dev.twitter.com/rest/public/rate-limiting}) [3] of 180 request per 15 minute window, the application must respects the limit by sending request continuously at a rate limit of 2 requests (implemented by retrieving 2 pages for every request) per 15 seconds. This means the application sends 120 requests per 15 minute window.
+
+    \lstinputlisting[breaklines=true, caption=Query Twitter]{/home/anwala/CS895/Assignment2/rateLimitFriendlyCodeSnippet.py}
+
+    \end{enumerate}
+%}
+
+
+
+\end{homeworkProblem}
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 2
+%----------------------------------------------------------------------------------------
+
+\begin{homeworkProblem}
+
+\begin{verbatim}
+Download the TimeMaps for each of the target URIs.  We'll use the mementoweb.org 
+Aggregator, so for example:
+
+URI-R = http://www.cs.odu.edu/
+
+URI-T = http://mementoweb.org/timemap/link/http://www.cs.odu.edu/
+
+You could use the cs.odu.edu aggregator:
+
+URI-T = http://mementoproxy.cs.odu.edu/aggr/timemap/link/1/http://www.cs.odu.edu/
+
+But be sure to say which aggregator you use -- they are likely to give
+different answers.
+
+Create a histogram of URIs vs. number of Mementos (as computed from
+the TimeMaps).  For example, 100 URIs with 0 Mementos, 300 URIs
+with 1 Memento, 400 URIs with 2 Mementos, etc.
+
+See: http://en.wikipedia.org/wiki/Histogram
+
+Note that the TimeMaps can span multiple pages.  Look for links like:
+
+<http://mementoweb.org/timemap/link/1000/http://www.cnn.com/>;rel="timemap"; 
+type="application/link-format"; from ="Sun, 08 Jul 2001 21:30:54 GMT"
+
+This indicates another page of the TimeMap is available.  There can be 
+many pages to a TimeMap.
+\end{verbatim}
+
+\textbf{SOLUTION}
+
+With the use of the cs.odu.edu aggregator, the application downloads timemaps for each URI, taking into account URIs which 
+span multiple pages by considering this signature: \begin{verbatim}>;rel="timemap"\end{verbatim} This is outlined by Listing 5. The memento count for each URI is derived by counting the number lines in the page list. This distribution is summarized by Chart 1.
+
+\lstinputlisting[breaklines=true, caption=Query Twitter]{/home/anwala/CS895/Assignment2/countMementosSnippet.py}
+%\includepdf[pages={1},width=\textwidth,scale=0.7]{/home/anwala/CS895/Assignment2/Rplots.pdf}
+\includepdf[pages={1},width=\textwidth,scale=0.5]{/home/anwala/CS895/Assignment2/Rplots.pdf}
+
+\begin{comment}
+\begin{figure}
+\caption{Uris distribution}
+\begin{center}
+    %\includegraphics{/home/anwala/CS895/Assignment2/urisDistribution.png} % Example image
+    %\includepdf[pages={1},width=\textwidth,scale=0.5]{/home/anwala/CS895/Assignment2/Rplots.pdf}
+\end{center}
+\end{figure}
+\end{comment}
+
+\end{homeworkProblem}
+
+%----------------------------------------------------------------------------------------
+%   PROBLEM 3
+%----------------------------------------------------------------------------------------
+
+\begin{homeworkProblem}
+
+\begin{verbatim}
+Estimate the age of each of the 1000 URIs using the "Carbon Date" tool:
+
+http://ws-dl.blogspot.com/2013/04/2013-04-19-carbon-dating-web.html
+
+Note: you'll have better luck downloading and installing the tool 
+rather than using the web service (which will run slowly and likely
+be unreliable).
+
+For URIs that have > 0 Mementos and an estimated creation date,
+create a graph with age (in days) on one axis and number of mementos
+on the other.
+
+\end{verbatim}
+
+
+\textbf{SOLUTION}
+
+Based on the criteria of considering only URIs with an estimated creation date and memento count which 
+exceeds 0, of 1000 instances, 196 URIs fulfilled this condition. This shortage is not surprising since the tweets were ``born'' about the same time, and most likely focus upon current events. As seen from the data in Table 1 and Chart 2, 
+there is a positive correlation between and the Memento count.
+
+
+\includepdf[pages={2},width=\textwidth,scale=0.7]{/home/anwala/CS895/Assignment2/Rplots.pdf}
+
+\begin{table}[ht]
+\caption{Age vs. Memento} % title of Table
+\centering % used for centering table
+\begin{tabular}{c | c | c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+Item & Age & Memento Count\\ [0.5ex] % inserts table 
+%heading
+\hline \hline% inserts single horizontal line
+1   &   6085    &   2549    \\ \hline
+2   &   5731    &   171 \\ \hline
+3   &   5628    &   685 \\ \hline
+4   &   5467    &   5848    \\ \hline
+5   &   5253    &   161 \\ \hline
+6   &   4982    &   25  \\ \hline
+7   &   4982    &   17  \\ \hline
+8   &   4982    &   40  \\ \hline
+9   &   4952    &   4618    \\ \hline
+10  &   4680    &   150 \\ \hline
+11  &   4246    &   7   \\ \hline
+12  &   4217    &   16  \\ \hline
+13  &   3537    &   6   \\ \hline
+14  &   3381    &   12  \\ \hline
+15  &   3173    &   12  \\ \hline
+16  &   2838    &   83  \\ \hline
+17  &   2573    &   20990   \\ \hline
+18  &   2514    &   5708    \\ \hline
+19  &   2413    &   3   \\ \hline
+20  &   2383    &   131 \\ \hline
+21  &   2283    &   71  \\ \hline
+22  &   2283    &   71  \\ \hline
+23  &   2283    &   71  \\ \hline
+24  &   2282    &   71  \\ \hline
+25  &   2112    &   279 \\ \hline
+26  &   2084    &   1   \\ \hline
+27  &   2054    &   20  \\ \hline
+... &    ...     &   ...  \\ \hline
+88  &   2054    &   20  \\ \hline
+89  &   2043    &   20  \\ \hline
+90  &   1988    &   42  \\ \hline
+91  &   1988    &   42  \\ \hline
+92  &   1988    &   42  \\ \hline
+93  &   1970    &   107 \\ \hline
+94  &   1940    &   5   \\ \hline
+... &   ...     &   ...  \\ \hline
+187 &   336 &   5   \\ \hline
+188 &   304 &   1   \\ \hline
+189 &   284 &   4   \\ \hline
+190 &   284 &   1   \\ \hline
+191 &   271 &   1   \\ \hline
+192 &   178 &   4   \\ \hline
+193 &   176 &   4   \\ \hline
+194 &   73  &   3   \\ \hline
+195 &   18  &   1   \\ \hline
+196 & 8 & 1  \\ [1ex] 
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+
+\end{homeworkProblem}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
